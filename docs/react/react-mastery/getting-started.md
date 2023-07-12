@@ -31,7 +31,7 @@ Once the above commands have executed successfully, open [http://localhost:3000/
 
 When you are ready to deploy your app to production, create a minified bundle using `npm run build`.
 
-![npm start](./img/getting-started-react.svg)
+![npm start](../img/getting-started-react.svg)
 
 <BrowserWindow style={{backgroundColor: "#282c34"}}>
     <body >
