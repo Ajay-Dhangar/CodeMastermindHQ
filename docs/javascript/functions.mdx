@@ -1,0 +1,50 @@
+---
+id: functions
+title: Functions
+date: 2021-03-06 21:54:31
+description: Evolution of functions in JavaScript
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+  defaultValue="es6"
+  values={[
+    { label: 'ES3', value: 'es3', },
+    { label: 'ES5', value: 'es5', },
+    { label: 'ES6', value: 'es6', }
+  ]
+}>
+<TabItem value="es3">
+
+```js
+function sum(a, b) {
+    return a + b
+}
+
+console.log(sum(5,6)) // 11
+```
+
+</TabItem>
+<TabItem value="es5">
+
+```js
+var sum = function(a, b) {
+    return a + b
+} 
+
+console.log(sum(5,6)) // 11
+```
+
+</TabItem>
+<TabItem value="es6">
+
+```js
+const sum = (a, b) => a + b
+
+console.log(sum(5,6)) // 11
+```
+
+</TabItem>
+</Tabs>

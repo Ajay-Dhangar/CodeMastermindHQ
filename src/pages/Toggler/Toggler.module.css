@@ -1,0 +1,33 @@
+.Toggler {
+  text-align: center;
+}
+
+.red {
+  color: #484848;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.Toggler button {
+  /*background-color: green;*/
+  color: white;
+  font: inherit;
+  border: 1px solid #515151;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.Toggler button:hover {
+  background-color: #606060;
+  /*color: #333;*/
+}
+
+.Toggler button.Red {
+  background-color: #4d4d4d;
+}
+
+.Toggler button.Red:hover {
+  background-color: #242424;
+}

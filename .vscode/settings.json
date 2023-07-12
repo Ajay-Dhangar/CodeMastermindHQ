@@ -1,0 +1,12 @@
+{
+     "spellright.language": ["en", "ru"],
+     "spellright.documentTypes": [
+          "markdown",
+          "latex",
+          "plaintext",
+          "javascript"
+     ],
+
+     "languageTool.language": ["en", "ru"],
+     "editor.useTabStops": true
+}

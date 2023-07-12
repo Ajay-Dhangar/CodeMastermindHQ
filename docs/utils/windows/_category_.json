@@ -1,0 +1,12 @@
+{
+  "label": "Windows",
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "README"
+  },
+  "customProps": {
+    "description": "some Windows commands (utils)"
+  }
+}

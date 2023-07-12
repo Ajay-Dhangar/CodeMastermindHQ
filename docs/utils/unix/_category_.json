@@ -1,0 +1,12 @@
+{
+  "label": "Unix/Unix-like",
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "README"
+  },
+  "customProps": {
+    "description": "some Unix/Unix-like commands (utils)"
+  }
+}

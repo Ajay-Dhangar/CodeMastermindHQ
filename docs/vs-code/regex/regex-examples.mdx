@@ -1,0 +1,62 @@
+---
+id: regex-examples
+title: Regex Examples
+date: 2021-02-24 11:04:46
+description: My VS Code regex examples
+---
+
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+
+||What Did|Find|Replace
+-|-|-|-
+-4|replace [md] links with `<abbr>` | `\[([^+\]]+)\](\([^"]+")([^"]+)"\)` | `<abbr title="$3">$1</abbr>`
+-3|find and fix img tags without `/`> | `(<input[^>]+)>` | `$1 />`
+-2|markdown links -> text |`\[([^\]]+)\]\([^\)]+\)`| `$1`
+-1|Nested tags|`<div class="history">(?:[^<\r]*(?:<(?!/div>)[^<]*)*</div>){15}`|
+0|Wrap between `""`|`"([^"]+)"`|`$1`
+1|Wraps with Italic/Bold|`- ([^\\:]+)`|`- ***$1***`
+2|From Italic/Bold to Bold|`\*{3}(.*)\*{3}`|`**$1**`
+3|Adds to \`\`\` jsx|`(```)(\n.)`|`$1jsx$2`
+4|Removes double spaces|\`\s(\s.)|\`$1
+5|Deletes unnessesary `\n`| `\n(\n```\n\n)` | $1
+6|Replaces two empty links with one non-empty one|`\[\]\(.*\n.*[^\(]+.(.*[^\)])\)(.*)`| `$2\n\n[$2]($1`
+7|See above, but replace with `<a>`|`\[\]\(.*\n.*[^\(]+.(.*[^\)])\)(.*)`|`$2\n\n$2 <a href='$2' class='external'>$1</a>`
+8|Replaces markdown link with html link|`\[.*\/\/([^\/]+)\/.*\]\((.*)\)`|`<a href='$2' class='external'>$1</a>`
+
+### 9 Removes numbers at start of the lines
+
+and removes commented lines; removes empty lines
+
+I did this for the poorly formatted code blocks in this tutorial <a href='https://docs.microsoft.com/en-us/archive/blogs/uk_faculty_connection/using-react-and-building-a-web-site-on-azure' class='external'>docs.microsoft.com: Using React and building a web site on Azure</a>.
+
+```shell
+<!-.*\n|^ *\d[:\.] *\n|^.*\d[:\.] *|//.*//.*\n
+```
+
+<Tabs defaultValue="was" values={[
+    { label: "was", value: "was" },
+    { label: "became", value: "became" }
+]}>
+<TabItem value="was">
+
+```jsx
+1: // index.js //
+    2:
+    3: var React = require('react');
+    4: var ReactDOM = require('react-dom');
+    5: require('./index.css');
+```
+
+</TabItem>
+
+<TabItem value="became">
+
+```jsx
+var React = require('react');
+var ReactDOM = require('react-dom');
+require('./index.css');
+```
+
+</TabItem>
+</Tabs>

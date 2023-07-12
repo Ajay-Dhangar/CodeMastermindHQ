@@ -1,0 +1,68 @@
+---
+id: 3-03-2-1-react-script-error
+title: 3.03.2.1 React Script Error
+date: 2021-03-03 23:15:44
+---
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## `react script` is not recognized error
+
+If you installed `create-react-app` from Linux, like I did, and then try to run `npm start` from Windows (while in the same installation folder), you might get an error:
+
+```shell title="PowerShell"
+❯ npm start
+
+> react-complete-guide@0.1.0 start F:\parsh\static\react\react-complete-guide
+> react-scripts start
+
+'react-scripts' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! react-complete-guide@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 1
+...
+```
+
+If so, you can help simply dependency reinstall with:
+
+<Tabs
+defaultValue="shell1"
+values={[
+  {label: 'Bash', value: 'shell1'},
+  {label: 'PowerShell', value: 'shell2'}
+]}>
+
+<TabItem value="shell1">
+
+```shell
+rm -rf node_modules package-lock.json
+```
+
+</TabItem>
+
+<TabItem value="shell2">
+
+```shell
+rm node_modules package-lock.json -r -fo
+```
+
+</TabItem>
+</Tabs>
+
+And then:
+
+```sh
+npm i
+```
+
+## If the Error Persist
+
+:::warning
+You might run into a hidden error: spaces and other unnecessary characters in the file path name.
+:::
+
+If you still get the `script error`, you may need to replace all `spaces` and `(`,`)` characters with dashes `-` in the filenames and parent folders names of your project.

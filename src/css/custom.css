@@ -1,0 +1,419 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --site-color-tooltip: #fff;
+  --site-color-tooltip-background: #353738;
+  --site-color-svg-icon-favorite: #e9669e;
+  --docusaurus-highlighted-code-line-bg: rgb(0 0 0 / 20%);
+  --docusaurus-highlighted-code-line: #ffffff9c;
+  --month-calendar-holiday-bg: #e3e3e3;
+  --month-calendar-holiday-hover: hwb(0 29% 71%);
+
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+}
+
+html[data-theme='dark'] {
+  --site-color-feedback-background: #f0f8ff;
+  --site-color-favorite-background: #1d1e1e;
+  --site-color-checkbox-checked-bg: hsl(167deg 56% 73% / 10%);
+  --docusaurus-highlighted-code-line-bg: rgb(66 66 66 / 35%);
+  --month-calendar-holiday-bg: #0a0a0a;
+  --month-calendar-holiday-hover: hwb(0 50.2% 49.8%);
+}
+
+textarea {
+  background-color: black;
+  color: bisque;
+  border-color: black;
+  width: 100%;
+  height: 150px;
+}
+
+::-webkit-resizer {
+  background: rgb(26, 26, 26);
+  border: 9px solid rgba(0, 0, 0, 0.1);
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  border-right-color: rgba(0, 0, 0, 0.5);
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+a[href^='http'] {
+  color: #366fd8;
+}
+
+[data-theme='dark'] a[href^='http'] {
+  color: #5788e4;
+}
+
+.theme-doc-markdown a[href^='http']::before {
+  background-color: #366fd8;
+  mask-image: url(/static/img/external.e091ac5d.svg);
+  -webkit-mask-image: url(/static/img/external.e091ac5d.svg);
+  padding-right: 0.35em;
+  content: 'x';
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: -1px 4px;
+  -webkit-mask-position: -1px 4px;
+}
+
+[data-theme='dark'] .theme-doc-markdown a[href^='http']::before {
+  background-color: #5788e4;
+}
+
+.right {
+  text-align: right;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.menu {
+  overflow-y: overlay;
+}
+
+.header-github-link:hover {
+  opacity: 0.6;
+}
+
+.header-github-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E")
+    no-repeat;
+}
+
+[data-theme='dark'] .header-github-link::before {
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='white' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E")
+    no-repeat;
+}
+
+[data-theme='dark'] .invert img {
+  filter: invert(82%);
+}
+
+.screen-reader-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: polygon(0 0, 0 0, 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #2b3137;
+  background-image: linear-gradient(#ff0303, transparent), url("../../static/img/use-svg-as-background-image-particle-strokes.svg");
+  
+}
+
+[data-theme='light'] img[src$='#gh-dark-mode-only'],
+[data-theme='dark'] img[src$='#gh-light-mode-only'] {
+  display: none;
+}
+
+.code-block-error-line {
+  background-color: #ff000020;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #ff000080;
+}
+
+.nonBreak {
+  white-space: nowrap;
+}
+
+/*#price-dynamics ~ table td:nth-child(n + 4),
+#price-dynamics ~ small table td:nth-child(n + 4) {
+  width: min-content;
+}*/
+
+/*#price-dynamics ~ table td,
+#price-dynamics ~ small table td {
+  width: 0;
+}*/
+
+/*all images-in-table's width=50px*/
+.tab-img-w-50 table img {
+  width: 50px;
+  max-width: none;
+}
+
+/*all images-in-table's width=100px*/
+.tab-img-w-100 table img {
+  width: 100px;
+  max-width: none;
+}
+
+/*all images-in-table's width=200px*/
+.tab-img-w-200 table img {
+  width: 200px;
+  max-width: none;
+}
+
+/*all images-in-table's width=300px*/
+.tab-img-w-300 table img {
+  width: 300px;
+  max-width: none;
+}
+
+/*all images-in-table's max-width=none*/
+/*.tab-img-maxw-none table img {
+  max-width: none;
+}*/
+
+/*all even(every-second)-rows' width=0px*/
+.tr-2n-w-0 table tbody tr:nth-child(2n) {
+  /*color: red;*/
+  width: 0px;
+  overflow: visible;
+  /*word-spacing: 99px;*/
+}
+
+/*all-columns' width=0px*/
+.col-w-0 table tbody tr td {
+  width: 0px;
+  overflow: visible;
+}
+
+/*only-column#3's width=200px*/
+.col-3-w-200 table tbody tr td:nth-child(3) {
+  width: 200px;
+}
+
+/*only-column#2's width=auto*/
+.col-2-w-auto table tbody tr td:nth-child(2) {
+  width: auto;
+}
+
+/*only-first-column's width=100px*/
+.col-1-w-100 table tbody > tr > td {
+  width: 100px;
+}
+
+/* all-columns-but-not-first's width=100px*/
+.col-1b-w-100 table tbody > tr td + td {
+  width: 100px;
+}
+
+/*all-columns-but-not-first's max-width=100px*/
+.col-1b-maxw-100 table tbody > tr td + td {
+  max-width: 100px;
+}
+
+/*.nested td span {
+  padding: 0 var(--ifm-table-cell-padding) 0 var(--ifm-table-cell-padding);
+  border-bottom: var(--ifm-table-border-width) solid
+    var(--ifm-table-border-color);
+}*/
+
+.nested td:nth-child(n + 5) {
+  padding: 0px;
+}
+
+.nested td j {
+  border-bottom: var(--ifm-table-border-width) solid
+    var(--ifm-table-border-color);
+  display: table-row;
+}
+
+.nested td j:last-child {
+  border-bottom: none;
+}
+
+.nested td j z:first-of-type {
+  border-right: var(--ifm-table-border-width) solid
+    var(--ifm-table-border-color);
+}
+
+.nested td j z {
+  padding: 2px var(--ifm-table-cell-padding);
+  display: table-cell;
+}
+
+.nested td {
+  text-align: center;
+  padding: 2px 5px;
+}
+
+.nested th {
+  padding: 2px 5px;
+  border-top: none;
+}
+
+/*.nested thead tr {
+  border: none;
+}*/
+
+/*add to em red-color*/
+.em-green em,
+#price-dynamics ~ small em {
+  color: green;
+  text-decoration: none;
+}
+
+#price-dynamics ~ small strong {
+  color: red;
+  font-weight: normal;
+}
+
+.month_card {
+  width: 399px;
+  display: inline-table;
+}
+
+table.month {
+  border-collapse: separate;
+  font-size: 9px;
+  border-spacing: 5px;
+  cursor: pointer;
+}
+
+table.month thead {
+  cursor: auto;
+}
+
+table.month thead tr > th {
+  border: none;
+  font-weight: normal;
+}
+
+table.month thead > tr {
+  border: none;
+}
+
+table.month thead,
+table.month tbody tr {
+  background-color: var(--ifm-table-background);
+}
+
+table.month tbody {
+  /*border-left: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+  border-left: 1px solid red;*/
+}
+
+table.month td {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+}
+
+table.month th {
+  padding: 0px;
+}
+
+table.month tbody td {
+  position: relative;
+  border-color: hwb(0 50.2% 49.8% / 0.2);
+}
+table.month tbody td span {
+  position: absolute;
+  left: 1px;
+  top: -1px;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*table.month tbody td div {
+  max-height: 50px;
+  word-break: break-word;
+  overflow-y: hidden;
+}*/
+
+/*month cell*/
+table.month tbody td.mc {
+  /*background-color: var(--month-calendar-table-td-bg);*/
+  border-color: hwb(0 50.2% 49.8% / 0.65);
+}
+
+table.month tbody td.mc:hover {
+  /*background-color: #1d252b;*/
+  border-color: var(--month-calendar-holiday-hover);
+}
+
+/*table.month tbody td > span:nth-child(2) {
+  position: relative;
+}*/
+
+/*table.month:nth-child(7) > tbody:nth-child(2) > td:nth-child(7) > span:nth-child(1)*/
+/*table.month:nth-child(7) > tbody:nth-child(2) > td:nth-child(7) > span:nth-child(2)*/
+/*:root {
+  --ifm-global-spacing: 3px;
+  --ifm-spacing-vertical: var(--ifm-global-spacing);
+  --ifm-spacing-horizontal: var(--ifm-global-spacing);
+}
+
+.col,
+.container {
+  padding: 0 var(--ifm-spacing-horizontal);
+  width: 100%;
+}
+
+.grid-demo [class^='col'] .col-demo {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.grid-demo .row:last-child {
+  margin-bottom: 0;
+}
+
+.grid-demo .row {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.col {
+  --ifm-col-width: 100%;
+  flex: 1 0;
+  margin-left: 0;
+  max-width: var(--ifm-col-width);
+}
+
+.col--1 {
+  --ifm-col-width: 50px;
+}
+
+.col[class*='col--'] {
+  flex: 0 0 var(--ifm-col-width);
+}*/
+
+/*.green a {
+  color: #af6431;
+}
+
+.green a:hover {
+  color: #af6431;
+}
+
+.red a {
+  color: var(--ifm-menu-color);
+}
+
+.red a:hover {
+  color: var(--ifm-menu-color);
+}*/

@@ -1,0 +1,96 @@
+---
+id: classes
+title: React Classes
+date: 2021-03-04 22:00:28
+description: Two versions of React sintax in classes
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+  defaultValue="es6"
+  values={[
+    { label: 'ES6', value: 'es6', },
+    { label: 'ES7', value: 'es7', }
+  ]
+}>
+<TabItem value="es6">
+
+```jsx
+class Human {
+  constructor() {
+    this.gender = 'male'
+  }
+
+  printGender() {
+    console.log(this.gender)
+  }
+}
+
+class Person extends Human {
+  constructor() {
+    super()
+    this.name = 'Max'
+    this.gender = 'female'
+  }
+  
+  printMyName() {
+    console.log(this.name)
+  }
+}
+
+const person = new Person()
+person.printMyName()
+person.printGender()
+```
+
+</TabItem>
+<TabItem value="es7">
+
+```jsx
+class Human {
+  gender = 'male'
+
+  printGender = () => console.log(this.gender)
+}
+
+class Person extends Human {
+  name = 'Max'
+  gender = 'female'
+  
+  printMyName = () => console.log(this.name)
+}
+
+const person = new Person()
+person.printMyName()
+person.printGender()
+```
+
+</TabItem>
+</Tabs>
+
+- ES6: [Try it on jsbin](https://jsbin.com/detitiv/edit?js,console)
+- ES7: [Try it on jsbin](https://jsbin.com/wojayum/edit?js,console)
+
+As you can see the Docusaurus `live editor` works fine with `es6` standard. About restrictions of arrow function read <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions' class='external'>developer.mozilla.org</a>.
+
+```jsx live
+class Person extends React.Component {
+  constructor(){
+    this.name = 'MAx'
+    this.gender = 'female'
+
+    printGender = () => this.gender
+  }
+
+  render() {
+    return (
+      <div>
+        <h2>It is {this.name}</h2>
+        <h3>{printGender()}</h3>
+      </div>
+    );
+  }
+}
+```

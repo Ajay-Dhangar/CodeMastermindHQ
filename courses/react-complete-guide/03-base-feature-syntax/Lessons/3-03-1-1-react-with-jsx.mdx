@@ -1,0 +1,125 @@
+---
+id: 3-03-1-1-react-with-jsx
+title: 3.03.1.1 React With Jsx
+date: 2021-03-21 20:06:52
+---
+
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+
+Create `index.html` file with this:
+
+```html {11-12,13-24}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <div id="app">not rendered</div>
+    <script src="https://unpkg.com/react@17.0.1/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.1/umd/react-dom.development.js"></script>
+    <script>
+      class App extends React.Component {
+        render() {
+          return React.createElement(
+            "div",
+            {},
+            React.createElement("h1", {}, "Hello World!")
+          );
+        }
+      }
+      ReactDOM.render(React.createElement(App), document.getElementById("app"));
+    </script>
+  </body>
+</html>
+```
+
+This file contains two script tags so that the browser understands the `React syntax`, the third script tags contain code written in React syntax.
+
+Let's convert our code from `React syntax` to `JSX syntax` and compare:
+
+<Tabs defaultValue="react" values={[
+  { label: "React", value: "react" },
+  { label: "JSX", value: "jsx" }
+]}>
+<TabItem value="react">
+
+```js
+class App extends React.Component {
+  render() {
+    return React.createElement(
+      "div",
+      {},
+      React.createElement("h1", {}, "Hello World!")
+    );
+  }
+}
+ReactDOM.render(React.createElement(App), document.getElementById("app"));
+```
+
+</TabItem>
+
+<TabItem value="jsx">
+
+```jsx
+class App extends React.Component {
+  render() {
+    return <div>Hello World!</div>
+}
+ReactDOM.render(<App/>, document.getElementById("app"));
+```
+
+</TabItem>
+</Tabs>
+
+The JSX is easy to understand. And it looks like HTML markup.
+
+Add the `babel` package to the `index.html` file so that the browser understands the JSX syntax:
+
+```html
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+```
+
+Add the `type` attribute to the last script tag:
+
+```html
+<script type="text/babel">
+// JSX
+</script>
+```
+
+## Finished File
+
+Full index.html will be looks like:
+
+```html title="index.html"
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <div id="app">not rendered</div>
+    <script src="https://unpkg.com/react@17.0.1/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.1/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+      class App extends React.Component {
+        render() {
+          return <h1>Hello World!</h1>;
+        }
+      }
+      ReactDOM.render(<App />, document.getElementById("app"));
+    </script>
+  </body>
+</html>
+```
+
+This approach is fine for learning. However, it makes your website slow. If you install a <a href='https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project' class='external'>JSX preprocessor</a>, it convert all your `<script>` tags automatically to the plain JavaScript code suitable for the browser.
