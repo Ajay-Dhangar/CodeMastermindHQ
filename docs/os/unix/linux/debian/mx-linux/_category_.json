@@ -1,0 +1,14 @@
+{
+  "position": 2.5,
+  "label": "MX Linux",
+  "collapsible": true,
+  "collapsed": false,
+  "className": "red",
+  "link": {
+    "type": "doc",
+    "id": "README"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
