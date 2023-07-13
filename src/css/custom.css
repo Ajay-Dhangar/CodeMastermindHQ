@@ -421,6 +421,10 @@ table.month tbody td.mc:hover {
   font-weight: bold;  
 }
 
+/* .paytm-icon{
+  background-color: red;
+} */
+
 div[class^='announcementBar_'] {
   background: var(--ifm-hero-background-color);
   color: #ffffff;
