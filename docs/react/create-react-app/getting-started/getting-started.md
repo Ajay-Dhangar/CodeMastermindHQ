@@ -113,7 +113,7 @@ To start a new TypeScript app, append `--template typescript` to the creation co
 npx create-react-app my-app --template typescript
 ```
 
-If you already have a project and want to add TypeScript, check out our [Adding TypeScript](./adding-typescript) documentation.
+If you already have a project and want to add TypeScript, check out our <u>Adding TypeScript</u> documentation.
 
 ## Selecting a Package Manager
 
