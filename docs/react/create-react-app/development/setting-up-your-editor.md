@@ -2,7 +2,7 @@
 id: setting-up-your-editor
 title: Setting Up Your Editor
 sidebar_label: Editor Setup
-sidebar_position: 7
+sidebar_position: 1
 ---
 
 When working with Create React App, there are several tools you can use to enhance your editing experience and maximize productivity. Let's go through some tips to get your editor set up correctly.
@@ -91,7 +91,7 @@ To enable debugging in VS Code, add the following block to your `launch.json` fi
 ```
 
 :::note
-- If you've adjusted the [HOST or PORT environment variables](advanced-configuration), the URL may be different.
+- If you've adjusted the <u>HOST or PORT environment variables</u>, the URL may be different.
 :::
 Start your app by running `npm start`, and then you can start debugging in VS Code by pressing `F5` or clicking the green debug icon. This allows you to write code, set breakpoints, make changes, and debug your code without leaving the editor.
 
@@ -104,7 +104,7 @@ To use the debugging feature in WebStorm, you'll need [WebStorm](https://www.jet
 In WebStorm, go to the `Run` menu and select `Edit Configurations...`. Click the `+` button, choose `JavaScript Debug`, and paste `http://localhost:3000` into the URL field. Save the configuration.
 
 :::note
-- If you've adjusted the [HOST or PORT environment variables](advanced-configuration), the URL may be different.
+- If you've adjusted the <u>HOST or PORT environment variables</u>, the URL may be different.
 :::
 
 Start your app by running `npm start`, then press `^D` on macOS or `F9` on Windows and Linux, or click the green debug icon in WebStorm to start debugging.

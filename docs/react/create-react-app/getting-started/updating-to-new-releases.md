@@ -1,7 +1,7 @@
 ---
 id: updating-to-new-releases
 title: Updating to New Releases
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 In Create React App, there are two important packages:
