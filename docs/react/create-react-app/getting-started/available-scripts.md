@@ -1,7 +1,7 @@
 ---
 id: available-scripts
 title: Available Scripts
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 In your project directory, you can use the following scripts:

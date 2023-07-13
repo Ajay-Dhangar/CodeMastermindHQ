@@ -1,7 +1,7 @@
 ---
 id: folder-structure
 title: Folder Structure
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 When you create a new project for your website, it's important to organize your files in a specific way. This structure will help you keep things tidy and make it easier to build and maintain your site.
