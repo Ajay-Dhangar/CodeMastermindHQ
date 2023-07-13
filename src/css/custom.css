@@ -308,11 +308,11 @@ table.month thead,
 table.month tbody tr {
   background-color: var(--ifm-table-background);
 }
-
+/* 
 table.month tbody {
-  /*border-left: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
-  border-left: 1px solid red;*/
-}
+  border-left: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+  border-left: 1px solid red;
+} */
 
 table.month td {
   width: 50px;
@@ -417,3 +417,25 @@ table.month tbody td.mc:hover {
 .red a:hover {
   color: var(--ifm-menu-color);
 }*/
+.discord-icon-name, .youtube-icon-name{
+  font-weight: bold;  
+}
+
+div[class^='announcementBar_'] {
+  background: var(--ifm-hero-background-color);
+  color: #ffffff;
+  border-bottom: 1px dotted #eeeeee;
+  font-weight: bold;
+  font-size: 18px;
+  height: 55px;
+  padding: 10px;
+}
+
+div[class^='announcementBar_'] a {
+    color: var(--ifm-announcement-color);
+}
+
+div[class^='announcementBar_'] .clean-btn {
+  color: #ffffff;
+  opacity: 100%;
+}
