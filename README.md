@@ -5,7 +5,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://app.netlify.com/)
 <a href="https://twitter.com/AJAYDHA27250016"><img src="https://img.shields.io/twitter/follow/AJAYDHA27250016.svg?style=social"  alt="Twitter Follow" /></a>
 <a href="https://discord.gg/BFkPKMsfuZ"><img src="https://img.shields.io/discord/102860784329052160.svg" alt="Discord Chat" /></a>
-<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/blob/main/LICENSE"><img src="https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg?colorB=ff0000"></a>
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" alt="Stars Badge"/></a>
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/network/members"><img src="https://img.shields.io/github/forks/Ajay-Dhangar/CodeMastermindHQ" alt="Forks Badge"/></a>
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/pulls"><img src="https://img.shields.io/github/issues-pr/Ajay-Dhangar/CodeMastermindHQ" alt="Pull Requests Badge"/></a>
