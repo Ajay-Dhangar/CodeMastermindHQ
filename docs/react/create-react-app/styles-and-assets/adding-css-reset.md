@@ -7,29 +7,29 @@ sidebar_position: 4
 
 This tutorial will guide you on adding a CSS reset to your React project using [PostCSS Normalize], which provides a solid foundation for consistent styling across different browsers.
 
-To get started, follow these steps:
+**To get started, follow these steps:**
 
 ## Step 1: Set up PostCSS Normalize
 
-1. Install the necessary dependencies by running the following command in your terminal:
+**1. Install the necessary dependencies by running the following command in your terminal:**
 
    ```shell
    npm install postcss-normalize
    ```
 
-2. In your project's main CSS file (e.g., `index.css` or `App.css`), import PostCSS Normalize by adding the following line:
+**2. In your project's main CSS file (e.g., `index.css` or `App.css`), import PostCSS Normalize by adding the following line:**
 
-   ```css
+   ```css title="index.css"
    @import-normalize; /* Import normalize.css styles */
    ```
 
    By including this line, you bring in the necessary CSS reset styles.
 
-  :::tip
-  If you're using Visual Studio Code and encounter an "_Unknown at rule @import-normalize css(unknownAtRules)_" warning, you can change the `css.lint.unknownAtRules` setting to `ignore` in your editor preferences.
-  :::
+:::tip
+If you're using Visual Studio Code and encounter an "_Unknown at rule @import-normalize css(unknownAtRules)_" warning, you can change the `css.lint.unknownAtRules` setting to `ignore` in your editor preferences.
+:::
 
-3. Feel free to add your custom styles below the `@import-normalize` line. This is where you can customize the appearance of your React components.
+**3. Feel free to add your custom styles below the `@import-normalize` line. This is where you can customize the appearance of your React components.**
 
 ## Step 2: Customize Normalize.css (Optional)
 
