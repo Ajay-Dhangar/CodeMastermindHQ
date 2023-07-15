@@ -139,7 +139,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'react/create-react-app/getting-started/getting-started',
+            docId: 'html/basic-level/html-intro',
             label: '📚 Tutorials',
             position: 'left',
           },
