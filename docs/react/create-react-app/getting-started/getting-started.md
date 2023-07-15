@@ -5,6 +5,7 @@ sidebar_label: Getting Started
 sidebar_position: 1
 date: 2021-02-25 11:08:29
 description: Development and implementation the API of interaction of two sites 
+tags: [React, JavaScript, User interfaces, Library, Virtual DOM, Declarative syntax, Components, Rendering, Web applications, Node.js, Create React App, Development server, React fundamentals, State management, Props, React documentation, React hooks, React Router, React Context API, Awesome React]
 ---
 
 

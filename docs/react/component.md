@@ -15,7 +15,7 @@ function Welcome(props) {
     <>
       <p>{likes} Likes</p>
       <h1>Hello, {props.name}</h1>
-      <button class="button" onClick={() => increaseLikes(likes + 1)} />
+      <button className="button" onClick={() => increaseLikes(likes + 1)}> Click me</button>
     </>
   );
 }
