@@ -5,15 +5,6 @@ sidebar_label: CSS Reset
 sidebar_position: 4
 ---
 
-Certainly! Here's an improved version of the content:
-
-```md
----
-id: adding-css-reset
-title: Adding a CSS Reset
-sidebar_label: Adding CSS Reset
----
-
 This tutorial will guide you on adding a CSS reset to your React project using [PostCSS Normalize], which provides a solid foundation for consistent styling across different browsers.
 
 To get started, follow these steps:
@@ -34,7 +25,9 @@ To get started, follow these steps:
 
    By including this line, you bring in the necessary CSS reset styles.
 
-   > **Tip**: If you're using Visual Studio Code and encounter an "_Unknown at rule @import-normalize css(unknownAtRules)_" warning, you can change the `css.lint.unknownAtRules` setting to `ignore` in your editor preferences.
+  :::tip
+  If you're using Visual Studio Code and encounter an "_Unknown at rule @import-normalize css(unknownAtRules)_" warning, you can change the `css.lint.unknownAtRules` setting to `ignore` in your editor preferences.
+  :::
 
 3. Feel free to add your custom styles below the `@import-normalize` line. This is where you can customize the appearance of your React components.
 
@@ -44,7 +37,7 @@ PostCSS Normalize allows you to control which parts of [normalize.css] you want 
 
 For example, when targeting older browsers like Internet Explorer 9, you may see the following styles added to your CSS:
 
-```css
+```css title="normalize.css"
 /**
  * Add the correct display in IE 9-.
  */
@@ -80,6 +73,3 @@ PostCSS Normalize supports a wide range of browsers, ensuring your styles render
 
 [PostCSS Normalize]: https://github.com/csstools/postcss-normalize
 [normalize.css]: https://github.com/csstools/normalize.css
-```
-
-This revised content provides a clearer explanation of the steps involved in adding a CSS reset using PostCSS Normalize. It also provides additional information on customizing normalize.css and lists the supported browsers for PostCSS Normalize.
