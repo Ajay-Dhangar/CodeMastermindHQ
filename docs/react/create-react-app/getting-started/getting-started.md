@@ -44,7 +44,7 @@ When you are ready to deploy your app to production, create a minified bundle us
         <img src="https://raw.githubusercontent.com/CodeMastermindHQ/CodeMastermindHQ/7072abb527b8d225d5646fe4a2d73b7dc50ef7ae/static/dev-img/react.svg" className="App-logo" alt="logo" />
         <br/>
         <p>
-          Edit <code style={{color:'#000'}}>src/App.js</code> and save to reload.
+          Edit src/App.js and save to reload.
         </p> 
         <a
           style={{color: '#61dafb'}}
@@ -182,7 +182,7 @@ Runs the app in development mode. Open [http://localhost:3000](http://localhost:
         <img src="https://raw.githubusercontent.com/CodeMastermindHQ/CodeMastermindHQ/7072abb527b8d225d5646fe4a2d73b7dc50ef7ae/static/dev-img/react.svg" className="App-logo" alt="logo" />
         <br/>
         <p>
-          Edit <code style={{color:'#000'}}>src/App.js</code> and save to reload.
+          Edit src/App.js and save to reload.
         </p> 
         <a
           style={{color: '#61dafb'}}
