@@ -13,3 +13,8 @@
          transform: rotate(360deg);
      }
  }
+
+ .error{
+    background-color: red;
+ }
+ 
