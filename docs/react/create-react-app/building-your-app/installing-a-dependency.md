@@ -13,7 +13,7 @@ import { FaReact } from 'react-icons/fa';
 ```
 :::note
 Welcome, brave apprentice! Let's embark on a magical quest of installing dependencies in your enchanted Create React App. Fear not, for we shall guide you through the mystical process step-by-step.
-::
+:::
 
 ## 🧙‍♂️ The Art of Dependency Sorcery
 
