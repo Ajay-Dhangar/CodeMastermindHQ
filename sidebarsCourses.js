@@ -11,6 +11,11 @@ module.exports = {
       href: '/myComponents',
     },
     {
+      type: 'link',
+      label: 'Live Playground',
+      href: '/LiveCodeEditor',
+    },
+    {
       type: 'category',
       label: 'Courses',
       link: {
