@@ -125,7 +125,7 @@ function Home() {
             </div>
           </section>
         )}
-      </main>
+      </main>        
     </Layout>
   );
 }
