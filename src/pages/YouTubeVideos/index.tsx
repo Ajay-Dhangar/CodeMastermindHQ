@@ -17,7 +17,7 @@ export default function MyComponents() {
             <a href='https://www.youtube.com/watch?v=3PRCek1sSuY' target='black'><img src='/img/thumb.png' alt="" className="video-user-image" /></a>
           </div>
           <div className="video-title">{'Adding a Search Bar to your Blog Section or Blog Post'}</div>
-          <span style={{fontWeight:'500', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
+          <span style={{fontWeight:'500', color:'blue', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
           <br />
           <div className="video-view">
             {'51'} Views <span>.</span> {'1 month ago'}
@@ -29,7 +29,7 @@ export default function MyComponents() {
             <a href='https://www.youtube.com/watch?v=3PRCek1sSuY' target='black'><img src='/img/thumb.png' alt="" className="video-user-image" /></a>
           </div>
           <div className="video-title">{'Adding a Search Bar to your Blog Section or Blog Post'}</div>
-          <span style={{fontWeight:'500', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
+          <span style={{fontWeight:'500', color:'blue', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
           <br />
           <div className="video-view">
             {'51'} Views <span>.</span> {'1 month ago'}
@@ -41,7 +41,7 @@ export default function MyComponents() {
             <a href='https://www.youtube.com/watch?v=3PRCek1sSuY' target='black'><img src='/img/thumb.png' alt="" className="video-user-image" /></a>
           </div>
           <div className="video-title">{'Adding a Search Bar to your Blog Section or Blog Post'}</div>
-          <span style={{fontWeight:'500', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
+          <span style={{fontWeight:'500', color:'blue', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
           <br />
           <div className="video-view">
             {'51'} Views <span>.</span> {'1 month ago'}
@@ -53,7 +53,7 @@ export default function MyComponents() {
             <a href='https://www.youtube.com/watch?v=3PRCek1sSuY' target='black'><img src='/img/thumb.png' alt="" className="video-user-image" /></a>
           </div>
           <div className="video-title">{'Adding a Search Bar to your Blog Section or Blog Post'}</div>
-          <span style={{fontWeight:'500', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
+          <span style={{fontWeight:'500', color:'blue', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
           <br />
           <div className="video-view">
             {'51'} Views <span>.</span> {'1 month ago'}
@@ -65,7 +65,7 @@ export default function MyComponents() {
             <a href='https://www.youtube.com/watch?v=3PRCek1sSuY' target='black'><img src='/img/thumb.png' alt="" className="video-user-image" /></a>
           </div>
           <div className="video-title">{'Adding a Search Bar to your Blog Section or Blog Post'}</div>
-          <span style={{fontWeight:'500', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
+          <span style={{fontWeight:'500', color:'blue', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
           <br />
           <div className="video-view">
             {'51'} Views <span>.</span> {'1 month ago'}
@@ -77,7 +77,7 @@ export default function MyComponents() {
             <a href='https://www.youtube.com/watch?v=3PRCek1sSuY' target='black'><img src='/img/thumb.png' alt="" className="video-user-image" /></a>
           </div>
           <div className="video-title">{'Adding a Search Bar to your Blog Section or Blog Post'}</div>
-          <span style={{fontWeight:'500', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
+          <span style={{fontWeight:'500', color:'blue', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
           <br />
           <div className="video-view">
             {'51'} Views <span>.</span> {'1 month ago'}
@@ -89,7 +89,7 @@ export default function MyComponents() {
             <a href='https://www.youtube.com/watch?v=3PRCek1sSuY' target='black'><img src='/img/thumb.png' alt="" className="video-user-image" /></a>
           </div>
           <div className="video-title">{'Adding a Search Bar to your Blog Section or Blog Post'}</div>
-          <span style={{fontWeight:'500', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
+          <span style={{fontWeight:'500', color:'blue', marginLeft:'2px'}}>{'Ajay Dhangar'}</span>
           <br />
           <div className="video-view">
             {'51'} Views <span>.</span> {'1 month ago'}
