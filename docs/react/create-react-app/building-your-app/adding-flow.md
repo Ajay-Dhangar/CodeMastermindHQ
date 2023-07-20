@@ -188,13 +188,13 @@ Absolutely! Here's a simple working live example of using Flow in a Create React
         
    </BrowserWindow>
 
-If you attempt to use the component without providing the `name` prop or try to set the `age` to a non-numeric value, Flow will catch these type errors and display them in your terminal.
-
-With this live example, you can witness how Flow enhances your React app's robustness and detects potential type-related issues during development, saving you from future bugs and headaches.
-
-Remember to install Flow globally on your system if you haven't already, and make sure to use the `// @flow` pragma in files you wish to enable type checking for.
-
-May this example empower you to embrace the magic of Flow and wield the power of static typing in your React adventures! Happy coding!
+  If you attempt to use the component without providing the `name` prop or try to set the `age` to a non-numeric value, Flow will catch these type errors and display them in your terminal.
+  
+  With this live example, you can witness how Flow enhances your React app's robustness and detects potential type-related issues during development, saving you from future bugs and headaches.
+  
+  Remember to install Flow globally on your system if you haven't already, and make sure to use the `// @flow` pragma in files you wish to enable type checking for.
+  
+  May this example empower you to embrace the magic of Flow and wield the power of static typing in your React adventures! Happy coding!
 
 ## Conclusion:
 Congratulations, dear apprentice! You have mastered the art of integrating Flow into your Create React App and harnessing its magic to strengthen your codebase. With Flow as your companion, you can fearlessly journey through the lands of React, confident in the knowledge that your types are checked and your code is resilient.
