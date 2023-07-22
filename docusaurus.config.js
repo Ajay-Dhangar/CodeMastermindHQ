@@ -269,11 +269,23 @@ const config = {
                 to: '/',
               },
               {
+                label: 'CSS',
+                to: '/',
+              },
+              {
                 label: 'JavaScript',
                 to: '/',
               },
               {
                 label: 'React',
+                to: '/',
+              },
+              {
+                label: 'Node',
+                to: '/',
+              },
+              {
+                label: 'MongoDB',
                 to: '/',
               },
             ],
@@ -296,6 +308,14 @@ const config = {
 
               {
                 label: 'React',
+                to: 'courses/',
+              },
+              {
+                label: 'Node',
+                to: 'courses/',
+              },
+              {
+                label: 'MongoDB',
                 to: 'courses/',
               },
             ],
@@ -332,30 +352,51 @@ const config = {
                 href: 'https://twitter.com/codemastermind2',
               },
               {
-                label: 'Discussions',
-                href: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ/discussions',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: 'blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ',
-              },
-              {
                 label: 'LinkedIn Group',
                 href: 'https://www.linkedin.com/groups/14232119/',
+              },
+              {
+                label: 'Discussions',
+                href: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ/discussions',
               },
               {
                 label: 'WhatsApp',
                 href: 'https://chat.whatsapp.com/HzbYP9F1Sn3ASPW4NCIAkL',
               },
+            ],
+          },
+          {
+            title: 'More',
+            items: [ 
+              {
+                html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ"><img src="https://img.shields.io/static/v1?label=CodeMastermindHQ&message=CodeMastermindHQ&color=blue&logo=github" alt="Pull Requests Badge"/></a>`              
+              },            
+              {
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/pulls"><img src="https://img.shields.io/github/issues-pr/Ajay-Dhangar/CodeMastermindHQ" alt="Pull Requests Badge"/></a>`              
+              },            
+              {
+                html: `<img src="https://komarev.com/ghpvc/?username=ajay-dhangar&label=Site%20Views&color=0e75b6&style=flat" alt="ajay-dhangar" />`              
+              },             
+              {
+                html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql"><img alt="GitHub contributors" src="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg"></a>`              
+              },
+              {
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Ajay-Dhangar/CodeMastermindHQ?color=2b9348"></a>`              
+              },
+              
+              {
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/issues"><img src="https://img.shields.io/github/issues/Ajay-Dhangar/CodeMastermindHQ" alt="Issues Badge"/></a>`              
+              },
+              
+              
+              {
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" alt="Stars Badge"/></a>`              
+              },
+              {
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/network/members"><img src="https://img.shields.io/github/forks/Ajay-Dhangar/CodeMastermindHQ" alt="Forks Badge"/></a>`              
+              },
+              
+              
 
             ],
           },
