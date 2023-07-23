@@ -151,7 +151,7 @@ const config = {
 
               {
                 to: '/courses',
-                label: '🎓 Courses 🚀',                
+                label: '🎓 Courses 🚀',
                 activeBaseRegex: `/courses/`,
               },
               {
@@ -180,7 +180,7 @@ const config = {
               {
                 label: '💻 Live Playground 🚀',
                 to: '/LiveCodeEditor',
-              },              
+              },
               {
                 label: '🏷️ Tutorial Tags 🚀',
                 to: '/docs/tags/',
@@ -214,12 +214,31 @@ const config = {
           // },
 
           { to: 'showcase', label: '🌍 Showcase', position: 'left' },
+
+          // {
+          //   type: 'dropdown',
+          //   className: 'header-github-link',
+          //   'aria-label': 'GitHub repository',
+          //   position: 'right',
+          //   items: [
+          //     {
+          //       to: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ',
+          //       label: 'V1',
+          //     },
+          //     {
+          //       to: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
+          //       label: 'V2',
+          //     },
+          //   ]
+          // },
+
           {
             href: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
           },
+
           {
             type: 'dropdown',
             label: '💝 Donation',
@@ -367,36 +386,36 @@ const config = {
           },
           {
             title: 'More',
-            items: [ 
+            items: [
               {
-                html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ"><img src="https://img.shields.io/static/v1?label=CodeMastermindHQ&message=CodeMastermindHQ&color=blue&logo=github" alt="Pull Requests Badge"/></a>`              
-              },            
-              {
-                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/pulls"><img src="https://img.shields.io/github/issues-pr/Ajay-Dhangar/CodeMastermindHQ" alt="Pull Requests Badge"/></a>`              
-              },            
-              {
-                html: `<img src="https://komarev.com/ghpvc/?username=ajay-dhangar&label=Site%20Views&color=0e75b6&style=flat" alt="ajay-dhangar" />`              
-              },             
-              {
-                html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql"><img alt="GitHub contributors" src="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg"></a>`              
+                html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ"><img src="https://img.shields.io/static/v1?label=CodeMastermindHQ&message=CodeMastermindHQ&color=blue&logo=github" alt="Pull Requests Badge"/></a>`
               },
               {
-                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Ajay-Dhangar/CodeMastermindHQ?color=2b9348"></a>`              
-              },
-              
-              {
-                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/issues"><img src="https://img.shields.io/github/issues/Ajay-Dhangar/CodeMastermindHQ" alt="Issues Badge"/></a>`              
-              },
-              
-              
-              {
-                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" alt="Stars Badge"/></a>`              
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/pulls"><img src="https://img.shields.io/github/issues-pr/Ajay-Dhangar/CodeMastermindHQ" alt="Pull Requests Badge"/></a>`
               },
               {
-                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/network/members"><img src="https://img.shields.io/github/forks/Ajay-Dhangar/CodeMastermindHQ" alt="Forks Badge"/></a>`              
+                html: `<img src="https://komarev.com/ghpvc/?username=ajay-dhangar&label=Site%20Views&color=0e75b6&style=flat" alt="ajay-dhangar" />`
               },
-              
-              
+              {
+                html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql"><img alt="GitHub contributors" src="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg"></a>`
+              },
+              {
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Ajay-Dhangar/CodeMastermindHQ?color=2b9348"></a>`
+              },
+
+              {
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/issues"><img src="https://img.shields.io/github/issues/Ajay-Dhangar/CodeMastermindHQ" alt="Issues Badge"/></a>`
+              },
+
+
+              {
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" alt="Stars Badge"/></a>`
+              },
+              {
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/network/members"><img src="https://img.shields.io/github/forks/Ajay-Dhangar/CodeMastermindHQ" alt="Forks Badge"/></a>`
+              },
+
+
 
             ],
           },
