@@ -97,7 +97,7 @@ function Home() {
 ### 7: Celebrate Your Success!
 Congratulations, Code Mastermind! You've successfully added React Router to your app, making it dynamic and user-friendly. Now, users can roam freely through your theme park without ever getting lost.
 
-## Live Preview:
+<!-- ## Live Preview: -->
 
 <!-- <iframe src="https://codesandbox.io/embed/github/React-js-Mastery/react-app/main?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style={{
             width: '100%',
@@ -112,7 +112,7 @@ Congratulations, Code Mastermind! You've successfully added React Router to your
           sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
     ></iframe> -->
 
-
+<!-- 
 <iframe src="https://codesandbox.io/embed/github/Ajay-Dhangar/react-blog-app/main?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style={{
             width: '100%',
             height: '600px',
@@ -124,7 +124,7 @@ Congratulations, Code Mastermind! You've successfully added React Router to your
           }} title="React App"
           allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
           sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-    ></iframe>
+    ></iframe> -->
 
 ### Apply your Idea's
 
