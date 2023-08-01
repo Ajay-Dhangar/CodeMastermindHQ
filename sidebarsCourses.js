@@ -7,6 +7,11 @@ module.exports = {
     },
     {
       type: 'link',
+      label: 'Code Editor',
+      href: '/CodeEditor',
+    },
+    {
+      type: 'link',
       label: 'myComponents',
       href: '/myComponents',
     },

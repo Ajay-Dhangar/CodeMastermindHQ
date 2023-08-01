@@ -183,6 +183,10 @@ const config = {
                 to: '/LiveCodeEditor',
               },
               {
+                label: '🧠 CodeEditor 🚀',
+                to: '/CodeEditor',
+              },
+              {
                 label: '🏷️ Tutorial Tags 🚀',
                 to: '/docs/tags/',
                 activeBaseRegex: `/docs/tags/`,
@@ -439,6 +443,7 @@ const config = {
           },
         ],
       },
+      
     }),
   plugins: [
     './src/plugins/webpackProxy',
@@ -554,6 +559,7 @@ const config = {
       },
     ],
   ],
+  
 };
 
 module.exports = config;
