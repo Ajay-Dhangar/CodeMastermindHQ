@@ -1,3 +1,6 @@
+
+⭐️ If you like [CodeMasterMindHQ](https://codemastermindhq.vercel.app/), give it a star on [GitHub](https://github.com/Ajay-Dhangar/CodeMastermindHQ) and join us on [LinkedIn](https://www.linkedin.com/groups/14232119/) ⭐️
+
 <h1 align="center"> CodeMastermindHQ </h1>
 <!--
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml"><img src="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml/badge.svg"  alt="CodeQL" /></a> -->
