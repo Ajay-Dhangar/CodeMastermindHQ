@@ -5,11 +5,11 @@ module.exports = {
       label: 'Collections',
       href: '/cardHolder',
     },
-    {
-      type: 'link',
-      label: 'Code Editor',
-      href: '/CodeEditor',
-    },
+    // {
+    //   type: 'link',
+    //   label: 'Code Editor',
+    //   href: '/CodeEditor',
+    // },
     {
       type: 'link',
       label: 'myComponents',

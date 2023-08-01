@@ -182,10 +182,10 @@ const config = {
                 label: '💻 Live Playground 🚀',
                 to: '/LiveCodeEditor',
               },
-              {
-                label: '🧠 CodeEditor 🚀',
-                to: '/CodeEditor',
-              },
+              // {
+              //   label: '🧠 CodeEditor 🚀',
+              //   to: '/CodeEditor',
+              // },
               {
                 label: '🏷️ Tutorial Tags 🚀',
                 to: '/docs/tags/',
