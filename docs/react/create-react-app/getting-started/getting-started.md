@@ -37,7 +37,7 @@ When you are ready to deploy your app to production, create a minified bundle us
 
 ![npm start](./../img/getting-started-react.svg)
 
-<BrowserWindow style={{backgroundColor: "#282c34"}}>
+<!-- <BrowserWindow style={{backgroundColor: "#282c34"}}>
     <body >
     <div style={{textAlign: 'center'}}>
       <header style={{minHeight: '80vh', display:' flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontSize: 'calc(10px + 2vmin)', color: '#fff'}}>
@@ -57,7 +57,7 @@ When you are ready to deploy your app to production, create a minified bundle us
       </header>
     </div>
     </body>
-</BrowserWindow>
+</BrowserWindow> -->
 
 ## Get Started Immediately
 
