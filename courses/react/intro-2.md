@@ -14,14 +14,14 @@ Our course is structured to provide a step-by-step learning journey, starting wi
 
 Let's get started on this exciting journey into the world of React!
 
-### 1: Introduction to React
+### [1: Introduction to React](../category/introduction-to-react)
 
 - What is React and why use it?
 - Setting up the development environment (Node.js, npm, Create React App)
 - Creating your first React project
 - Understanding the basic structure of a React application
 
-### 2: Basics of React
+### [2: Basics of React](../category/basic-of-react)
 
 - Introduction to JSX (JavaScript XML)
 - Rendering Elements in React
@@ -31,7 +31,7 @@ Let's get started on this exciting journey into the world of React!
 - Understanding the Component Lifecycle
 - Functional Components vs. Class Components
 
-### 3: React Components
+### [3: React Components](../category/react-components)
 
 - Understanding the concept of components in React
 - Creating functional components
@@ -40,7 +40,7 @@ Let's get started on this exciting journey into the world of React!
 - Working with JSX and rendering components
 - Component composition and reusability
 
-### 4: State and Props Management
+### [4: State and Props Management](../category/state-and-props-management)
 
 - Managing state in React components
 - Understanding props and prop drilling
