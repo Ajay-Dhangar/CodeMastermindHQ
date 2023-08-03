@@ -175,11 +175,11 @@ const config = {
 
           {
             type: 'dropdown',
-            label: 'Features',
+            label: '➕ Features',
             position: 'left',
             items: [
               {
-                label: '💻 Live Playground 🚀',
+                label: '🖥️ Live Playground',
                 to: '/LiveCodeEditor',
               },
               // {
@@ -187,12 +187,12 @@ const config = {
               //   to: '/CodeEditor',
               // },
               {
-                label: '🏷️ Tutorial Tags 🚀',
+                label: '🏷️ Tutorial Tags 📚',
                 to: '/docs/tags/',
                 activeBaseRegex: `/docs/tags/`,
               },
               {
-                label: '🏷️ Courses Tags 🚀',
+                label: '🏷️ Courses Tags 🎓',
                 to: '/courses/tags/',
                 activeBaseRegex: `/courses/tags/`,
               },
