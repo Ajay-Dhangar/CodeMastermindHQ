@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'HTML 5',
-    imageUrl: 'dev-img/html.svg',
+    imageUrl: 'dev-img/cd-html.svg',
     description: (
       <>
         The latest version of the markup language for web pages, introducing enhanced 
@@ -19,11 +19,22 @@ const features = [
   },
   {
     title: 'CSS 3',
-    imageUrl: 'dev-img/css3.svg',
+    imageUrl: 'dev-img/cd-css3.svg',
     description: (
       <>
         The latest version of CSS that brings exciting enhancements like animations, 
         gradients, and transitions, empowering modern web design.
+      </>
+    ),
+  },
+  {
+    title: 'JavaScript',
+    imageUrl: 'dev-img/cd-javascript.svg',
+    description: (
+      <>
+        Versatile, high-level scripting language. 
+        Powers dynamic web interactions with HTML/CSS. 
+        Supports both front-end and back-end.
       </>
     ),
   },
@@ -57,16 +68,16 @@ const features = [
       </>
     ),
   },
-  {
-    title: 'Express Js',
-    imageUrl: 'dev-img/express-js.svg',
-    description: (
-      <>
-        A fast and minimalistic web application framework for Node.js, making server-side 
-        development in JavaScript a breeze
-      </>
-    ),
-  },
+  // {
+  //   title: 'Express Js',
+  //   imageUrl: 'dev-img/express-js.svg',
+  //   description: (
+  //     <>
+  //       A fast and minimalistic web application framework for Node.js, making server-side 
+  //       development in JavaScript a breeze
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({imageUrl, title, description}) {

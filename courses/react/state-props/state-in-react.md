@@ -11,8 +11,6 @@ meta:
     content: React, state management, managing state, React components, state in React, setState, React state example, React state tutorial, React state management
 ---
 
-
-
 ```mdx-code-block
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import CodeBlock from '@theme/CodeBlock';
