@@ -33,7 +33,7 @@ module.exports = {
 
         {
           type: 'category',
-          label: 'HTML',
+          label: '🌐 HTML',
           link: {
             type: 'doc',
             id: 'html/welcome-html',
@@ -50,7 +50,7 @@ module.exports = {
 
         {
           type: 'category',
-          label: 'JavaScript',
+          label: '🔮 JavaScript',
           link: {
             type: 'doc',
             id: 'javascript/welcome-js',
@@ -67,7 +67,7 @@ module.exports = {
 
         {
           type: 'category',
-          label: 'React',
+          label: '⚛️ React',
           link: {
             type: 'doc',
             id: 'react/welcome-react',
