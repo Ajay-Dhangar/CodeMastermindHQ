@@ -1,25 +1,24 @@
-// src/App.js
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import './styling.css'; // Include your custom styles
 import AssessmentQuestion from './AssessmentQuestion';
-import assessmentData from './assessmentData';
+import assessmentData, { Question } from './assessmentData';
 
-function App() {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [userAnswers, setUserAnswers] = useState([]);
+const Assesment: React.FC = () => {
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
+  const [userAnswers, setUserAnswers] = useState<string[]>([]);
 
-  const handleNextQuestion = (answer) => {
+  const handleNextQuestion = (answer: string) => {
     const updatedAnswers = [...userAnswers];
     updatedAnswers[currentQuestionIndex] = answer;
     setUserAnswers(updatedAnswers);
     setCurrentQuestionIndex(currentQuestionIndex + 1);
   };
 
-  const calculateScore = () => {
+  const calculateScore = (): number => {
     // Calculate user's score based on correct answers
     let score = 0;
-    assessmentData.forEach((question, index) => {
+    assessmentData.forEach((question: Question, index: number) => {
       if (userAnswers[index] === question.correctAnswer) {
         score++;
       }
@@ -27,7 +26,7 @@ function App() {
     return score;
   };
 
-  const renderContent = () => {
+  const renderContent = (): JSX.Element => {
     if (currentQuestionIndex < assessmentData.length) {
       return (
         <div className="question-container">
@@ -49,15 +48,13 @@ function App() {
   };
 
   return (
-    <>
-      <Layout wrapperClassName='main-code-container'>
-        <div className="App">
-          <h1 className="app-title">Developer Assessment</h1>
-          {renderContent()}
-        </div>
-      </Layout>
-    </>
+    <Layout wrapperClassName="main-code-container">
+      <div className="Assesment">
+        <h1 className="assesment-title">Developer Assessment</h1>
+        {renderContent()}
+      </div>
+    </Layout>
   );
-}
+};
 
-export default App;
+export default Assesment;

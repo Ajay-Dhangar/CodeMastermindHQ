@@ -1,10 +1,15 @@
-// src/AssessmentQuestion.js
 import React, { useState } from 'react';
+import { Question } from './assessmentData';
 
-const AssessmentQuestion = ({ question, onNextQuestion }) => {
+interface AssessmentQuestionProps {
+  question: Question;
+  onNextQuestion: (answer: string) => void;
+}
+
+const AssessmentQuestion: React.FC<AssessmentQuestionProps> = ({ question, onNextQuestion }) => {
   const [selectedAnswer, setSelectedAnswer] = useState('');
 
-  const handleAnswerChange = (event) => {
+  const handleAnswerChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSelectedAnswer(event.target.value);
   };
 
@@ -18,7 +23,7 @@ const AssessmentQuestion = ({ question, onNextQuestion }) => {
       <h2>{question.text}</h2>
       <ul>
         {question.options.map((option, index) => (
-          <li key={index}>
+          <li key={option}>
             <label>
               <input
                 type="radio"

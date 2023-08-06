@@ -1,5 +1,5 @@
 /* src/App.css */
-.App {
+.Assesment {
     text-align: center;
     margin: auto;
     max-width: 600px;
@@ -64,16 +64,17 @@ body {
     background-color: #f0f0f0;
   }
   
-  .App {
+  /* .App {
     text-align: center;
     padding: 2rem;
-  }
+  } */
   
   .question-container {
     background-color: white;
     border: 1px solid #ddd;
     padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(43, 38, 38, 0.1);
   }
   
   .question-text {
