@@ -176,10 +176,10 @@ const config = {
                 label: '🖥️ Live Playground',
                 to: '/LiveCodeEditor',
               },
-              {
-                label: '🧠 Assesment 🚀',
-                to: '/Assesment',
-              },
+              // {
+              //   label: '🧠 Assesment 🚀',
+              //   to: '/Assesment',
+              // },
               {
                 label: '🏷️ Tutorial Tags 📚',
                 to: '/docs/tags/',
@@ -229,6 +229,10 @@ const config = {
             label: '🌱Community',
             position: 'right',
             items: [
+              {
+                label: '👋 About Us🚀',
+                to: '/About',
+              },
               {
                 // label: 'Discord',         
                 href: 'https://discord.com/invite/BFkPKMsfuZ',
