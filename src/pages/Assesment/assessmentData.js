@@ -1,10 +1,4 @@
-export interface Question {
-  text: string;
-  options: string[];
-  correctAnswer: string;
-}
-
-const assessmentData: Question[] = [
+const assessmentData = [
   {
     text: "What does HTML stand for?",
     options: ["Hyper Text Markup Language", "High Tech Modern Language", "Hyper Transfer Markup Language"],

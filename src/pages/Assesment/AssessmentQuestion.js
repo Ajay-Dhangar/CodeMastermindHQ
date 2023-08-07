@@ -1,15 +1,9 @@
 import React, { useState } from 'react';
-import { Question } from './assessmentData';
 
-interface AssessmentQuestionProps {
-  question: Question;
-  onNextQuestion: (answer: string) => void;
-}
-
-const AssessmentQuestion: React.FC<AssessmentQuestionProps> = ({ question, onNextQuestion }) => {
+const AssessmentQuestion = ({ question, onNextQuestion }) => {
   const [selectedAnswer, setSelectedAnswer] = useState('');
 
-  const handleAnswerChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleAnswerChange = (event) => {
     setSelectedAnswer(event.target.value);
   };
 

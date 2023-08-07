@@ -1,24 +1,23 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
-import './styling.css'; // Include your custom styles
+import './styling.css';
 import AssessmentQuestion from './AssessmentQuestion';
-import assessmentData, { Question } from './assessmentData';
+import assessmentData from './assessmentData';
 
-const Assesment: React.FC = () => {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
-  const [userAnswers, setUserAnswers] = useState<string[]>([]);
+const Assesment = () => {
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [userAnswers, setUserAnswers] = useState([]);
 
-  const handleNextQuestion = (answer: string) => {
+  const handleNextQuestion = (answer) => {
     const updatedAnswers = [...userAnswers];
     updatedAnswers[currentQuestionIndex] = answer;
     setUserAnswers(updatedAnswers);
     setCurrentQuestionIndex(currentQuestionIndex + 1);
   };
 
-  const calculateScore = (): number => {
-    // Calculate user's score based on correct answers
+  const calculateScore = () => {
     let score = 0;
-    assessmentData.forEach((question: Question, index: number) => {
+    assessmentData.forEach((question, index) => {
       if (userAnswers[index] === question.correctAnswer) {
         score++;
       }
@@ -26,7 +25,7 @@ const Assesment: React.FC = () => {
     return score;
   };
 
-  const renderContent = (): JSX.Element => {
+  const renderContent = () => {
     if (currentQuestionIndex < assessmentData.length) {
       return (
         <div className="question-container">
