@@ -229,10 +229,10 @@ const config = {
             label: '🌱Community',
             position: 'right',
             items: [
-              // {
-              //   label: '👋 About Us🚀',
-              //   to: '/About',
-              // },
+              {
+                label: '👋 About Us🚀',
+                to: '/About',
+              },
               {
                 // label: 'Discord',         
                 href: 'https://discord.com/invite/BFkPKMsfuZ',
