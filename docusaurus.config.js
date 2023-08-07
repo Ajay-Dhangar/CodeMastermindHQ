@@ -176,10 +176,10 @@ const config = {
                 label: '🖥️ Live Playground',
                 to: '/LiveCodeEditor',
               },
-              // {
-              //   label: '🧠 Assesment 🚀',
-              //   to: '/Assesment',
-              // },
+              {
+                label: '🧠 Assesment 🚀',
+                to: '/Assesment',
+              },
               {
                 label: '🏷️ Tutorial Tags 📚',
                 to: '/docs/tags/',
