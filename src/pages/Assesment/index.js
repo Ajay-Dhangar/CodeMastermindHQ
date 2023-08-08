@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import './styling.css';
-import AssessmentQuestion from './AssessmentQuestion';
+import AssessmentQuestion from './AssessmentQuestion'; // Make sure the path is correct
 import assessmentData from './assessmentData';
 
-const Assesment = () => {
+const Assessment = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
 
@@ -39,7 +39,7 @@ const Assesment = () => {
       const totalScore = calculateScore();
       return (
         <div className="question-container">
-          <h2 className='assesment-h2'>Assessment Completed</h2>
+          <h2 className='assessment-h2'>Assessment Completed</h2>
           <p>Your Score: {totalScore} out of {assessmentData.length}</p>
         </div>
       );
@@ -48,12 +48,12 @@ const Assesment = () => {
 
   return (
     <Layout wrapperClassName="main-code-container">
-      <div className="Assesment">
-        <h1 className="assesment-h1 assesment-title">Developer Assessment</h1>
+      <div className="Assessment">
+        <h1 className="assessment-h1 assessment-title">Developer Assessment</h1>
         {renderContent()}
       </div>
     </Layout> 
   );
 };
 
-export default Assesment;
+export default Assessment;

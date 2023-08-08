@@ -14,7 +14,7 @@ const AssessmentQuestion = ({ question, onNextQuestion }) => {
 
   return (
     <div>
-      <h2 className='assesment-h2'>{question.phase}</h2>
+      <h2 className='assessment-h2'>{question.phase}</h2> {/* Make sure 'question.phase' is correct */}
       <ul>
         {question.options.map((option, index) => (
           <li key={option}>
