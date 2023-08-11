@@ -14,6 +14,8 @@
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/issues"><img src="https://img.shields.io/github/issues/Ajay-Dhangar/CodeMastermindHQ" alt="Issues Badge"/></a>
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Ajay-Dhangar/CodeMastermindHQ?color=2b9348"></a>
 
+[![Crowdin](https://badges.crowdin.net/cmhq/localized.svg)](https://crowdin.com/project/cmhq)
+
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 
