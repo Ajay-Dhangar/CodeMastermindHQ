@@ -1,0 +1,390 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.Docs.category.🌐 HTML": {
+    "message": "🌐 HTML",
+    "description": "The label for category 🌐 HTML in sidebar Docs"
+  },
+  "sidebar.Docs.category.🌐 HTML.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category 🌐 HTML in sidebar Docs"
+  },
+  "sidebar.Docs.category.Basic Level": {
+    "message": "Basic Level",
+    "description": "The label for category Basic Level in sidebar Docs"
+  },
+  "sidebar.Docs.category.Medium Level": {
+    "message": "Medium Level",
+    "description": "The label for category Medium Level in sidebar Docs"
+  },
+  "sidebar.Docs.category.🎨 CSS": {
+    "message": "🎨 CSS",
+    "description": "The label for category 🎨 CSS in sidebar Docs"
+  },
+  "sidebar.Docs.category.🎨 CSS.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for CSS Mastery.",
+    "description": "The generated-index page description for category 🎨 CSS in sidebar Docs"
+  },
+  "sidebar.Docs.category.🔮 JavaScript": {
+    "message": "🔮 JavaScript",
+    "description": "The label for category 🔮 JavaScript in sidebar Docs"
+  },
+  "sidebar.Docs.category.🔮 JavaScript.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category 🔮 JavaScript in sidebar Docs"
+  },
+  "sidebar.Docs.category.next-generation": {
+    "message": "next-generation",
+    "description": "The label for category next-generation in sidebar Docs"
+  },
+  "sidebar.Docs.category.⚛️ React": {
+    "message": "⚛️ React",
+    "description": "The label for category ⚛️ React in sidebar Docs"
+  },
+  "sidebar.Docs.category.⚛️ React.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category ⚛️ React in sidebar Docs"
+  },
+  "sidebar.Docs.category.Create React App": {
+    "message": "Create React App",
+    "description": "The label for category Create React App in sidebar Docs"
+  },
+  "sidebar.Docs.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar Docs"
+  },
+  "sidebar.Docs.category.Getting Started.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category Getting Started in sidebar Docs"
+  },
+  "sidebar.Docs.category.Development": {
+    "message": "Development",
+    "description": "The label for category Development in sidebar Docs"
+  },
+  "sidebar.Docs.category.Development.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category Development in sidebar Docs"
+  },
+  "sidebar.Docs.category.Styles and Assets": {
+    "message": "Styles and Assets",
+    "description": "The label for category Styles and Assets in sidebar Docs"
+  },
+  "sidebar.Docs.category.Styles and Assets.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category Styles and Assets in sidebar Docs"
+  },
+  "sidebar.Docs.category.Building Your App": {
+    "message": "Building Your App",
+    "description": "The label for category Building Your App in sidebar Docs"
+  },
+  "sidebar.Docs.category.Building Your App.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category Building Your App in sidebar Docs"
+  },
+  "sidebar.Docs.category.Testing": {
+    "message": "Testing",
+    "description": "The label for category Testing in sidebar Docs"
+  },
+  "sidebar.Docs.category.Testing.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category Testing in sidebar Docs"
+  },
+  "sidebar.Docs.category.Back End Integration": {
+    "message": "Back End Integration",
+    "description": "The label for category Back End Integration in sidebar Docs"
+  },
+  "sidebar.Docs.category.Back End Integration.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category Back End Integration in sidebar Docs"
+  },
+  "sidebar.Docs.category.Deployment": {
+    "message": "Deployment",
+    "description": "The label for category Deployment in sidebar Docs"
+  },
+  "sidebar.Docs.category.Deployment.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category Deployment in sidebar Docs"
+  },
+  "sidebar.Docs.category.Advanced Usage": {
+    "message": "Advanced Usage",
+    "description": "The label for category Advanced Usage in sidebar Docs"
+  },
+  "sidebar.Docs.category.Advanced Usage.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for React Mastery.",
+    "description": "The generated-index page description for category Advanced Usage in sidebar Docs"
+  },
+  "sidebar.Docs.category.support": {
+    "message": "support",
+    "description": "The label for category support in sidebar Docs"
+  },
+  "sidebar.Docs.category.api": {
+    "message": "api",
+    "description": "The label for category api in sidebar Docs"
+  },
+  "sidebar.Docs.category.python3": {
+    "message": "python3",
+    "description": "The label for category python3 in sidebar Docs"
+  },
+  "sidebar.Docs.category.capture": {
+    "message": "capture",
+    "description": "The label for category capture in sidebar Docs"
+  },
+  "sidebar.Docs.category.Components": {
+    "message": "Components",
+    "description": "The label for category Components in sidebar Docs"
+  },
+  "sidebar.Docs.category.data": {
+    "message": "data",
+    "description": "The label for category data in sidebar Docs"
+  },
+  "sidebar.Docs.category.digital-design": {
+    "message": "digital-design",
+    "description": "The label for category digital-design in sidebar Docs"
+  },
+  "sidebar.Docs.category.Binary Numbers": {
+    "message": "Binary Numbers",
+    "description": "The label for category Binary Numbers in sidebar Docs"
+  },
+  "sidebar.Docs.category.exercises": {
+    "message": "exercises",
+    "description": "The label for category exercises in sidebar Docs"
+  },
+  "sidebar.Docs.category.entrance": {
+    "message": "entrance",
+    "description": "The label for category entrance in sidebar Docs"
+  },
+  "sidebar.Docs.category.finance": {
+    "message": "finance",
+    "description": "The label for category finance in sidebar Docs"
+  },
+  "sidebar.Docs.category.games": {
+    "message": "games",
+    "description": "The label for category games in sidebar Docs"
+  },
+  "sidebar.Docs.category.RDR2": {
+    "message": "RDR2",
+    "description": "The label for category RDR2 in sidebar Docs"
+  },
+  "sidebar.Docs.category.github-issues": {
+    "message": "github-issues",
+    "description": "The label for category github-issues in sidebar Docs"
+  },
+  "sidebar.Docs.category.goods": {
+    "message": "goods",
+    "description": "The label for category goods in sidebar Docs"
+  },
+  "sidebar.Docs.category.grammar": {
+    "message": "grammar",
+    "description": "The label for category grammar in sidebar Docs"
+  },
+  "sidebar.Docs.category.location": {
+    "message": "location",
+    "description": "The label for category location in sidebar Docs"
+  },
+  "sidebar.Docs.category.Lvovskaya-2020-2021": {
+    "message": "Lvovskaya-2020-2021",
+    "description": "The label for category Lvovskaya-2020-2021 in sidebar Docs"
+  },
+  "sidebar.Docs.category.black-friday-orders": {
+    "message": "black-friday-orders",
+    "description": "The label for category black-friday-orders in sidebar Docs"
+  },
+  "sidebar.Docs.category.markdown": {
+    "message": "markdown",
+    "description": "The label for category markdown in sidebar Docs"
+  },
+  "sidebar.Docs.category.new-disk": {
+    "message": "new-disk",
+    "description": "The label for category new-disk in sidebar Docs"
+  },
+  "sidebar.Docs.category.node": {
+    "message": "node",
+    "description": "The label for category node in sidebar Docs"
+  },
+  "sidebar.Docs.category.bundlers": {
+    "message": "bundlers",
+    "description": "The label for category bundlers in sidebar Docs"
+  },
+  "sidebar.Docs.category.npm": {
+    "message": "npm",
+    "description": "The label for category npm in sidebar Docs"
+  },
+  "sidebar.Docs.category.OS": {
+    "message": "OS",
+    "description": "The label for category OS in sidebar Docs"
+  },
+  "sidebar.Docs.category.OS.link.generated-index.description": {
+    "message": "5 minutes to learn the most important RoadMap for OS.",
+    "description": "The generated-index page description for category OS in sidebar Docs"
+  },
+  "sidebar.Docs.category.Unix": {
+    "message": "Unix",
+    "description": "The label for category Unix in sidebar Docs"
+  },
+  "sidebar.Docs.category.Linux": {
+    "message": "Linux",
+    "description": "The label for category Linux in sidebar Docs"
+  },
+  "sidebar.Docs.category.Debian": {
+    "message": "Debian",
+    "description": "The label for category Debian in sidebar Docs"
+  },
+  "sidebar.Docs.category.MX Linux": {
+    "message": "MX Linux",
+    "description": "The label for category MX Linux in sidebar Docs"
+  },
+  "sidebar.Docs.category.MX-21": {
+    "message": "MX-21",
+    "description": "The label for category MX-21 in sidebar Docs"
+  },
+  "sidebar.Docs.category.Windows": {
+    "message": "Windows",
+    "description": "The label for category Windows in sidebar Docs"
+  },
+  "sidebar.Docs.category.rhyme": {
+    "message": "rhyme",
+    "description": "The label for category rhyme in sidebar Docs"
+  },
+  "sidebar.Docs.category.sound": {
+    "message": "sound",
+    "description": "The label for category sound in sidebar Docs"
+  },
+  "sidebar.Docs.category.shells": {
+    "message": "shells",
+    "description": "The label for category shells in sidebar Docs"
+  },
+  "sidebar.Docs.category.commands": {
+    "message": "commands",
+    "description": "The label for category commands in sidebar Docs"
+  },
+  "sidebar.Docs.category.sed": {
+    "message": "sed",
+    "description": "The label for category sed in sidebar Docs"
+  },
+  "sidebar.Docs.category.site-generators": {
+    "message": "site-generators",
+    "description": "The label for category site-generators in sidebar Docs"
+  },
+  "sidebar.Docs.category.docusaurus": {
+    "message": "docusaurus",
+    "description": "The label for category docusaurus in sidebar Docs"
+  },
+  "sidebar.Docs.category.jekyll": {
+    "message": "jekyll",
+    "description": "The label for category jekyll in sidebar Docs"
+  },
+  "sidebar.Docs.category.just-the-docs": {
+    "message": "just-the-docs",
+    "description": "The label for category just-the-docs in sidebar Docs"
+  },
+  "sidebar.Docs.category.sites": {
+    "message": "sites",
+    "description": "The label for category sites in sidebar Docs"
+  },
+  "sidebar.Docs.category.stories": {
+    "message": "stories",
+    "description": "The label for category stories in sidebar Docs"
+  },
+  "sidebar.Docs.category.new-ostap-bender": {
+    "message": "new-ostap-bender",
+    "description": "The label for category new-ostap-bender in sidebar Docs"
+  },
+  "sidebar.Docs.category.thoughts": {
+    "message": "thoughts",
+    "description": "The label for category thoughts in sidebar Docs"
+  },
+  "sidebar.Docs.category.Utils": {
+    "message": "Utils",
+    "description": "The label for category Utils in sidebar Docs"
+  },
+  "sidebar.Docs.category.Unix/Unix-like": {
+    "message": "Unix/Unix-like",
+    "description": "The label for category Unix/Unix-like in sidebar Docs"
+  },
+  "sidebar.Docs.category.powershell": {
+    "message": "powershell",
+    "description": "The label for category powershell in sidebar Docs"
+  },
+  "sidebar.Docs.category.verbs": {
+    "message": "verbs",
+    "description": "The label for category verbs in sidebar Docs"
+  },
+  "sidebar.Docs.category.virtual-machines": {
+    "message": "virtual-machines",
+    "description": "The label for category virtual-machines in sidebar Docs"
+  },
+  "sidebar.Docs.category.docker": {
+    "message": "docker",
+    "description": "The label for category docker in sidebar Docs"
+  },
+  "sidebar.Docs.category.multipass": {
+    "message": "multipass",
+    "description": "The label for category multipass in sidebar Docs"
+  },
+  "sidebar.Docs.category.vs-code": {
+    "message": "vs-code",
+    "description": "The label for category vs-code in sidebar Docs"
+  },
+  "sidebar.Docs.category.extension-api": {
+    "message": "extension-api",
+    "description": "The label for category extension-api in sidebar Docs"
+  },
+  "sidebar.Docs.category.extensions": {
+    "message": "extensions",
+    "description": "The label for category extensions in sidebar Docs"
+  },
+  "sidebar.Docs.category.macros": {
+    "message": "macros",
+    "description": "The label for category macros in sidebar Docs"
+  },
+  "sidebar.Docs.category.regex": {
+    "message": "regex",
+    "description": "The label for category regex in sidebar Docs"
+  },
+  "sidebar.Docs.category.snippets": {
+    "message": "snippets",
+    "description": "The label for category snippets in sidebar Docs"
+  },
+  "sidebar.Docs.category.windows-and-linux": {
+    "message": "windows-and-linux",
+    "description": "The label for category windows-and-linux in sidebar Docs"
+  },
+  "sidebar.Docs.category.workplace": {
+    "message": "workplace",
+    "description": "The label for category workplace in sidebar Docs"
+  },
+  "sidebar.Docs.category.git": {
+    "message": "git",
+    "description": "The label for category git in sidebar Docs"
+  },
+  "sidebar.Docs.category.linux": {
+    "message": "linux",
+    "description": "The label for category linux in sidebar Docs"
+  },
+  "sidebar.Docs.category.Onenote To Markdown": {
+    "message": "Onenote To Markdown",
+    "description": "The label for category Onenote To Markdown in sidebar Docs"
+  },
+  "sidebar.Docs.category.windows": {
+    "message": "windows",
+    "description": "The label for category windows in sidebar Docs"
+  },
+  "sidebar.Docs.category.creative": {
+    "message": "creative",
+    "description": "The label for category creative in sidebar Docs"
+  },
+  "sidebar.Docs.category.office": {
+    "message": "office",
+    "description": "The label for category office in sidebar Docs"
+  },
+  "sidebar.Docs.category.writing-system": {
+    "message": "writing-system",
+    "description": "The label for category writing-system in sidebar Docs"
+  },
+  "sidebar.Docs.link.ThreePhotos": {
+    "message": "ThreePhotos",
+    "description": "The label for link ThreePhotos in sidebar Docs, linking to /threePhotos"
+  }
+}

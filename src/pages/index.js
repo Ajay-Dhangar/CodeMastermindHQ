@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
@@ -12,7 +13,7 @@ const features = [
     imageUrl: 'dev-img/cd-html.svg',
     description: (
       <>
-        The latest version of the markup language for web pages, introducing enhanced 
+        The latest version of the markup language for web pages, introducing enhanced
         semantics, multimedia support, and improved accessibility.
       </>
     ),
@@ -22,7 +23,7 @@ const features = [
     imageUrl: 'dev-img/cd-css3.svg',
     description: (
       <>
-        The latest version of CSS that brings exciting enhancements like animations, 
+        The latest version of CSS that brings exciting enhancements like animations,
         gradients, and transitions, empowering modern web design.
       </>
     ),
@@ -32,8 +33,8 @@ const features = [
     imageUrl: 'dev-img/cd-javascript.svg',
     description: (
       <>
-        Versatile, high-level scripting language. 
-        Powers dynamic web interactions with HTML/CSS. 
+        Versatile, high-level scripting language.
+        Powers dynamic web interactions with HTML/CSS.
         Supports both front-end and back-end.
       </>
     ),
@@ -43,7 +44,7 @@ const features = [
     imageUrl: 'dev-img/react.svg',
     description: (
       <>
-        A powerful JavaScript library for building user interfaces. 
+        A powerful JavaScript library for building user interfaces.
         It enables efficient rendering and modular component-based development.
       </>
     ),
@@ -53,7 +54,7 @@ const features = [
     imageUrl: 'dev-img/node-js.svg',
     description: (
       <>
-        A powerful JavaScript runtime built on Chrome's V8 engine, enabling scalable 
+        A powerful JavaScript runtime built on Chrome's V8 engine, enabling scalable
         and efficient server-side and networking applications.
       </>
     ),
@@ -63,7 +64,7 @@ const features = [
     imageUrl: 'dev-img/mongodb.svg',
     description: (
       <>
-        A flexible and scalable NoSQL database that stores data in JSON-like documents, 
+        A flexible and scalable NoSQL database that stores data in JSON-like documents,
         offering high performance and easy scalability.
       </>
     ),
@@ -80,7 +81,7 @@ const features = [
   // },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -89,7 +90,7 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3 style={{textAlign:'center'}}>{title}</h3>
+      <h3 style={{ textAlign: 'center' }}>{title}</h3>
       <p>{description}</p>
     </div>
   );
@@ -97,15 +98,18 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
+
           <h1 className="hero__title">{siteConfig.title}</h1>
+
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -113,7 +117,8 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/react/create-react-app/getting-started/')}>
-              Get Started
+              <Translate description="The homepage main heading">Get Started</Translate>
+
             </Link>
           </div>
         </div>
@@ -136,7 +141,7 @@ function Home() {
             </div>
           </section>
         )}
-      </main>        
+      </main>
     </Layout>
   );
 }
