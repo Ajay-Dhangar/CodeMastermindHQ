@@ -228,14 +228,7 @@ const config = {
           },
 
 
-          {
-            href: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ',
-            position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
-          },
-
-         
+                   
           // {
           //   type: 'dropdown',
           //   label: '🌱Community',
@@ -263,6 +256,13 @@ const config = {
           //     //   href: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ/graphs/contributors',
           //     //   html: `<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Ajay-Dhangar/CodeMastermindHQ?color=2b9348">`
           //     // },
+          
+          {
+            href: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          },
           //   ]
           // },
         ],
