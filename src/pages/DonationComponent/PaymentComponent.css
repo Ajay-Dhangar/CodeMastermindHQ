@@ -1,0 +1,42 @@
+/* PaymentComponent.css */
+.payment-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.payment-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.payment-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.payment-button:hover {
+  background-color: #0056b3;
+}
+/* JoinCommunityButton.css */
+.join-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.join-button:hover {
+  background-color: #218838;
+}
