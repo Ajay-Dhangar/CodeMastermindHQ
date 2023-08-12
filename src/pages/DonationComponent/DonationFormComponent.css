@@ -1,91 +1,154 @@
-/* src/components/DonationFormComponent.css */
 .donation-form-container {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    /* min-height: 100vh; */
-    /* background-color: #f4f7fc; */
-  }
-  
+  display: flex;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+.donation-form {
+  /* background-color: #f7f7f7; */
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px rgba(55, 52, 52, 0.666);
+}
+
+.donation-form-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  /* color: #333; */
+  text-shadow: 4px 4px 10px rgba(146, 127, 127, 0.709);
+}
+
+.donation-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+
+.donation-form input,
+.donation-form textarea,
+.donation-form select {
+  width: 100%;
+  border: 1px solid #7e8084;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.donation-form input:focus,
+.donation-form textarea:focus,
+.donation-form select:focus {
+  border-color: #007bff;
+}
+
+
+.donation-form select {
+  cursor: pointer;
+}
+
+.submit-button {
+  padding: 12px 20px;
+  font-size: 18px;
+  /* background-color: #007bff; */
+  background-color: #4caf50;
+  display: inline-block;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  /* background-color: #0056b3; */
+  background-color: #45a049;
+}
+
+.donation-form img {
+  max-width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Query for Mobile */
+@media (max-width: 576px) {
   .donation-form {
-    /* max-width: 500px; */
-    padding: 40px;
-    /* background-color: #ffffff; */
-    border-radius: 10px;
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    padding: 20px;
   }
-  
-  .donation-form h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
+}
+
+/* Animations and Transitions */
+.thank-you-message {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  color: #fff;
+  background-color: #202642;
+  /* background-color: #4caf50; */
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(77, 71, 71, 0.701);
+  animation: fade-in 1s ease-in-out;
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  .donation-form label {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 10px;
-    text-align: left;
-    /* color: #555; */
+
+  to {
+    opacity: 1;
   }
-  
-  .donation-form input,
-  .donation-form textarea,
-  .donation-form select {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #7e8084;
-    border-radius: 5px;
-    font-size: 16px;
-    /* color: #333; */
-    transition: border-color 0.3s ease;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .donation-form {
+    max-width: 90%;
   }
-  
-  .donation-form input:focus,
-  .donation-form textarea:focus,
-  .donation-form select:focus {
-    border-color: #007bff;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
   }
-  
-  .donation-form select {
-    cursor: pointer;
+
+  to {
+    opacity: 1;
   }
-  
-  .submit-button {
-    padding: 12px 20px;
-    font-size: 18px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .submit-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .donation-form img {
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .donation-form-container {
     max-width: 100%;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Media Query for Mobile */
-  @media (max-width: 576px) {
-    .donation-form {
-      padding: 20px;
-    }
-  }
-  .thank-you-message {
-    margin-top: 50px;    
     padding: 10px;
-    font-size: 28px;
-    background-color: #4caf50;
-    color: #fff;
-    border-radius: 5px;
-    text-align: center;
   }
+
+  .donation-form {
+    padding: 10px;
+  }
+
+  .submit-button {
+    display: block;
+    width: 100%;
+  }
+}

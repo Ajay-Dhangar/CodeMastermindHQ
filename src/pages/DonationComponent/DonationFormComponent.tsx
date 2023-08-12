@@ -42,11 +42,10 @@ const DonationFormComponent = () => {
     }
   };
 
-
   return (
     <Layout>
     <div className="donation-form-container">
-      <h2 style={{textAlign:'center', color:'green'}}>Add Me to Donation Group/Community</h2>
+      <h2 style={{textAlign:'center', color:'#45a049'}}>Add Me to Donation Group/Community</h2>
       {submissionSuccess ? (
         <div className="thank-you-message">
           Thank you for your submission!
