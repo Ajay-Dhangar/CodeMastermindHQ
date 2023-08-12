@@ -1,11 +1,13 @@
-// ProfileCard.jsx
-
 import React from 'react';
 import './ProfileCard.css';
 import { IonIcon } from '@ionic/react';
 import { logoTwitter, logoLinkedin } from 'ionicons/icons';
 
 const ProfileCard = ({ profileData }) => {
+    if (!profileData) {
+        return null;
+    }
+
     const { image, message, name, socialLinks } = profileData;
 
     return (

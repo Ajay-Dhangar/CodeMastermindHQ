@@ -14,34 +14,6 @@ const ContributionComponent = () => {
                 linkedin: 'https://www.linkedin.com/in/ajay-dhangar/',
             },
         },
-        // Add more profiles as needed
-        {
-            image: 'https://avatars.githubusercontent.com/u/101887417?v=4',
-            message: `Hello, I'm another developer!`,
-            name: 'Shivaya',
-            socialLinks: {
-                twitter: '/',
-                linkedin: '/',
-            },
-        },
-        {
-            image: 'https://avatars.githubusercontent.com/u/101887417?v=4',
-            message: `Hello, I'm another developer!`,
-            name: 'Shivaya',
-            socialLinks: {
-                twitter: '/',
-                linkedin: '/',
-            },
-        },
-        {
-            image: 'https://avatars.githubusercontent.com/u/101887417?v=4',
-            message: `Hello, I'm another developer!`,
-            name: 'Shivaya',
-            socialLinks: {
-                twitter: '/',
-                linkedin: '/',
-            },
-        },
         {
             image: 'https://avatars.githubusercontent.com/u/101887417?v=4',
             message: `Hello, I'm another developer!`,
