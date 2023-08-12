@@ -30,9 +30,7 @@ const ContributionComponent = () => {
         <Layout wrapperClassName='main-code-container'>
             <IonReactRouter>
                 <div className="Main-Profile-Page">
-                    {profileDataList.map((profileData, index) => (
-                        <ProfileCard key={index} profileData={profileData} />
-                    ))}
+                    <ProfileCard profileData={profileDataList} />
                 </div>
             </IonReactRouter>
         </Layout>
