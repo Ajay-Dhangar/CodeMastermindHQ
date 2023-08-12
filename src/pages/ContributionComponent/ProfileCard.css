@@ -1,0 +1,75 @@
+/* ProfileCard.css */
+.Main-Profile-Page{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile-card {
+    display: flex;
+    /* background-color: #fff; */
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(88, 83, 83, 0.732);
+    overflow: hidden;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .profile-details {
+    flex-grow: 1;
+    padding: 16px;
+  }
+  
+  .profile-details h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    /* color: #333; */
+  }
+  
+  .profile-details p {
+    margin: 8px 0;
+    /* color: #666; */
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    background-color: #ddd;
+    transform: scale(1.2);
+  }
+  
+  .social-links ion-icon {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
