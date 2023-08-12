@@ -23,7 +23,7 @@ const PaymentComponent = () => {
     return (
         <Layout>
             <div className="payment-container">
-                <h2 style={{ color: 'green' }}>Select an Amount to Donate:</h2>
+                <h2 style={{ color: '#45a049' }}>Select an Amount to Donate:</h2>
                 <div className="payment-options">
                     {paymentOptions.map((option) => (
                         <Link to={option.link}>

@@ -1,42 +1,103 @@
 /* PaymentComponent.css */
+
 .payment-container {
-  text-align: center;
-  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .payment-options {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .payment-button {
-  margin: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #1b6d48;
+  color: white;
   border: none;
-  cursor: pointer;
+  padding: 10px 15px;
   border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .payment-button:hover {
-  background-color: #0056b3;
+  background-color: #359f72;
+  transform: scale(1.05);
 }
-/* JoinCommunityButton.css */
+
 .join-button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #28a745;
-  color: #fff;
+  background-color: #007bff;
+  color: white;
   border: none;
-  cursor: pointer;
+  padding: 10px 15px;
   border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .join-button:hover {
-  background-color: #218838;
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Animation and Keyframes */
+
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 768px) {
+  .payment-options {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}
+.payment-button,
+.join-button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.payment-button:hover,
+.join-button:hover {
+    /* background-color: #45a049; */
+    transform: scale(1.05);
+}
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.join-button {
+  animation: fadeInUp 0.5s ease;
 }
