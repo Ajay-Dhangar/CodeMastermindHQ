@@ -218,7 +218,7 @@ const config = {
             items: [
               {
                 to: 'https://github.com/sponsors/Ajay-Dhangar',
-                label: '💝 Sponsors',
+                html: '<iframe src="https://github.com/sponsors/Ajay-Dhangar/button" title="Sponsor Ajay-Dhangar" height="32" width="120px" style="border: 0; border-radius: 6px;"></iframe>',
               },
               {
                 // to: 'https://paytm.business/link/1691717913115/LL_644057646',
