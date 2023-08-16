@@ -9,7 +9,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://codemastermindhq.netlify.app//manifest.json"
+      "url": "https://codemastermindhq.vercel.app//manifest.json"
     }
   ],
   "icons": [
