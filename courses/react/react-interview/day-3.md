@@ -5,6 +5,14 @@ sidebar_position: 3
 sidebar_label: Day 3
 ---
 
+```mdx-code-block
+import BrowserWindow from '@site/src/components/BrowserWindow';
+import CodeBlock from '@theme/CodeBlock';
+import card from '@site/src/css/markdown.module.css'
+
+import UserProfile from './lab-practice/UserProfile';
+```
+
 ### 17. What are React Life cycles Explain each one with Example?
 
 <details>
@@ -412,31 +420,313 @@ In this example, the `useEffect` hook is used to fetch weather data from an API 
 ### 23. clean up in useEffect
 
 <details>
-    <summary>Answer:</summary>
+  <summary>Answer:</summary>
+
+In React, a `useEffect` hook is used to perform side effects in your components. Side effects could include things like data fetching, subscriptions, or manually changing the DOM. Sometimes, these side effects need to be cleaned up or undone when the component is removed from the screen or when the relevant data changes.
+
+Cleaning up in `useEffect` means making sure that any resources or effects you set up are properly removed or reverted when they're no longer needed. This helps prevent memory leaks and ensures that your application runs smoothly.
+
+**Simple analogy:**
+
+Imagine you're at a campfire, and you want to roast marshmallows. After you're done roasting, it's important to extinguish the fire properly, so it doesn't cause any problems. Cleaning up in `useEffect` is similar – you're ensuring that any "fires" you started in your component are put out when you're done with them.
+
+Now, let's relate this to React with an example:
+
+```jsx
+import React, { useState, useEffect } from 'react';
+```
+
+```jsx live
+function CampfireComponent() {
+  const [roasting, setRoasting] = useState(false);
+
+  useEffect(() => {
+    // This is like starting the campfire
+    console.log('Campfire started');
+
+    // Clean-up function
+    return () => {
+      // This is like extinguishing the campfire
+      console.log('Campfire extinguished');
+    };
+  }, [roasting]);
+
+  const toggleRoasting = () => {
+    setRoasting((prevState) => !prevState);
+  };
+
+  return (
+    <div>
+      <button onClick={toggleRoasting}>
+        {roasting ? 'Stop Roasting' : 'Start Roasting'}
+      </button>
+      <p>Roasting: {roasting ? 'Yes' : 'No'}</p>
+    </div>
+  );
+}
+
+```
+
+In this example, the `useEffect` hook sets up the "campfire" when `roasting` state changes. The `return` function inside the `useEffect` acts as the cleanup step when the component unmounts or when the `roasting` state changes again. This ensures that any resources or effects initiated during the "campfire" are properly cleaned up when they're no longer needed.
+
+During an interview, you can explain how this analogy applies to React's `useEffect`, emphasizing that it's a way to manage resources and effects to maintain the performance and stability of your application.
+
 </details>
 
 ### 24. What is UseReducer Hook ?(Implementation)
 
 <details>
-    <summary>Answer:</summary>
+  <summary>Answer:</summary>
+
+The `useReducer` hook in React is a way to manage complex state logic in your components. It's an alternative to the more commonly used `useState` hook. While `useState` is great for simple state management, `useReducer` is more suitable when your state transitions involve multiple actions and become intricate.
+
+**Think of it like this:** Imagine you're driving a car, and you need to make various maneuvers like accelerating, braking, and turning. If your car actions become more intricate, it's easier to use a steering wheel (like `useReducer`) than pushing pedals (like `useState`).
+
+**Example:**
+
+Let's say you're building a simple counter app using `useReducer`.
+
+First, you'll need to import `useReducer` at the top of your component file:
+
+```jsx
+import React, { useReducer } from 'react';
+```
+
+Now, let's create a reducer function. The reducer takes the current state and an action as parameters and returns the new state based on the action. In this example, we'll increment and decrement the count based on the action type.
+
+```jsx
+const initialState = { count: 0 };
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: state.count + 1 };
+    case 'DECREMENT':
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
+};
+```
+
+Now, in your component, you can use the `useReducer` hook like this:
+
+```jsx
+function Counter() {
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  return (
+    <div>
+      <p>Count: {state.count}</p>
+      <button onClick={() => dispatch({ type: 'INCREMENT' })}>Increment</button>
+      <button onClick={() => dispatch({ type: 'DECREMENT' })}>Decrement</button>
+    </div>
+  );
+}
+```
+
+```jsx live
+function Counter() {
+const initialState = { count: 0 };
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: state.count + 1 };
+    case 'DECREMENT':
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
+};
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  return (
+    <div>
+      <p>Count: {state.count}</p>
+      <button onClick={() => dispatch({ type: 'INCREMENT' })}>Increment</button> 
+      <span> </span>
+      <button onClick={() => dispatch({ type: 'DECREMENT' })}>Decrement</button>
+    </div>
+  );
+}
+```
+
+In this example, `state` holds the current state object, and `dispatch` is a function that sends actions to the reducer. When the buttons are clicked, they dispatch the respective actions, and the reducer function updates the state accordingly.
+
+This way, you're using `useReducer` to manage the state transitions more effectively, especially when the logic becomes more complex. It's like having a dedicated tool (reducer) for handling different actions and their effects on the state.
+
 </details>
 
 ### 25. What is UseMemo Hook ?(Implementation)
 
 <details>
-    <summary>Answer:</summary>
+  <summary>Answer:</summary>
+
+Imagine you're building a React application, and sometimes your components need to perform some heavy calculations or operations to generate data. Now, if these calculations are done every time your component renders, it could slow down your app's performance, especially if the input data hasn't changed. This is where `useMemo` comes in handy.
+
+`useMemo` is a React hook that allows you to optimize performance by memoizing (caching) the result of a function or computation. It remembers the result of a calculation based on the dependencies you provide, and only recalculates when those dependencies change.
+
+**Simple example:**
+
+```jsx
+import React, { useState, useMemo } from 'react';
+```
+
+```jsx live
+function App() {
+  const [count, setCount] = useState(0);
+  
+  // Without useMemo: This function gets called every time the component renders
+  const expensiveCalculation = () => {
+    console.log("Calculating...");
+    let result = 0;
+    for (let i = 1; i <= count; i++) {
+      result += i;
+    }
+    return result;
+  };
+
+  // With useMemo: This function will only re-run when 'count' changes
+  const memoizedResult = useMemo(() => {
+    console.log("Calculating (with useMemo)...");
+    let result = 0;
+    for (let i = 1; i <= count; i++) {
+      result += i;
+    }
+    return result;
+  }, [count]);
+
+  return (
+    <div>
+      <div>
+        <p>Count: {count}</p>
+        <p>Expensive Calculation Result: {expensiveCalculation()}</p>
+        <p>Memoized Result: {memoizedResult}</p>
+      </div>
+      <button onClick={() => setCount(count + 1)}>Increment Count</button>
+    </div>
+  );
+}
+```
+
+In this example, we're using the `useMemo` hook to cache the result of the calculation based on the `count` dependency. When you click the "Increment Count" button, you'll notice that the "Expensive Calculation Result" changes every time because the calculation runs with every render. However, the "Memoized Result" only recalculates when the `count` changes, as indicated by the console logs.
+
+By using `useMemo`, you can improve your app's performance by avoiding unnecessary recalculations and only updating when needed, which is particularly important for components with complex computations.
+
 </details>
 
 ### 26. What is UseRef Hook ?(Implementation)
 
 <details>
-    <summary>Answer:</summary>
+  <summary>Answer:</summary>
+
+In React, the `useRef` hook is used to access and interact with DOM elements or to store mutable values that won't trigger a re-render when they change. Unlike the `useState` hook, changes to the `useRef` value won't cause the component to update, making it useful for managing things that don't affect the UI directly.
+
+**Example:**
+Let's say you have a simple component that includes a button. When you click the button, you want to focus on an input field without causing the whole component to re-render.
+
+```jsx
+import React, { useRef } from 'react';
+```
+
+```jsx live
+function FocusExample() {
+  // Create a ref using the useRef hook
+  const inputRef = useRef(null);
+
+  const handleButtonClick = () => {
+    // Use the ref to focus on the input element
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  };
+
+  return (
+    <div>
+      <input ref={inputRef} type="text" />
+      <button onClick={handleButtonClick}>Focus Input</button>
+    </div>
+  );
+}
+```
+
+In this example, the `useRef` hook is used to create a reference (`inputRef`) to the input element. When the button is clicked, the `handleButtonClick` function is called, and it uses the `inputRef` to focus on the input element without causing a re-render of the component.
+
 </details>
 
 ### 27. High Order Component in react js ?
 
 <details>
-    <summary>Answer:</summary>
+  <summary>Answer:</summary>
+
+A Higher Order Component (HOC) is a design pattern used in React that enhances the behavior or functionality of a component by wrapping it inside another component. It's like a function that takes a component as input and returns a new component with some additional features or props. HOCs are often used to reuse logic, apply cross-cutting concerns (like authentication or data fetching), and keep the codebase modular.
+
+**Example:**
+Let's say you have a component named `UserProfile` that displays a user's information. You want to add some conditional rendering logic to this component to show a "Premium User" badge if the user has a premium subscription. Instead of cluttering your `UserProfile` component with this logic, you can use an HOC.
+
+**How you might define an HOC to achieve this:**
+
+```jsx
+import React from 'react';
+
+// This is the Higher Order Component
+const withPremiumBadge = (WrappedComponent) => {
+  return class extends React.Component {
+    render() {
+      const { isPremiumUser, ...rest } = this.props;
+
+      return (
+        <div>
+          {isPremiumUser && <div>Premium User</div>}
+          <WrappedComponent {...rest} />
+        </div>
+      );
+    }
+  };
+};
+
+// This is the original component
+class UserProfile extends React.Component {
+  render() {
+    const { name, isPremiumUser } = this.props;
+
+    return (
+      <div>
+        <h1>{name}</h1>
+        {isPremiumUser ? <p>Premium User Content</p> : <p>Regular User Content</p>}
+      </div>
+    );
+  }
+}
+
+// Wrap UserProfile component with the withPremiumBadge HOC
+const UserProfileWithBadge = withPremiumBadge(UserProfile);
+
+// Usage
+const App = () => {
+  return (
+    <div>
+      <UserProfileWithBadge name="Shivay" isPremiumUser={true} />
+      <UserProfileWithBadge name="Ajay Dhangar" isPremiumUser={false} />
+    </div>
+  );
+};
+
+export default App;
+```
+
+<BrowserWindow>
+  <div>
+    <UserProfile/>
+  </div>
+</BrowserWindow>
+
+In this example, the `withPremiumBadge` HOC takes the `UserProfile` component as input and returns a new component that conditionally renders the premium badge and then renders the original `UserProfile` component. This allows you to keep your `UserProfile` component clean and focused on displaying user information, while the HOC takes care of adding the badge based on the `isPremiumUser` prop.
+
+:::tip
+Remember, HOCs are a powerful tool in React to enhance component behavior and reusability. They can be used for a wide range of scenarios, from handling authentication to managing state or props.
+:::
 </details>
 
 ### 28. Difference between callback and useCallback Hook ?
