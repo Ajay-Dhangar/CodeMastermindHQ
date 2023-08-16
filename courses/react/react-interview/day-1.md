@@ -131,6 +131,20 @@ So, think of the Virtual DOM as a smart assistant that helps React update the we
      </tr>
    </table>
 
+:::tip
+
+| No. | Function Components| Class Components|
+| :----| :------------------| :---------------|
+|Definition | Define by JS Function | Define the JS Class|
+|State-Management| Use useState and useEffect hook to manage state and life cycle methods | use state and lifecycle methods inside the class|
+Props| Passed as an argument to the function components | Pass as a property to the class components|
+Life-cycle methods | useEffect hooks manage components lifecycle | Has access to lifecycle methods such as componentDidMount and componentDidUpdate|
+Performance | Generally faster because they do not have to create an instance of the component | Slightly slower because they have to create an instance of the component|
+Syntax | 	Simpler and easier to read and understand | More verbose and complex |
+Code-Reusability | Can be easily reused in other components | Cannot be easily reused in other components
+Testing | 	Easier to test because they are pure functions | More difficult to test because they have state and lifecycle methods|
+:::
+
 </details>
 
 ### 5. Difference b/w Stateful and stateless Component?
@@ -177,19 +191,49 @@ So, think of the Virtual DOM as a smart assistant that helps React update the we
         
    </table>
 
+:::tip
+|  No.  |Stateful | Stateless|
+| :-----| :-------| :--------|
+|1. | Stores info about the component's state change memory| Calculate the internal state of the components|
+|2. |Authority to change state | Do not Authority to change state |
+|3. | Manage React lifecycle method | Not Manage react lifecycle method|
+|4. |contains the knowledge of past, current, and possible further changes in state. | Contains no knowledge of past, current, and possible further state changes.|
+|5. |Class components is stateful compo | Function components is stateless compo|
+:::
+
 </details>
 
 
 ### 6. What does mean by state and its use in react?
 
 <details>
-    <summary>Answer:</summary>
+   <summary>Answer:</summary>
+
 State is an object that represents the data a component needs to maintain. It allows components to store and manage dynamic data. State can be updated using `this.setState()` in class components or using the `useState` Hook in functional components. For example, a counter component's state could store the current count value.
 
 <h3 align="center">OR</h3>
 
 State is a JavaScript object that represents the current data in a component. It allows components to manage and store dynamic data that can change over time.
 
+<hr/>
+
+:::tip simple Point
+**State in React: Simplified Explanation**
+
+- **What is State:** In React, state is like a container for changing information in a component.
+
+- **Usage:** We use state to manage things that can change, like user input or component behavior.
+
+- **Example:** Imagine a light switch. The switch's state can be "on" or "off." Similarly, components have states that change.
+
+- **setState():** To change state in React, we use `setState()`. It's like updating a variable to keep things current.
+
+- **Automatic Update:** When state changes, React automatically updates what's shown on the screen. It's like magic!
+
+- **Component-Specific:** Each component has its own state. This helps keep things organized and separate between components.
+
+- **Why Important:** State helps make interactive and responsive apps by allowing components to react to user actions or data changes.
+:::
 
 :::tip
 Imagine you're building a to-do list app using React. The state would be where you keep track of the list of tasks. Let's break it down:
@@ -202,20 +246,25 @@ Imagine you're building a to-do list app using React. The state would be where y
 In summary, state in React helps your components manage and remember data that can change as your app runs. It's a fundamental concept that allows your app to be interactive and responsive to user actions. 
 :::
 
+
+
 </details>
 
 
 ### 7. What is JSX and why do we use it instead of js?
+
 <details>
-    <summary>Answer:</summary>
-     
-- JSX stands for "JavaScript XML." 
-- It's a special syntax that you use in React to describe what the user interface should look like. 
-- JSX (JavaScript XML) is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript. 
-- It might look a bit like HTML, but it's actually a mix of JavaScript and XML-like code.
-- It provides a more readable and declarative way to define UI components in React. 
-- JSX code is transpiled into plain JavaScript by tools like Babel. 
-- It helps in creating components that are easier to understand and maintain.
+   <summary>Answer:</summary>
+ 
+<ul>
+<li>JSX stands for <b>JavaScript XML</b>. </li>
+<li>It's a special syntax that you use in React to describe what the user interface should look like. </li>
+<li>JSX (JavaScript XML) is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript. </li>
+<li>It might look a bit like HTML, but it's actually a mix of JavaScript and XML-like code. </li>
+<li>It provides a more readable and declarative way to define UI components in React. </li>
+<li>JSX code is transpiled into plain JavaScript by tools like Babel. </li>
+<li>It helps in creating components that are easier to understand and maintain.</li>
+</ul>
 
 <b>why we use JSX in React:</b>
 
@@ -231,6 +280,10 @@ In summary, state in React helps your components manage and remember data that c
 
 6. <b>Tooling:</b> JSX is well-supported by development tools and extensions, which can help catch errors and provide useful hints as you code.
 
+:::tip
+**Bebal** - Babel is a JavaScript compiler that allows developers to use modern JavaScript syntax and features while still supporting older browsers that do not support these features. Babel can compile JSX code into plain JavaScript code that can be run in any modern web browser.
+- Bebel is transpiler that is help to convert the Higher level js  into browser compatible js.
+:::
 
 </details>
 
@@ -240,9 +293,9 @@ In summary, state in React helps your components manage and remember data that c
 ### 8. What is package.json?
 
 <details>
-    <summary>Answer:</summary>
+   <summary>Answer:</summary>
 
-    `package.json` is a JSON file in a Node.js project that contains metadata about the project and its dependencies. It includes information about the project's name, version, description, scripts, and dependencies. It's also used to manage project dependencies and scripts for running tasks like building and testing.
+   `package.json` is a JSON file in a Node.js project that contains metadata about the project and its dependencies. It includes information about the project's name, version, description, scripts, and dependencies. It's also used to manage project dependencies and scripts for running tasks like building and testing.
 
 :::tip
 package.json is a JSON file used to manage a project's dependencies, scripts, and other metadata. It's commonly used in Node.js projects and is also essential for managing React applications.
@@ -255,7 +308,7 @@ package.json is a JSON file used to manage a project's dependencies, scripts, an
 <details>
     <summary>Answer:</summary>
 
-    React Router is a popular package used for routing in React applications. It allows you to create a single-page application with dynamic routing. You can install it using `npm install react-router-dom`.
+   React Router is a popular package used for routing in React applications. It allows you to create a single-page application with dynamic routing. You can install it using `npm install react-router-dom`.
 
 </details>
 
