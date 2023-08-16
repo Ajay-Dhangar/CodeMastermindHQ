@@ -95,6 +95,16 @@ Remember, you can pass any type of data as props – strings, numbers, objects, 
 React is a JavaScript library primarily used for building user interfaces in web browsers, while React Native is a JavaScript framework used for building native mobile applications for iOS and Android platforms. React Native provides a more native experience on mobile devices, while React focuses on creating web-based interfaces.
 :::
 
+:::tip
+| No. | React JS | React Native |
+|:---:|:--------:|--------------|
+|1.   | JS Library | Mobile Framework|
+|2.   |Best instrument for building complex highly functional web applications. | Best instrument for a native look and feel in cross-platform mobile applications.|
+|3.   | React.JS implement V-DOM for browser code rendering. |React Native implements native APIs for mobile components rendering. |
+|4.   |React.JS is implemented for web (Browser) platforms. | it's more difficult to work with React Native across different platforms. |
+|5.   |in React.JS, software engineers can create robust animation with the help of CSS. | To implement animation in react native, Software engineers have to use API.|
+:::
+
 </details>
 
 ### 13. How do you switch one component to another, Conditional Rendering?
@@ -312,4 +322,14 @@ function DataFetchingComponent() {
 ```
 In this example, the `fetch` function is used to retrieve JSON data from an API endpoint. The fetched data is stored in the `jsonData` state variable, and it's rendered within a component using the `map` function to iterate over the array of data objects.
 
+
+:::tip
+| No. | Axios | Fetch   |
+| :---| :-----| :-----|
+|1. | Axios is 3rd party library | Builtin API|
+|2. | Faster | Little bit slower |
+|3. | Easier to handle the error | Harder to handle the error|
+|4. | Automatically transform Data into JSON | Have to manually transform data | 
+|5. | Need to install form npm (npm i / install axios) | No need to install externally|
+:::
 </details>
