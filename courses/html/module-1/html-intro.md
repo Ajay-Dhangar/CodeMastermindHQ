@@ -8,6 +8,7 @@ sidebar_position: 1
 
 ```mdx-code-block
 import BrowserWindow from '@site/src/components/BrowserWindow';
+import HtmlWindow from '@site/src/components/HtmlWindow';
 import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
 ```
@@ -57,14 +58,14 @@ Here's a basic structure of an HTML document:
 </html>
 ```
 
-<BrowserWindow>
+<HtmlWindow>
       
       <body>
           <h1>Hello, World!</h1>
           <p>This is my first HTML page.</p>
       </body>
       
- </BrowserWindow>
+ </HtmlWindow>
 
 Let's break down the structure:
 
