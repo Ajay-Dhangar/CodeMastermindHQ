@@ -10,8 +10,10 @@ updates:
     schedule:
       interval: "daily"
     reviewers:
-      - username: ajay-dhangar   
+      - "Ajay-Dhangar"   
     assignees:
-      - username: ajay-dhangar   
+      - "Ajay-Dhangar"  
     labels:
-      - "dependency update"    
+      - "dependency update"
+    ignore:
+      - dependency-name: "package-name"  
