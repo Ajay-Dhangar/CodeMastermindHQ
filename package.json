@@ -24,7 +24,7 @@
     "@crowdin/cli": "^3.13.0",
     "@docusaurus/core": "2.4.1",
     "@docusaurus/plugin-ideal-image": "2.1.0",
-    "@docusaurus/plugin-pwa": "2.1.0",
+    "@docusaurus/plugin-pwa": "2.4.1",
     "@docusaurus/preset-classic": "2.1.0",
     "@docusaurus/remark-plugin-npm2yarn": "2.4.1",
     "@docusaurus/theme-classic": "2.1.0",
