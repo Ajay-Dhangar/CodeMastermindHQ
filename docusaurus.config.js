@@ -335,6 +335,10 @@ const config = {
               {
                 html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" alt="Stars Badge"/></a>`
               },
+              {
+                to: `/SecurityInfo`,
+                label: `Security`
+              }
 
             ],
           },
