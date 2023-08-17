@@ -1,9 +1,10 @@
 ---
-id: html-interview-day-1
-title: HTML Interview Day 1
-sidebar_label: Day 1
+id: html-interview-day-3
+title: HTML Interview Day 3
+sidebar_label: Day 3
 date: 2023-05-11 16:49:29
-sidebar_position: 1
+sidebar_position: 3
+
 ---
 
 ```mdx-code-block
