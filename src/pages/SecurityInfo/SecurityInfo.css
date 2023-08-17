@@ -1,0 +1,26 @@
+.security-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .security-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .security-text {
+    font-size: 16px;
+    line-height: 1.5;
+  
+    a {
+      color: #007bff;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
