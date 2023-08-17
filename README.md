@@ -13,10 +13,11 @@
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/pulls"><img src="https://img.shields.io/github/issues-pr/Ajay-Dhangar/CodeMastermindHQ" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/issues"><img src="https://img.shields.io/github/issues/Ajay-Dhangar/CodeMastermindHQ" alt="Issues Badge"/></a>
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Ajay-Dhangar/CodeMastermindHQ?color=2b9348"></a>
+<a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores"><img alt="Dependabot Badges" src="https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=json5&package-manager=npm_and_yarn&previous-version=2.2.1&new-version=2.2.3"></a>
+<a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores"><img alt="Dependabot compatibility score" src="https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@docusaurus/plugin-pwa&package-manager=npm_and_yarn&previous-version=2.1.0&new-version=2.4.1"></a>
+<a href="https://crowdin.com/project/cmhq"><img alt="Crowdin" src="https://badges.crowdin.net/cmhq/localized.svg"></a>
+<a href="./CODE_OF_CONDUCT.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"></a>
 
-[![Crowdin](https://badges.crowdin.net/cmhq/localized.svg)](https://crowdin.com/project/cmhq)
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 
 ## Software Development Life Cycle (SDLC) model of CodeMastermindHQ:
