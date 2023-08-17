@@ -179,10 +179,10 @@ const config = {
                 label: '🖥️ Live Playground',
                 to: '/LiveCodeEditor',
               },
-              // {
-              //   label: '🧠 Assesment 🚀',
-              //   to: '/Assesment',
-              // },
+              {
+                label: '🧠 Quiz Play 🚀',
+                to: 'https://quiz-app-ajay-dhangar.vercel.app/',
+              },
               {
                 label: '🏷️ Tutorial Tags 📚',
                 to: '/docs/tags/',

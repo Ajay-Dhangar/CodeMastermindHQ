@@ -733,4 +733,72 @@ Remember, HOCs are a powerful tool in React to enhance component behavior and re
 
 <details>
     <summary>Answer:</summary>
+
+
+| Aspect            | Callback                           | useCallback Hook                               |
+|-------------------|-----------------------------------|------------------------------------------------|
+| Purpose           | Function passed as an argument to another function, to be called at a specific time or event. | Hook provided by React to optimize the performance of functional components by memoizing functions. |
+| Usage Scenario    | Commonly used in scenarios like event handling, asynchronous operations, and passing functions as props. | Used to prevent unnecessary re-renders in functional components that use reference-equality checks. |
+| Function Creation | A new function is created every time the parent function/component re-renders, even if the arguments are the same. | Creates a memoized version of the function that only changes if its dependencies (input values) change. |
+| Performance Benefit | Can lead to performance issues if not managed properly, as new functions can cause unnecessary re-renders of child components. | Helps improve performance by reusing the same function reference if the dependencies remain the same, reducing re-renders. |
+
+
+:::tip
+
+**Callback Function:**
+
+A callback function in React is a regular JavaScript function that you pass as an argument to another function or component. It's a way to tell that function/component what to do once a specific action or event occurs. Callbacks are often used to handle asynchronous tasks, such as responding to user interactions or data fetching.
+
+Example:
+```jsx
+function Button(props) {
+  return <button onClick={props.onClick}>Click me</button>;
+}
+
+function App() {
+  const handleClick = () => {
+    console.log("Button was clicked!");
+  };
+
+  return <Button onClick={handleClick} />;
+}
+```
+
+In this example, `handleClick` is a callback function that gets executed when the button is clicked. It's passed as a prop to the `Button` component, and the component triggers this function when the button is clicked.
+
+**useCallback Hook:**
+
+The `useCallback` hook is a part of the React library and is used to optimize performance in scenarios where you need to memoize (remember) a function instance between renders. This is particularly useful when dealing with child components that depend on the function reference, as it prevents unnecessary re-renders of those child components.
+
+Example:
+```jsx
+import { useState, useCallback } from 'react';
+
+function Button(props) {
+  return <button onClick={props.onClick}>Click me</button>;
+}
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  const handleClick = useCallback(() => {
+    console.log("Button was clicked!");
+    setCount(count + 1);
+  }, [count]);
+
+  return (
+    <div>
+      <Button onClick={handleClick} />
+      <p>Count: {count}</p>
+    </div>
+  );
+}
+```
+
+In this example, the `handleClick` function is wrapped with the `useCallback` hook. The second argument to `useCallback` is an array of dependencies, in this case `[count]`. This means that the `handleClick` function will be memoized and only recreated if the `count` value changes. This prevents unnecessary recreation of the function on each render, improving performance.
+
+To summarize, a callback is a general concept in JavaScript used to handle functions passed as arguments for specific actions. The `useCallback` hook is a React-specific tool for optimizing performance by memoizing functions, ensuring that they don't get recreated unnecessarily and avoiding unnecessary re-renders of dependent components.
+:::
+
+
 </details>

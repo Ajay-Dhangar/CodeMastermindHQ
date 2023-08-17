@@ -28,7 +28,7 @@ const DonationFormComponent = () => {
 
     try {
       // Handle form submission here (send data to the specified action URL)
-      await fetch("https://formspree.io/f/meqnpvpr", {
+      await fetch("https://formspree.io/f/xjvqydrv", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -72,7 +72,7 @@ const DonationFormComponent = () => {
             required
           />
         </label>
-        {/* <label>
+        <label>
           Phone:
           <input
             type="tel"
@@ -81,8 +81,8 @@ const DonationFormComponent = () => {
             onChange={handleChange}
             required
           />
-        </label> */}
-        {/* <label>
+        </label>
+        <label>
           Receipt Screenshot:
           <input
             type="file"
@@ -90,8 +90,8 @@ const DonationFormComponent = () => {
             onChange={handleChange}
             required
           />
-        </label> */}
-        {/* <label>
+        </label>
+        <label>
           Date:
           <input
             type="date"
@@ -100,8 +100,8 @@ const DonationFormComponent = () => {
             onChange={handleChange}
             required
           />
-        </label> */}
-        {/* <label>
+        </label>
+        <label>
           Feedback:
           <textarea
             name="feedback"
@@ -109,7 +109,7 @@ const DonationFormComponent = () => {
             onChange={handleChange}
             required
           />
-        </label> */}
+        </label>
         <label>
           Message:
           <textarea
@@ -119,7 +119,7 @@ const DonationFormComponent = () => {
             required
           />
         </label>
-        {/* <label>
+        <label>
           Profile Image:
           <input
             type="file"
@@ -127,7 +127,7 @@ const DonationFormComponent = () => {
             onChange={handleChange}
             required
           />
-        </label> */}
+        </label>
         {/* <label>
           Social Link:
           <input
