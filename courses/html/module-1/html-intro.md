@@ -7,7 +7,6 @@ sidebar_position: 1
 ---
 
 ```mdx-code-block
-import BrowserWindow from '@site/src/components/BrowserWindow';
 import HtmlWindow from '@site/src/components/HtmlWindow';
 import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
@@ -98,14 +97,14 @@ Let's create a simple HTML template to understand the basic structure:
 </html>
 ```
 
-<BrowserWindow>
+<HtmlWindow>
       
       <body>
           <h1>Hello, World!</h1>
           <p>This is my simple HTML template page.</p>
       </body>
       
- </BrowserWindow>
+ </HtmlWindow>
 
 Here, we have a basic HTML document with a title, a heading (`<h1>`), and a paragraph (`<p>`). You can open this file in any web browser to view the output. The browser will render the HTML code and display the content accordingly.
 
