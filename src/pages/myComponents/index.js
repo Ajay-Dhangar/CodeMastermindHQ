@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import BackgroundImage from '@site/src/pages/BackgroundImage';
-import CodeBlock from '@theme/CodeBlock';
-import Toggler from '@site/src/pages/Toggler';
-import MonthCalendar from '@site/src/pages/MonthCalendar';
+// import CodeBlock from '@theme/CodeBlock';
+// import Toggler from '@site/src/pages/Toggler';
+// import MonthCalendar from '@site/src/pages/MonthCalendar';
 
 const threePhotos = [
   {
