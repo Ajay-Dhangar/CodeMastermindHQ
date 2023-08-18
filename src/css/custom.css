@@ -445,10 +445,10 @@ div[class^='announcementBar_'] .clean-btn {
 }
 
 ::-webkit-scrollbar{
-  width: 8px;
+  width: 5px;
 }
 ::-webkit-scrollbar-thumb{
   --ifm-footer-background-color: #2b3137;
-  background-image: linear-gradient(transparent, rgb(74, 226, 32));
+  background-image: linear-gradient(transparent, rgb(142, 42, 118));
   
 }
