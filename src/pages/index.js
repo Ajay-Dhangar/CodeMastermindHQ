@@ -117,7 +117,19 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/react/create-react-app/getting-started/')}>
-              <Translate description="The homepage main heading">Get Started</Translate>
+              <Translate description="The homepage main heading">Get Started with Tutorials</Translate>
+
+            </Link>
+          </div>
+          <br/>
+          <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('/courses')}>
+              <Translate description="The homepage main heading">Get Started with Courses</Translate>
 
             </Link>
           </div>
