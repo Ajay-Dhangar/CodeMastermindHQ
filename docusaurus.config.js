@@ -128,7 +128,7 @@ const config = {
       ],
       announcementBar: {
         id: 'announcementBar',
-        content: `⭐️ If you like CodeMasterMindHQ, give it a star on <a target="_blank" href="https://github.com/CodeMastermindHQ/CodeMastermindHQ">GitHub</a> and join us on <a target="_blank" href="https://www.linkedin.com/groups/14232119/">LinkedIn</a> ⭐️`,
+        content: `⭐️ If you like CodeMasterMindHQ, give it a star on <a target="_blank" href="https://github.com/Ajay-Dhangar/CodeMastermindHQ">GitHub</a> and join us on <a target="_blank" href="https://www.linkedin.com/groups/14232119/">LinkedIn</a> ⭐️`,
 
         backgroundColor: '#ff1f21',
         textColor: '#f1f1f1',
