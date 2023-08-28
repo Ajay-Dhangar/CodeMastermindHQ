@@ -5,7 +5,7 @@
 2. Run:  
 
 ```sh
-cd F:\Yandex.Disk-parsh/hm/
+cd F:\Yandex.Disk-parsh/cmhq/
 ```
 ```sh
 code .
@@ -20,7 +20,7 @@ npm run start
 2. Run:
 
 ```sh
-cd /mnt/sdc2/Yandex.Disk-parsh/hm/
+cd /mnt/sdc2/Yandex.Disk-parsh/cmhq/
 ```
 ```
 code .
