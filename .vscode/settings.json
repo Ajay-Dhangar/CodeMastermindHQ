@@ -1,5 +1,5 @@
 {
-     "spellright.language": ["en", "ru"],
+     "spellright.language": ["en", "hi"],
      "spellright.documentTypes": [
           "markdown",
           "latex",
@@ -7,6 +7,6 @@
           "javascript"
      ],
 
-     "languageTool.language": ["en", "ru"],
+     "languageTool.language": ["en", "hi"],
      "editor.useTabStops": true
 }
