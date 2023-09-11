@@ -78,18 +78,22 @@ Remember, you can pass any type of data as props – strings, numbers, objects, 
 
 **The main differences between React and React Native:**
 
-| Aspect               | React                                    | React Native                           |
-|:----------------------|:------------------------------------------|:----------------------------------------|
-| Type                 | JavaScript library                       | JavaScript framework                   |
-| Purpose              | Building user interfaces for web apps     | Building native mobile apps            |
-| Platform             | Web browsers                             | Mobile platforms (iOS, Android)        |
-| Components           | HTML-based                               | Native UI components                   |
-| Rendering            | Virtual DOM for browser rendering        | Native components for mobile rendering |
-| Styling              | CSS for web styling                      | Flexbox and platform-specific styles   |
-| Code Reusability    | Some code reusability with React Native | High code reusability across platforms |
-| Access to Device APIs| Limited                                  | Full access to device APIs              |
-| Performance          | Generally faster due to browser rendering optimizations | Good performance through native rendering |
-| Development Speed    | Fast iteration and debugging             | Faster development for mobile apps     |
+| Aspect               | React                   | React Native          |
+|:---------------------|:------------------------|:----------------------|
+| **Purpose**          | Web application UI      | Mobile app UI         |
+| **Platform**         | Web browsers            | Mobile devices       |
+| **Components**       | HTML-based components   | Native components    |
+| **Rendering**        | Browser DOM             | Native UI components |
+| **Performance**      | Typically faster        | Optimized for mobile |
+| **Code Sharing**     | Limited                 | High degree of sharing|
+| **Development**      | Web development tools   | Mobile development tools|
+| **Native Access**    | Limited                 | Extensive access     |
+| **UI/UX**            | Web-style               | Native look and feel |
+| **Community**        | Large and active        | Active               |
+| **Learning Curve**   | Moderate                | Moderate             |
+| **Ecosystem**        | Rich ecosystem          | Growing ecosystem    |
+
+React is a JavaScript library for building user interfaces primarily for web applications. It's focused on handling the UI components and rendering in web browsers using a virtual DOM. On the other hand, React Native is a framework for building mobile applications using JavaScript. It allows you to create mobile apps with a native look and feel using components that are translated to native UI elements. React Native has a more extensive access to native device features compared to React.
 
 :::tip
 React is a JavaScript library primarily used for building user interfaces in web browsers, while React Native is a JavaScript framework used for building native mobile applications for iOS and Android platforms. React Native provides a more native experience on mobile devices, while React focuses on creating web-based interfaces.
