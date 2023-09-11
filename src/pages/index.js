@@ -6,6 +6,7 @@ import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import './styles.btn.css';
 
 const features = [
   {
@@ -110,7 +111,7 @@ function Home() {
 
           <p className="hero__subtitle">{siteConfig.tagline}</p>
 
-          <div className={styles.buttons}>
+          {/* <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
@@ -121,8 +122,8 @@ function Home() {
 
             </Link>
           </div>
-          <br/>
-          <div className={styles.buttons}>
+          <br /> */}
+          {/* <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
@@ -132,7 +133,47 @@ function Home() {
               <Translate description="The homepage main heading">Get Started with Courses</Translate>
 
             </Link>
+          </div> */}
+
+          {/* <div className="main-btn-container">
+            <Link className="main-button" to="#" style={{color:'#1e9bff'}}>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Button
+            </Link>
+            <Link className="main-button" to="#" style={{color:'#6eff3e'}}>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Button
+            </Link>
+          </div> */}
+
+
+          <div className="main-button-container">
+            <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}>
+              <button className="unique-button-class">
+                <div className="lazyload" data-bg="tommy-concouse-trumpet.jpg?width=300&height=216&format=auto">
+                  <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}> <img src='img/tutorial-windwos.png' alt='tutorial' /></Link>
+                </div>
+                <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}><h2>Start Learning Now!</h2> </Link> <br />
+                <h3>Mastering the Art of Web Development: Step-by-Step Tutorials</h3>
+              </button>
+            </Link>
+            <Link to={useBaseUrl('/courses')}>
+              <button className="unique-button-class spin">
+                <div>
+                <span><Link to={useBaseUrl('/courses')}>★★★</Link></span>
+                </div>
+                <Link to={useBaseUrl('/courses')}><h2>Browse Course Catalog</h2></Link> <br />
+                <h3>Build Your Future with CodeMastermindHQ</h3>
+              </button>
+            </Link>
           </div>
+
         </div>
       </header>
       <main>
