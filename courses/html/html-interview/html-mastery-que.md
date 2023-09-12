@@ -289,40 +289,216 @@ HTML elements define the content and structure of a web page, while HTML tags ar
 </details>
 
 ### 14. Differentiate between inline and block-level elements.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 15. How do you create subscript (`<sub>`) and superscript (`<sup>`) text?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 16. Describe the `<a>` (anchor) element and its attributes.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 17. How do you create a hyperlink to an email address?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 18. Explain the use of the `<img>` element.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 19. What are the key attributes?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 20. What is the purpose of the `<blockquote>` tag?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 21. What is the role of the `<ul>` and `<ol>` elements? How do they differ?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 22. How can you create a line break within a paragraph of text?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 23. What are HTML entities, and why are they used?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 24. Describe the `<table>` element and its associated elements (e.g., `<thead>`, `<tbody>`, `<tr>`, `<td>`, `<th>`).
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 25. How can you create a clickable image using HTML?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 26. Explain the `<form>` element and its attributes.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 27. Describe the `<input>` element and its common types (text, radio, checkbox, etc.).
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 28. What is the purpose of the `<label>` element in forms?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 29. How do you create a dropdown list using the `<select>` and `<option>` elements?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 30. How can you validate user input using HTML5 attributes?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 31. Explain the difference between the "GET" and "POST" methods in form submission.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 32. What are the new input types introduced in HTML5 for form elements?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 33. Describe the HTML5 semantic elements like `<header>`, `<nav>`, `<article>`, `<section>`, `<footer>`, etc.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 34. How does the `<video>` element work to embed videos in a webpage?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 35. What is the `<canvas>` element used for in HTML5?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 36. Explain the concept of local storage and how it's implemented in HTML5.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 37. Why is accessibility important in web development?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 38. How can you make a webpage more accessible?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 39. Describe the role of the alt attribute in the `<img>` element for accessibility.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 40. How can you improve SEO by using HTML elements and attributes?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 41. What is the purpose of the `<iframe>` element?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 42. Explain the concept of iframes and their use cases.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 43. How can you include external CSS and JavaScript files in an HTML document?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 44. What is the difference between a relative path and an absolute path when linking resources?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 45. Explain the Geolocation API in HTML5 and its use cases.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 46. Describe the Web Storage API and the differences between localStorage and sessionStorage.
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 47. What is the Drag and Drop API, and how can you implement drag-and-drop functionality using HTML?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
 ### 48. How can you embed audio using the `<audio>` element in HTML5? What attributes can be used?
+
+<details>
+    <summary>Answer:</summary>
+</details>
+
+<!-- 
 ### 49. Describe the `<figure>` and `<figcaption>` elements and their purpose in relation to images and other media.
 ### 50. Explain how to use the `<fieldset>` and `<legend>` elements to group and label form controls.
 ### 51. Describe how to create a form with multiple columns using the `<fieldset>` and `<legend>` elements.
@@ -338,4 +514,4 @@ HTML elements define the content and structure of a web page, while HTML tags ar
 ### 61. Explain the purpose of the `<head>` element and its various meta tags, including viewport and charset.
 ### 62. What is the `<base>` element used for, and how can it affect relative URLs and links?
 ### 63. What is CORS? Describe the concept of cross-origin requests and how they are controlled in modern web browsers.
-### 64. Explain what HTML preprocessors (e.g., Pug, Haml) are and how they can be beneficial for writing HTML code.
+### 64. Explain what HTML preprocessors (e.g., Pug, Haml) are and how they can be beneficial for writing HTML code. -->
