@@ -11,11 +11,11 @@ sidebar_position: 12
 import HtmlWindow from '@site/src/components/HtmlWindow';
 import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 ```
 
-<!-- import './tb-style.css'; -->
+<!-- import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import './tb-style.css'; -->
 
 ### 1. What is HTML? What does it stand for?
 
