@@ -19,3 +19,5 @@ Not to be confused with positions in binary numbers. Or how many bits of a binar
 
 One digit - is zero information! Fine!
 
+From: [Harris D. M., Harris S. L. - Digital Design and Computer Architecture, 2nd Edition - 2012](../../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf)  
+1.4.6 Signed Binary Numbers - 8 page
