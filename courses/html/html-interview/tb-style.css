@@ -1,0 +1,53 @@
+/* Reset some default table styles */
+.table-24 {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 20px auto;
+}
+
+/* Style the table caption */
+.caption-24 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #d30faf;
+    color: white;
+    padding: 5px;
+}
+
+/* Style table headers */
+.th-24 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Style table data cells */
+.td-24 {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style the footer row */
+.tfoot-24 .td-24 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsive table styles */
+@media screen and (max-width: 600px) {
+    .table-24 {
+        font-size: 0.8rem;
+    }
+
+    .th-24, .td-24 {
+        padding: 8px;
+    }
+
+    .caption-24 {
+        font-size: 1rem;
+    }
+}

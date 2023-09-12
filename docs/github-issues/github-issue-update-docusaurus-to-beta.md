@@ -29,11 +29,6 @@ My error is gone! See: [Update Docusaurus to beta](../site-generators/docusaurus
 
 ### Prerequisites
 
-<!--
-IMPORTANT: Please check the following items before creating a issue.
-Mark the checkbox by putting an X between the bracket.
-This way we know you've done these steps first.
--->
 
 - [x] I'm using the latest version of Docusaurus.
 - [x] I have tried the `npm run clear` or `yarn clear` command.
@@ -80,39 +75,24 @@ Use https://new.docusaurus.io to create a CodeSandbox reproducible demo of the b
 
 My Docusaurus site is big. I counted 513 articles.
 
-If you want to reproduce my situation, you can just fork my [repo](https://github.com/PaPa31/hm) (github.com/PaPa31/hm), open package.json, change 4 lines (from `2.0.0-alpha.72` to `2.0.0-beta.6`) and run `npm ci` (analogous `rm -rf node_modules package-lock.json` and `npm install`, but in only one command). And run: `npm start`.
+If you want to reproduce my situation, you can just fork my [repo](https://github.com/Ajay-Dhangar/CodeMastermindHQ) (github.com/Ajay-Dhangar/CodeMastermindHQ), open package.json, change 4 lines (from `2.0.0-alpha.72` to `2.0.0-beta.6`) and run `npm ci` (analogous `rm -rf node_modules package-lock.json` and `npm install`, but in only one command). And run: `npm start`.
 
 ## Expected behavior
-
-<!--
-  How did you expect your project to behave?
-  It’s fine if you’re not sure your understanding is correct.
-  Write down what you thought would happen.
--->
 
 I don't know.
 
 ## Actual behavior
 
-<!--
-  Did something go wrong?
-  Is something broken, or not behaving as you expected?
-  Describe this section in detail, and attach screenshots if possible.
-  Don't only say "it doesn't work"!
-  Please submit exhaustive and complete log messages (we also need the error strack-traces, not just the message).
-  Please read error messages carefully: it often tells you exactly what you are doing wrong
--->
-
 1. Remove trash ...
 
 ```bash
-/mnt/sdc2/Yandex.Disk-parsh/hm ⑂documentation* $ rm -rf node_modules/ package-lock.json
+/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ ⑂documentation* $ rm -rf node_modules/ package-lock.json
 ```
 
 2. Install dependencies ...
 
 ```bash
-/mnt/sdc2/Yandex.Disk-parsh/hm ⑂documentation* $ npm i
+/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ ⑂documentation* $ npm i
 npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
 npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
 npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
@@ -142,10 +122,10 @@ Run `npm audit` for details.
 3. Start dev server...
 
 ```bash
-/mnt/sdc2/Yandex.Disk-parsh/hm ⑂documentation* $ npm run start
+/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ ⑂documentation* $ npm run start
 
 > notes@0.0.0 start
-> cross-env BASE_URL='/hm/' docusaurus start
+> cross-env BASE_URL='/cmhq/' docusaurus start
 
 Starting the development server...
 Loading of version failed for version "current"
@@ -162,16 +142,16 @@ Available document ids are:
 ...
 ...
 
-    at Object.checkSidebarsDocIds (/mnt/sdc2/Yandex.Disk-parsh/hm/node_modules/@docusaurus/plugin-content-docs/lib/sidebars.js:339:19)
-    at doLoadVersion (/mnt/sdc2/Yandex.Disk-parsh/hm/node_modules/@docusaurus/plugin-content-docs/lib/index.js:117:31)
-    at async loadVersion (/mnt/sdc2/Yandex.Disk-parsh/hm/node_modules/@docusaurus/plugin-content-docs/lib/index.js:166:28)
+    at Object.checkSidebarsDocIds (/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ/node_modules/@docusaurus/plugin-content-docs/lib/sidebars.js:339:19)
+    at doLoadVersion (/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ/node_modules/@docusaurus/plugin-content-docs/lib/index.js:117:31)
+    at async loadVersion (/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ/node_modules/@docusaurus/plugin-content-docs/lib/index.js:166:28)
     at async Promise.all (index 0)
-    at async Object.loadContent (/mnt/sdc2/Yandex.Disk-parsh/hm/node_modules/@docusaurus/plugin-content-docs/lib/index.js:174:33)
-    at async /mnt/sdc2/Yandex.Disk-parsh/hm/node_modules/@docusaurus/core/lib/server/plugins/index.js:58:46
+    at async Object.loadContent (/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ/node_modules/@docusaurus/plugin-content-docs/lib/index.js:174:33)
+    at async /mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ/node_modules/@docusaurus/core/lib/server/plugins/index.js:58:46
     at async Promise.all (index 0)
-    at async Object.loadPlugins (/mnt/sdc2/Yandex.Disk-parsh/hm/node_modules/@docusaurus/core/lib/server/plugins/index.js:57:27)
-    at async Object.load (/mnt/sdc2/Yandex.Disk-parsh/hm/node_modules/@docusaurus/core/lib/server/index.js:186:82)
-    at async start (/mnt/sdc2/Yandex.Disk-parsh/hm/node_modules/@docusaurus/core/lib/commands/start.js:44:19)
+    at async Object.loadPlugins (/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ/node_modules/@docusaurus/core/lib/server/plugins/index.js:57:27)
+    at async Object.load (/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ/node_modules/@docusaurus/core/lib/server/index.js:186:82)
+    at async start (/mnt/sdc2/Ajay-Dhangar/CodeMastermindHQ/node_modules/@docusaurus/core/lib/commands/start.js:44:19)
 
 ```
 
@@ -179,8 +159,8 @@ Available document ids are:
 
 <!-- Include as many relevant details about the environment you experienced the bug in -->
 
-- Public source code: https://github.com/PaPa31/hm
-- Public site URL: https://papa31.github.io/
+- Public source code: https://github.com/Ajay-Dhangar/CodeMastermindHQ
+- Public site URL: https://codemastermindhq.vercel.app/
 - Docusaurus version used: 2.0.0-alpha.72
 - Environment name and version (e.g. Chrome 78.0.3904.108, Node.js 10.17.0): node v12.19.0
 - Operating system and version (e.g. Ubuntu 20.04.2 LTS): MX Linux
@@ -191,18 +171,3 @@ Use https://new.docusaurus.io to create a CodeSandbox reproducible demo of the b
 
 **I get an error**: Only a max of 500 modules is allowed in a sandbox
 
-<!--
-  What happens if you skip this step?
-
-  Someone will read your bug report, and maybe will be able to help you,
-  but it’s unlikely that it will get much attention from the team. Eventually,
-  the issue will likely get closed in favor of issues that have reproducible demos.
-
-  Please remember that:
-
-    * Issues without reproducible demos have a very low priority.
-    * The person fixing the bug would have to do that anyway. Please be respectful of their time.
-    * You might figure out the issues yourself as you work on extracting it.
-
-  Thanks for helping us help you!
--->

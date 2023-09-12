@@ -68,4 +68,3 @@ Subtraction with [two's complement](twos-complement) representation:
 A - B = A + not B + 1
 ```
 
-From: [Binary Numbers (Wikipedia)](https://en.wikipedia.org/wiki/Binary_number)

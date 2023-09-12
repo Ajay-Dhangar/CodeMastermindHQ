@@ -35,8 +35,3 @@ Figure 1.1 illustrates levels of abstraction for an electronic computer system a
 
 Moving into the software realm, the operating system handles lowlevel details such as accessing a hard drive or managing memory. Finally, the application software uses these facilities provided by the operating system to solve a problem for the user. Thanks to the power of abstraction, your grandmother can surf the Web without any regard for the quantum vibrations of electrons or the organization of the memory in her computer.
 
-From book [Digital design](https://papa31.github.io/hm/assets/files/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012-278aad41bbd5750ed2461b2011414915.pdf)
-
-[Digital design(rus)](../pdf/digital-design-and-computer-architecture-russian-translation_July16_2016.pdf)
-
-[Abstraction](../pdf/harris-d-m-harris-s-l-digital-design-and-computer-architecture-2nd-edition-2012.pdf) page #2

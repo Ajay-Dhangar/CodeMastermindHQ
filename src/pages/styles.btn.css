@@ -6,49 +6,26 @@
 
 
 :root {
-    /*  BUTTON PARENT CONTAINER --> For demo. */
     --button-container-max-width: 400px;
-
-    /*  BUTTON MAX WIDTH - % of parent container width or fixed pixels 
-            Adjust other variable - i.e. width/height/font-size - so other shit fits. lol */
     --button-max-width: 100%;
-
-    /*  BUTTON DEFAULT MIN-HEIGHT i.e."Mobile First" */
     --button-min-height: 65px;
-    /*  BUTTON LARGE SCREEN MIN-HEIGHT Add additional breakpoints as needed. */
     --button-large-screen-min-height: 100px;
-    /*  LEFT BUTTON PANEL DEFAULT WIDTH - i.e."Mobile First" */
     --button-div-width: 90px;
-    /*  LEFT BUTTON PANEL LARGE SCREEN WIDTH */
     --button-div-large-screen-width: 163px;
     --button-text-font: Montserrat;
     --button-text-color: rgba(255, 255, 255, 1);
-    /*  BUTTON BRIGHTNESS - Easier on the eyes */
     --button-brightness: 0.95;
     --button-border-color: rgba(255, 255, 255, 0.45);
     --button-border-width: 1px;
     --button-background-color: rgba(60, 59, 110, 1);
     --button-background-hover-color: rgba(178, 34, 52, 1);
     --button-background-active-color: rgba(137, 11, 25, 1);
-
-    /*  LEFT BUTTON PANEL STYLES 
-           The DIV in BUTTON HTML mark-up is the left button panel.
-           The SPAN element is the overlay for the left panel. */
-
     --button-div-background-color: rgba(178, 34, 52, 1);
     --button-div-background-hover-color: rgba(60, 59, 110, 1);
     --button-div-border-color: rgba(255, 255, 255, 1);
-    /*  RIGHT BORDER WIDTH OF DIV  
-            Set to 0px for demo.  */
     --button-div-right-border-width: 0px;
-
-    /*  LEFT BUTTON PANEL -- SPAN OVERLAY 
-               SPAN background color set to transparent when animated */
     --button-span-background-color: rgba(0, 0, 0, 0.25);
 }
-
-/* BUTTON PARENT CONTAINER 
-       Mark-Up for demo. */
 
 .button-container {
     width: 100%;
