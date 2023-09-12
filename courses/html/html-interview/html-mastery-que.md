@@ -11,11 +11,8 @@ sidebar_position: 12
 import HtmlWindow from '@site/src/components/HtmlWindow';
 import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
+import './tb-style.css';
 ```
-
-<!-- import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import './tb-style.css'; -->
 
 ### 1. What is HTML? What does it stand for?
 
@@ -977,120 +974,6 @@ Here's a basic example of a simple HTML table structure:
 
 - **Responsive Tables**: Consider how your tables will behave on different screen sizes. You may need to use CSS to make tables responsive.
 
-**Example:**
-
-```mdx-code-block
-<Tabs>
-<TabItem value="HTML">
-```
-
-```html title="index.html"
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Table Concepts</title>
-</head>
-<body>
-    <table class="my-table">
-        <caption>Sample Table</caption>
-        <thead>
-            <tr>
-                <th>Header 1</th>
-                <th>Header 2</th>
-                <th>Header 3</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Data 1</td>
-                <td>Data 2</td>
-                <td>Data 3</td>
-            </tr>
-            <tr>
-                <td>Data 4</td>
-                <td>Data 5</td>
-                <td>Data 6</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3">Footer Content</td>
-            </tr>
-        </tfoot>
-    </table>
-</body>
-</html>
-```
-
-```mdx-code-block
-</TabItem>
-<TabItem value="CSS">
-```
-
-```css title="styles.css"
-/* Reset some default table styles */
-table {
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 800px; /* Adjust as needed */
-    margin: 20px auto;
-}
-
-/* Style the table caption */
-caption {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    text-align: center;
-    background-color: #d30faf;
-    color: white;
-    padding: 5px;
-}
-
-/* Style table headers */
-th {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-}
-
-/* Style table data cells */
-td {
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-/* Style the footer row */
-tfoot td {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-}
-
-/* Responsive table styles */
-@media screen and (max-width: 600px) {
-    table {
-        font-size: 0.8rem;
-    }
-
-    th, td {
-        padding: 8px;
-    }
-
-    caption {
-        font-size: 1rem;
-    }
-}
-```
-
-```mdx-code-block
-</TabItem>
-</Tabs>
-```
-
 <HtmlWindow>
    <body>
     <table className="my-table-24">
@@ -1166,6 +1049,61 @@ Now, when a user clicks on the image, they will be taken to the URL specified in
 
 <details>
     <summary>Answer:</summary>
+
+The `<form>` element is a fundamental part of web development used in HTML to create interactive web forms. Web forms are essential for collecting and submitting data from users, such as login information, contact details, or survey responses. Here's an explanation of the `<form>` element and its attributes:
+
+**1. `<form>` Element:**
+   - The `<form>` element is used to define a form on a web page.
+   - It acts as a container for various form elements like text inputs, radio buttons, checkboxes, and buttons.
+   - Users can enter data into these form elements, and the data can be submitted to a server for processing.
+
+**2. Common Attributes of the `<form>` Element:**
+
+   - `action`: This attribute specifies the URL where the form data should be sent when the user submits the form. It's often a server-side script or a URL that handles the form data.
+
+   - `method`: This attribute defines the HTTP method used to send the form data to the server. The two most common methods are:
+     - `GET`: Appends form data to the URL as query parameters. Suitable for simple data retrieval and when data is not sensitive.
+     - `POST`: Sends form data in the body of the HTTP request. Suitable for sensitive or large amounts of data.
+
+   - `target`: This attribute specifies where the response from the server should be displayed. Common values include "_self" (the same window/tab), "_blank" (a new window/tab), or the name of a specific frame or iframe.
+
+   - `enctype`: This attribute is used when the `method` is set to "POST" and specifies how the form data should be encoded before sending it to the server. Common values include "application/x-www-form-urlencoded" (default) and "multipart/form-data" (used for file uploads).
+
+   - `autocomplete`: Controls whether browsers should suggest and remember form data for autofill. You can set it to "on" (default) or "off" to disable autocomplete.
+
+   - `name`: This attribute provides a name for the form, which can be used to reference the form in JavaScript or CSS.
+
+**3. Other Attributes and Elements:**
+   - Within the `<form>` element, you can include various input elements like `<input>`, `<textarea>`, `<select>`, and buttons like `<button>` to create form fields.
+
+Here's an example of a simple HTML form:
+
+```html
+<form action="#" method="POST">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  
+  <button type="submit">Submit</button>
+</form>
+```
+
+<HtmlWindow>
+<form action="#">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required />
+  
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required />
+  
+  <button type="submit">Submit</button>
+</form>
+</HtmlWindow>
+
+In this example, The form includes two text input fields for the username and password. The `required` attribute indicates that these fields must be filled out before submission.
+
 </details>
 
 ### 27. Describe the `<input>` element and its common types (text, radio, checkbox, etc.).
