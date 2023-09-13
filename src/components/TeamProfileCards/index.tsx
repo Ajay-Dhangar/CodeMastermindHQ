@@ -1,24 +1,18 @@
-/**
- * Copyright (c) CodeMasterMindHQ, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
 
 import React, {type ReactNode} from 'react';
 import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 
-function WebsiteLink({to, children}: {to: string; children?: ReactNode}) {
-  return (
-    <Link to={to}>
-      {children ?? (
-        <Translate id="team.profile.websiteLinkLabel">website</Translate>
-      )}
-    </Link>
-  );
-}
+// function WebsiteLink({to, children}: {to: string; children?: ReactNode}) {
+//   return (
+//     <Link to={to}>
+//       {children ?? (
+//         <Translate id="team.profile.websiteLinkLabel">website</Translate>
+//       )}
+//     </Link>
+//   );
+// }
 
 type ProfileProps = {
   className?: string;
