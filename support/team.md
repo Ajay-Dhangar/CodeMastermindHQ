@@ -8,11 +8,7 @@ tags: [CodeMasterMindHQ, Support, Team]
 
 # Team
 
-import {
-  ActiveTeamRow,
-  HonoraryAlumniTeamRow,
-  StudentFellowsTeamRow,
-} from '@site/src/components/TeamProfileCards';
+import { ActiveTeamRow } from '@site/src/components/TeamProfileCards';
 
 ## Active Team {#active-team}
 
@@ -22,7 +18,7 @@ Current members of the CMHQ team are listed in alphabetical order below.
 
 <ActiveTeamRow />
 
-## Honorary Alumni {#honorary-alumni}
+<!-- ## Honorary Alumni {#honorary-alumni}
 
 CMHQ would never be what it is today without the huge contributions from these folks who have moved on to bigger and greater things.
 
@@ -37,4 +33,4 @@ A handful of students have also worked on CMHQ, contributing amazing features su
 ## Acknowledgements {#acknowledgements}
 
 CMHQ was originally created by Ajay Dhangar. Today, CMHQ has a few open source contributors. We’d like to recognize a few people who have made significant contributions to CMHQ and its CMHQ in the past and have helped maintain them over the years:
-
+ -->
