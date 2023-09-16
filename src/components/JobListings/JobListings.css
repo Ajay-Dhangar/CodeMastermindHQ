@@ -1,0 +1,58 @@
+/* Add your CSS styles for job listings here */
+.job-listings-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.job-listing {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* background-color: #f9f9f9; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.job-listing:hover {
+  transform: scale(1.02); /* Enlarge the card on hover */
+}
+
+.job-listing h2 {
+  font-size: 1.5rem;
+}
+
+.job-listing p {
+  margin: 10px 0;
+}
+
+.job-listing a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-shadow: 1px 1px rgb(11, 10, 10);
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.job-listing a:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Add a subtle border highlight effect on focus for accessibility */
+.job-listing a:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.921);
+}
+
+.verified-badge{
+  /* background-color: red;  */
+  width: 18px;
+  height: 18px;
+}
