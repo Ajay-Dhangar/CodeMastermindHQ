@@ -20,9 +20,6 @@ Current members of the CMHQ team are listed in alphabetical order below.
 Ajay Dhangar is the visionary behind CodeMastermindHQ. With a passion for web development and a commitment to providing valuable resources to the community, he started this project to help developers at all levels.
 :::
 
-
-[CodeMastermindHQ User Feedback and Improvement Survey](https://forms.gle/JvzUcyugJ4i4AbFJ9)
-
 <!-- ## Honorary Alumni {#honorary-alumni}
 
 CMHQ would never be what it is today without the huge contributions from these folks who have moved on to bigger and greater things.

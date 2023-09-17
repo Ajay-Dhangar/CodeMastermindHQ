@@ -18,7 +18,7 @@ Welcome to CodeMastermindHQ! We're here to help you with any questions or issues
 Before contacting us, you might find the answer to your question in our FAQ section. Here are some common questions:
 
 1. **How do I get started with CodeMastermindHQ?**
-   - Check out our [Getting Started Guide](/getting-started) for detailed instructions.
+   - Check out our [Getting Started Guide](/) for detailed instructions.
 
 2. **I encountered a bug. What should I do?**
    - Please report any bugs or issues on our [GitHub repository](https://github.com/Ajay-Dhangar/CodeMastermindHQ/issues).

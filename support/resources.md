@@ -7,7 +7,7 @@ date: 2022-05-08 16:10:21
 tags: [CodeMasterMindHQ, Support, Resources, Community]
 ---
 
-Welcome to the Resources section of CodeMastermindHQ. Here, you'll find a collection of valuable materials to enhance your web development skills and stay updated with the latest trends and technologies.
+Welcome to the Resources section of CodeMastermindHQ. Here, you'll find a collection of valuable materials to enhance your web development skills and stay updated with the latest trends and technologies. [CodeMastermindHQ User Feedback and Improvement Survey](https://forms.gle/JvzUcyugJ4i4AbFJ9)
 
 ## Web Development Guides
 
@@ -112,4 +112,4 @@ Stay updated with the latest news and trends in web development:
 
 Explore these resources to advance your web development journey. We hope you find them valuable in your quest to become a master web developer.
 
-If you have any suggestions for additional resources, feel free to [contact us](./README.md) and let us know. Happy coding!
+If you have any suggestions for additional resources, feel free to [contact us](/support) and let us know. Happy coding!

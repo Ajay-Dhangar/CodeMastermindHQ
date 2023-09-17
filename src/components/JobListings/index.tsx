@@ -32,7 +32,6 @@ const JobListings = () => {
 
   return (
     <div className="job-listings-container">
-      {/* <h1>Job Listings</h1> */}
       <div className="job-listings">
         {jobs.map((job, index) => (
           <JobComponent key={index} job={job} />
