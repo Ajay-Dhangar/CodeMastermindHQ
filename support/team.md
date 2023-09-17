@@ -6,17 +6,19 @@ date: 2022-05-08 16:10:21
 tags: [CodeMasterMindHQ, Support, Team]
 ---
 
-# Team
-
 import { ActiveTeamRow } from '@site/src/components/TeamProfileCards';
 
 ## Active Team {#active-team}
 
-The CodeMasterMindHQ team works on the core functionality, plugins for the classic theme, as well as the CMHQ documentation website.
+At CodeMastermindHQ, we are proud to have a dedicated and passionate team that works tirelessly to bring you the best web development resources and support. Get to know the people behind our project: 
 
 Current members of the CMHQ team are listed in alphabetical order below.
 
 <ActiveTeamRow />
+
+:::info
+Ajay Dhangar is the visionary behind CodeMastermindHQ. With a passion for web development and a commitment to providing valuable resources to the community, he started this project to help developers at all levels.
+:::
 
 <!-- ## Honorary Alumni {#honorary-alumni}
 
