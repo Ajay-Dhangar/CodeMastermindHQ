@@ -9,7 +9,7 @@ const JobListings = () => {
       jobTitle: 'Frontend Developer',
       company: 'CMHQ',
       jobDescription: 'We are looking for a frontend developer...',
-      applyLink: 'https://codemastermindhq.vercel.app/',
+      applyLink: 'https://forms.gle/LsEQKm7UJCUnaqPA6',
       isVerified: true, // This company is verified
     },
     {
