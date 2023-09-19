@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import './style.css';
 import Layout from '@theme/Layout';
+import './style.css'
+// import Link from '@docusaurus/Link';
 
-const OnlineCodeEditor = () => {
-    const [htmlCode, setHtmlCode] = useState<string>('');
-    const [cssCode, setCssCode] = useState<string>('');
-    const [jsCode, setJsCode] = useState<string>('');
-    const [output, setOutput] = useState<string>('');
- 
+export default function OnlineCodeEditor() {
+  const [htmlCode, setHtmlCode] = useState<string>('');
+  const [cssCode, setCssCode] = useState<string>('');
+  const [jsCode, setJsCode] = useState<string>('');
+  const [output, setOutput] = useState<string>('');
+
   const runCode = () => {
     // Combine HTML, CSS, and JS code
     const combinedCode = `
@@ -22,9 +23,9 @@ const OnlineCodeEditor = () => {
     setOutput(combinedCode);
   };
 
-    return (
-       <Layout>
-        <div className="online-code-editor">
+  return (
+    <Layout>
+      <div className="online-code-editor">
         <h2 className="code-editor-h2">Online Code Editor</h2>
         <div className="code-editor">
           <div className="editor-pane">
@@ -54,10 +55,7 @@ const OnlineCodeEditor = () => {
           <h3>Output</h3>
           <div className='html-output' dangerouslySetInnerHTML={{ __html: output }}></div>
         </div>
-       </div>
-      </Layout>
-    );
+      </div>
+    </Layout>
+  );
 };
-
-
-export default OnlineCodeEditor;
