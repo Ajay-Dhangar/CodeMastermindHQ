@@ -176,8 +176,8 @@ const config = {
             position: 'left',
             items: [
               {
-                label: '🖥️ Live Playground',
-                to: '/LiveCodeEditor',
+                label: '🖥️ Code Editor',
+                to: '/OnlineCodeEditor',
               },              
               {
                 label: '🧠 Quiz Play 🚀',

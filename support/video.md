@@ -8,7 +8,3 @@ sidebar_position: 6
 ---
 
 ## Web Development Guides
-
-## Online Courses
-
-## Web Development News
