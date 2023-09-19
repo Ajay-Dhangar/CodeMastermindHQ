@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './OnlineCodeEditor.css';
 import Layout from '@theme/Layout';
 
 const OnlineCodeEditor = () => {
