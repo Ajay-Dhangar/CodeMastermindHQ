@@ -145,7 +145,7 @@ const config = {
 
           {
             type: 'dropdown',
-            label: '📚 Learning Hub 🎓',
+            label: '📚 Learning',
             position: 'left',
             items: [
               {
