@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import Translate from '@docusaurus/Translate';
+// import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
@@ -97,6 +97,61 @@ function Feature({ imageUrl, title, description }) {
   );
 }
 
+const svgList = [
+  {
+    title: 'github',
+    Svg: require('../../static/img/github.svg').default,
+    color: 'black',
+    link: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
+  },
+  {
+    title: 'bilibili',
+    Svg: require('../../static/img/bilibili.svg').default,
+    link: '/',
+  },
+  {
+    title: 'wechat',
+    Svg: require('../../static/img/wechat.svg').default,
+    color: '#2979ff',
+    link: '/',
+  },
+]
+const Svg = ({ Svg, color, title, link }) => {
+  return (
+    <a href={link} target='_blank'>
+      <Svg className={styles.svg} style={{ fill: color }} />
+    </a>
+  )
+}
+
+function MyHero() {
+  return (
+    <div className={styles.myHeroContainer}>
+      <div className={styles.rightContainer}>
+        <img src="img/hero.png" alt='HeroImg' />
+      </div>
+      <div className={styles.leftContainer}>
+        <h1 className={styles.leftContainer_h1}>
+        {/* Elevating <br /> */} Code Mastery
+        </h1>
+        <p className={styles.leftContainer_p}>
+          Welcome to CodeMastermindHQ. Where innovation meets elegance in web development.
+          <br />
+          Join us for the future of coding excellence
+        </p>
+
+        <div className={styles.svgContainer}>
+            {svgList.map((item, index) => {
+              return <Svg {...item} key={item.title} />
+            })}
+        </div>
+        
+      </div>
+      
+    </div>
+  )
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -152,7 +207,6 @@ function Home() {
             </Link>
           </div> */}
 
-
           <div className="main-button-container">
             <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}>
               <button className="unique-button-class">
@@ -166,7 +220,7 @@ function Home() {
             <Link to={useBaseUrl('/courses')}>
               <button className="unique-button-class spin">
                 <div>
-                <span><Link to={useBaseUrl('/courses')}>★★★</Link></span>
+                  <span><Link to={useBaseUrl('/courses')}>★★★</Link></span>
                 </div>
                 <Link to={useBaseUrl('/courses')}><h2>Browse Course Catalog</h2></Link> <br />
                 <h3>Build Your Future with CodeMastermindHQ</h3>
@@ -177,6 +231,9 @@ function Home() {
         </div>
       </header>
       <main>
+
+        <MyHero />
+
         <div className={clsx(styles.announcement, styles.announcementDark)}>
           <div className={styles.announcementInner}>
             <Link><q>Unleash Your Coding Potential</q></Link>
