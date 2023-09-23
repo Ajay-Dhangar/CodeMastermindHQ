@@ -181,11 +181,7 @@ const config = {
               {
                 label: '🖥️ Playground',
                 to: '/LiveCodeEditor',
-              },
-              {
-                label: '🧠 Quiz Play 🚀',
-                to: 'https://quiz-app-ajay-dhangar.vercel.app/',
-              },
+              },              
               {
                 label: '🏷️ Tutorial Tags 📚',
                 to: '/docs/tags/',
@@ -202,6 +198,10 @@ const config = {
               //     </svg> <label class="youtube-icon-name">Videoes</label>`,
               //   to: '/YouTubeVideos',
               // },
+              {
+                label: '🧠 Quiz Play 🚀',
+                to: 'https://quiz-app-ajay-dhangar.vercel.app/',
+              },
             ]
           },
 
