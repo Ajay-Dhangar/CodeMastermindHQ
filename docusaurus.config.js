@@ -179,9 +179,19 @@ const config = {
                 to: 'showcase' 
               },
               {
+<<<<<<< HEAD
                 label: '🖥️ Playground',
                 to: '/LiveCodeEditor',
               },              
+=======
+                label: '🖥️ Code Editor',
+                to: 'https://cmhq-code-editor.vercel.app/',
+              },    
+              {
+                label: '🧠 Quiz Play 🚀',
+                to: 'https://quiz-app-ajay-dhangar.vercel.app/',
+              },
+>>>>>>> 17d94181f3866adaa94e0c8ea62937c3bed13902
               {
                 label: '🏷️ Tutorial Tags 📚',
                 to: '/docs/tags/',
