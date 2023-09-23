@@ -145,7 +145,7 @@ const config = {
 
           {
             type: 'dropdown',
-            label: '📚 Learning Hub 🎓',
+            label: '📚 Learning',
             position: 'left',
             items: [
               {
@@ -166,19 +166,22 @@ const config = {
                 activeBaseRegex: `/dsa/`,
               },
             ]
-          },         
+          },
 
           // {to: 'blog', label: 'Blog', position: 'left'},
-
           {
             type: 'dropdown',
             label: '➕ Features',
             position: 'left',
             items: [
+              { 
+                label: '🌍 Showcase', 
+                to: 'showcase' 
+              },
               {
                 label: '🖥️ Code Editor',
                 to: 'https://cmhq-code-editor.vercel.app/',
-              },              
+              },    
               {
                 label: '🧠 Quiz Play 🚀',
                 to: 'https://quiz-app-ajay-dhangar.vercel.app/',
@@ -208,7 +211,7 @@ const config = {
             position: 'left'
           },
 
-          { to: 'showcase', label: '🌍 Showcase', position: 'left' },
+          // { to: 'showcase', label: '🌍 Showcase', position: 'left' },
 
 
 
@@ -219,17 +222,24 @@ const config = {
 
           {
             type: 'dropdown',
-            label: '💝 Heart & Love',
-            position: 'right',
+            label: 'More',
+            position: 'left',
             items: [
-              {
-                to: 'https://github.com/sponsors/Ajay-Dhangar',
-                html: '<iframe src="https://github.com/sponsors/Ajay-Dhangar/button" title="Sponsor Ajay-Dhangar" height="32" width="120px" style="border: 0; border-radius: 6px;"></iframe>',
-              },
+              // {
+              //   to: 'https://github.com/sponsors/Ajay-Dhangar',
+              //   html: '<iframe src="https://github.com/sponsors/Ajay-Dhangar/button" title="Sponsor Ajay-Dhangar" height="32" width="120px" style="border: 0; border-radius: 6px;"></iframe>',
+              // },
+
+              // { 
+              //   label: '🌍 Showcase', 
+              //   to: 'showcase' 
+              // },
+
               {
                 label: 'Feedback & Survey',
                 to: 'https://forms.gle/Fd46s7r3Kpei8qwB8',
               },
+
               // {
               //   // to: 'https://paytm.business/link/1691717913115/LL_644057646',
               //   to: '/DonationComponent',
@@ -242,49 +252,73 @@ const config = {
           //     //   href: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ/graphs/contributors',
           //     //   html: `<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Ajay-Dhangar/CodeMastermindHQ?color=2b9348">`
           //     // },
-          
-          {
-            href: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
-            position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
-          },
+
+          // {
+          //   href: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
+          //   position: 'right',
+          //   className: 'header-github-link',
+          //   'aria-label': 'GitHub repository',
+          // },
           //   ]
           // },
         ],
       },
+
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Resources',
             items: [
               {
-                label: 'React',
+                label: 'Tutorials',
                 to: '/docs/react/create-react-app/getting-started/',
               },
-            ],
-          },
-          {
-            title: 'Courses',
-            items: [
               {
-                label: 'HTML',
-                to: '/courses/html/welcome-html',
+                label: 'Courses',
+                to: '/courses/',
               },
-
               {
-                label: 'React',
-                to: '/courses/react/intro-2',
-              },
-            ],
-          },
-          {
-            title: 'Problem Solving',
-            items: [
-              {
-                label: 'Data Structure and Algorithms',
+                label: 'DSA',
                 to: '/courses/dsa/welcome-dsa',
+              },
+            ],
+          },
+          {
+            title: 'Compony',
+            items: [    
+              {
+                label: 'Jobs',
+                to: '/support/jobs',
+              },
+              {
+                label: 'Internships',
+                to: '/support/jobs',
+              },
+              {
+                label: 'Guides',
+                to: '/',
+              },
+              {
+                to: `/SecurityInfo`,
+                label: `Security`
+              },
+            ],
+          },
+          {
+            title: 'Product',
+            items: [
+              {
+                label: 'Product-1',
+                to: '/',
+              },
+              {
+                label: 'Product-2',
+                to: '/',
+              },
+              {
+                label: 'Product-3',
+                to: '/',
               },
             ],
           },
@@ -318,16 +352,20 @@ const config = {
               {
                 html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" alt="Stars Badge"/></a>`
               },
-              {
-                to: `/SecurityInfo`,
-                label: `Security`
-              }
+              // {
+              //   to: `/SecurityInfo`,
+              //   label: `Security`
+              // },
+              {                
+                html: '<iframe src="https://github.com/sponsors/Ajay-Dhangar/button" href="https://github.com/sponsors/Ajay-Dhangar" title="Sponsor Ajay-Dhangar" height="32" width="120px" style="border: 0; border-radius: 6px;"></iframe>',
+              },
 
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CodeMastermindHQ Made with ❤️ by <a href="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} CMHQ Made with ❤️ by <a href="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</a>`,
       },
+      
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
