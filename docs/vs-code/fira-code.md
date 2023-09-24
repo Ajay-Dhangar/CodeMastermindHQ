@@ -1,34 +1,73 @@
-Fira Code: free monospaced font with programming ligatures
+let's break down Fira Code with some practical examples to make it easier to understand.
 
-## via zip-archive  
+## 1. Ligatures in Fira Code:
 
-### 1. Install the font
+One of the standout features of Fira Code is its ligatures. Ligatures replace certain character combinations with more readable symbols. Here are some examples:
 
-Go to https://github.com/tonsky/FiraCode and download the fonts, after you’ve downloaded, In the ttf folder, double-click each font file, click “Install font”; to install all at once, select all files, right-click, and choose “Install” (I chose: Install for all users) 
+- **Example 1:** The `!=` combination is typically replaced with the "not equal" symbol `≠` in Fira Code. This makes code like this:
 
-### 2. Configuring Visual studio code 
+  ```python
+  if (x != y):
+  ```
 
-Open the user and workspace settings from the Command Palette (Ctrl+Shift+P) with **Preferences: Open User Settings and Preferences**. 
+  Look like this:
 
-To enable FiraCode in the settings editor, under “Commonly Used”, expand the “Text Editor” settings and then click on “Font”. In the “Font Family” input box type Fira Code, replacing any content. Tick the check box "Enabled/Disables font ligatures" under "Font Ligatures" to enable the special ligatures. 
+  ```python
+  if (x ≠ y):
+  ```
 
-## via bash
- 
-@kwmiebach
-kwmiebach commented on Mar 23, 2017  
+- **Example 2:** The `=>` combination becomes an arrow `⇒`, which can improve the readability of lambda functions in languages like JavaScript:
 
-One way to do it on Debian 8. As root: 
+  ```javascript
+  const square = (x) => x * x;
+  ```
 
-```bash
-apt install git   # skip this if you have git installed 
+  Becomes:
 
-cd /usr/share/fonts   # system wide fonts 
- 
-git clone --depth 1 https://github.com/tonsky/FiraCode.git   # get only the last commit of the master branch  
+  ```javascript
+  const square = (x) ⇒ x * x;
+  ```
 
-cd FiraCode 
- 
-git filter-branch --subdirectory-filter distr   # This keeps only the contents of the distr/ directory and moves its contents one level up. 
+- **Example 3:** The `->` combination turns into an arrow `→`, making function type annotations in languages like TypeScript more visually appealing:
 
-fc-cache -f -v
-```
+  ```typescript
+  const greet: (name: string) -> void;
+  ```
+
+  Becomes:
+
+  ```typescript
+  const greet: (name: string) → void;
+  ```
+
+## 2. Installing Fira Code:**
+
+To use Fira Code in your code editor, follow these steps:
+
+- **Step 1:** Download and install Fira Code from the official GitHub repository.
+
+- **Step 2:** Open your code editor (e.g., Visual Studio Code).
+
+- **Step 3:** Go to your editor's settings or preferences.
+
+- **Step 4:** Set Fira Code as your font.
+
+- **Step 5:** Enable ligature support in your editor's settings.
+
+## 3. Using Fira Code in Visual Studio Code:
+
+Let's look at how to set up Fira Code in Visual Studio Code with some examples:
+
+- **Example 4:** Open VS Code, and go to "File" -> "Preferences" -> "Settings."
+
+- **Example 5:** Search for "Font Family" in the settings search bar.
+
+- **Example 6:** In the "Font Family" setting, enter "Fira Code."
+
+- **Example 7:** Scroll down and enable "Font Ligatures" by checking the box.
+
+Now, when you write code in VS Code using Fira Code, you'll see ligatures in action, making your code more visually pleasing and easier to read.
+
+:::note
+Remember, Fira Code's ligatures are designed to enhance the appearance of your code and improve readability, making it a popular choice among developers. By following these simple steps, you can enjoy the benefits of Fira Code in your coding projects.
+:::
