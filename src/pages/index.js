@@ -127,9 +127,11 @@ const Svg = ({ Svg, color, title, link }) => {
 function MyHero() {
   return (
     <div className={styles.myHeroContainer}>
-      <div className={styles.rightContainer}>
+      
+      {/* <div className={styles.rightContainer}>
         <img src="img/hero.png" alt='HeroImg' />
-      </div>
+      </div> */}
+
       <div className={styles.leftContainer}>
         <h1 className={styles.leftContainer_h1}>
         {/* Elevating <br /> */} Code Mastery
@@ -146,6 +148,10 @@ function MyHero() {
             })}
         </div>
         
+      </div>
+
+      <div className={styles.rightContainer}>
+        <img src="img/hero.png" alt='HeroImg' />
       </div>
       
     </div>
