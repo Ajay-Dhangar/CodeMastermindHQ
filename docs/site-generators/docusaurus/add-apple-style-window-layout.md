@@ -103,12 +103,12 @@ The headers are well-spaced so that the hierarchy is clear.
 I made a small improvement. And if you run this:
 
 ```jsx
-<BrowserWindow style={{backgroundColor: 'brown'}} minHeight="500" url="http://localhost:3000/hm/__docusaurus/debug">
+<BrowserWindow style={{backgroundColor: 'brown'}} minHeight="500" url="http://localhost:3000/cmhq/__docusaurus/debug">
 ```
 
 You'll get this:
 
-<BrowserWindow style={{backgroundColor: 'brown'}} minHeight="500" url="http://localhost:3000/hm/\_\_docusaurus/debug">
+<BrowserWindow style={{backgroundColor: 'brown'}} minHeight="500" url="http://localhost:3000/cmhq/\_\_docusaurus/debug">
 
 Nice dynamic props!
 
