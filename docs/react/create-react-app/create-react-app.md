@@ -59,8 +59,8 @@ We value your feedback! If you have any suggestions, questions, or issues relate
 
 To provide feedback, you can:
 - Send us an email at ajaydhangar49@gmail.com
-- Open an issue on our GitHub repository: [issue](https://github.com/CodeMastermindHQ/CodeMastermindHQ/issues)
-- Join our community forum and engage in discussions: [Discussions](https://github.com/CodeMastermindHQ/CodeMastermindHQ/discussions)
+- Open an issue on our GitHub repository: [issue](https://github.com/Ajay-Dhangar/CodeMastermindHQ/issues)
+- Join our community forum and engage in discussions: [Discussions](https://github.com/Ajay-Dhangar/CodeMastermindHQ/discussions)
 
 We appreciate your contribution in making Create React App even better!
 
