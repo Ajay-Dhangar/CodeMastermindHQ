@@ -127,14 +127,14 @@ const Svg = ({ Svg, color, title, link }) => {
 function MyHero() {
   return (
     <div className={styles.myHeroContainer}>
-      
+
       {/* <div className={styles.rightContainer}>
         <img src="img/hero.png" alt='HeroImg' />
       </div> */}
 
       <div className={styles.leftContainer}>
         <h1 className={styles.leftContainer_h1}>
-        {/* Elevating <br /> */} Code Mastery
+          {/* Elevating <br /> */} Code Mastery
         </h1>
         <p className={styles.leftContainer_p}>
           Welcome to CodeMastermindHQ. Where innovation meets elegance in web development.
@@ -143,17 +143,17 @@ function MyHero() {
         </p>
 
         <div className={styles.svgContainer}>
-            {svgList.map((item, index) => {
-              return <Svg {...item} key={item.title} />
-            })}
+          {svgList.map((item, index) => {
+            return <Svg {...item} key={item.title} />
+          })}
         </div>
-        
+
       </div>
 
-      <div className={styles.rightContainer}>
+      <div className={styles.rightContainer} style={{ boxShadow: '1px 1px 2px #262626', borderRadius: '10px' }}>
         <img src="img/hero.png" alt='HeroImg' />
       </div>
-      
+
     </div>
   )
 }
@@ -170,7 +170,7 @@ function Home() {
 
           <h1 className="hero__title">{siteConfig.title}</h1>
 
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="hero__subtitle">{siteConfig.tagline}</p> 
 
           {/* <div className={styles.buttons}>
             <Link
@@ -244,6 +244,7 @@ function Home() {
           <div className={styles.announcementInner}>
             <Link><q>Unleash Your Coding Potential</q></Link>
             <p>Elevate your coding journey with CodeMastermindHQ. Embrace the power of code, where possibilities become reality.</p>
+
           </div>
         </div>
         {features && features.length > 0 && (
