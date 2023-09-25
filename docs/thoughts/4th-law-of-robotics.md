@@ -4,6 +4,3 @@ title: 4th Law Of Robotics
 date: 2021-09-17 21:20:37
 ---
 
-Save the Robot
-
-Побереги Робота
