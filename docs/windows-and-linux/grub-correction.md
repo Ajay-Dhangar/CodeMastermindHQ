@@ -1,5 +1,0 @@
----
-id: grub-correction
-title: GRUB Correction
-date: 2021-09-09 15:23:49
----
