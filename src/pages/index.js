@@ -98,22 +98,40 @@ function Feature({ imageUrl, title, description }) {
 }
 
 const svgList = [
+  // {
+  //   title: 'github',
+  //   Svg: require('../../static/img/github.svg').default,
+  //   color: 'black',
+  //   link: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
+  // },
   {
-    title: 'github',
-    Svg: require('../../static/img/github.svg').default,
+    title: 'discord',
+    Svg: require('../../static/icons/discord.svg').default,
+    link: 'https://discord.com/invite/BFkPKMsfuZ',
+  },
+  {
+    title: 'linkedin',
+    Svg: require('../../static/icons/linkedin.svg').default,
     color: 'black',
-    link: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
+    link: 'https://www.linkedin.com/groups/14232119/',
   },
   {
-    title: 'bilibili',
-    Svg: require('../../static/img/bilibili.svg').default,
-    link: '/',
+    title: 'whats-app',
+    Svg: require('../../static/icons/whatsapp.svg').default,
+    color: 'black',
+    link: 'https://wa.me/message/GBW4PY4S2L2VJ1',
   },
   {
-    title: 'wechat',
-    Svg: require('../../static/img/wechat.svg').default,
+    title: 'slack',
+    Svg: require('../../static/icons/slack.svg').default,
     color: '#2979ff',
-    link: '/',
+    link: 'https://join.slack.com/t/codemastermindhq/shared_invite/zt-23wom4i3m-FOFl4BLtceOdeVOXQKxfLw',
+  },
+  {
+    title: 'stackoverflow',
+    Svg: require('../../static/icons/stack-overflow.svg').default,
+    color: '#2979ff',
+    link: 'https://stackoverflow.com/users/18530900/ajay-dhangar',
   },
 ]
 const Svg = ({ Svg, color, title, link }) => {

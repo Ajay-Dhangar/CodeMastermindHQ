@@ -327,16 +327,20 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/users/18530900/ajay-dhangar',
+                label: 'Team',
+                to: '/support/team',
+              },
+              {
+                label: 'Source Code',
+                to: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/codemastermind2',
+                to: 'https://twitter.com/codemastermind2',
               },
               {
                 label: 'LinkedIn Group',
-                href: 'https://www.linkedin.com/groups/14232119/',
+                to: 'https://www.linkedin.com/groups/14232119/',
               },
             ],
           },
@@ -344,14 +348,14 @@ const config = {
             title: 'More',
             items: [
               {
-                html: `<img src="https://komarev.com/ghpvc/?username=ajay-dhangar&label=Site%20Views&color=0e75b6&style=flat" alt="ajay-dhangar" />`
+                html: `<img src="https://komarev.com/ghpvc/?username=ajay-dhangar&label=Site%20Views&color=0e75b6&style=flat" alt="ajay-dhangar" height="25" width="120px" />`
               },
               {
-                html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql"><img alt="GitHub contributors" src="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg"></a>`
+                html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql"><img alt="GitHub contributors" src="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg" height="25" width="120px"></a>`
               },
 
               {
-                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" alt="Stars Badge"/></a>`
+                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" height="25" width="120px" alt="Stars Badge"/></a>`
               },
               // {
               //   to: `/SecurityInfo`,
@@ -363,8 +367,8 @@ const config = {
 
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} CMHQ Made with ❤️ by <a href="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</a>`,
+        ],        
+        copyright: ` Copyright © ${new Date().getFullYear()} CMHQ Made with ❤️ by <Link to="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</Link>`,
       },
       
       prism: {
