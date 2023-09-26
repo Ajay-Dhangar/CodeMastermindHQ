@@ -725,12 +725,272 @@ You can switch between `flex-direction: row` and `flex-direction: column` to con
 
 <details>
     <summary>Answer:</summary>
+
+The `justify-content` property in CSS is used to control the horizontal alignment of flex items within a flex container. It allows you to distribute the available space along the main axis of the flex container. The main axis is determined by the `flex-direction` property, which can be set to `row` (horizontal) or `column` (vertical).
+
+Here are the possible values for the `justify-content` property and examples of how they work:
+
+```html title="index.html"
+  <div class="flex-container">
+    <div class="flex-item"></div>
+    <div class="flex-item"></div>
+    <div class="flex-item"></div>
+  </div>
+```
+
+1. **flex-start (default):** Items are packed to the start of the container. This is the default behavior.
+
+   ```css title="style.css"
+   .flex-container {
+     display: flex;
+     justify-content: flex-start;
+   }
+   ```
+
+   <HtmlWindow>
+    <div style={{display: 'flex', justifyContent: 'flex-start'}}>
+      <div style={{backgroundColor: 'red', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'blue', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'green', width: '30px', height: '30px'}}></div>
+    </div>
+   </HtmlWindow>
+
+2. **flex-end:** Items are packed to the end of the container.
+
+   ```css title="style.css"
+   .flex-container {
+     display: flex;
+     justify-content: flex-end;
+   }
+   ```
+
+   <HtmlWindow>
+    <div style={{display: 'flex', justifyContent: 'flex-end'}}>
+      <div style={{backgroundColor: 'red', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'blue', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'green', width: '30px', height: '30px'}}></div>
+    </div>
+   </HtmlWindow>
+
+3. **center:** Items are centered within the container along the main axis.
+
+   ```css title="style.css"
+   .flex-container {
+     display: flex;
+     justify-content: center;
+   }
+   ```
+
+   <HtmlWindow>
+    <div style={{display: 'flex', justifyContent: 'center'}}>
+      <div style={{backgroundColor: 'red', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'blue', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'green', width: '30px', height: '30px'}}></div>
+    </div>
+   </HtmlWindow>
+
+4. **space-between:** Items are evenly distributed in the container, with space placed between them.
+
+   ```css title="style.css"
+   .flex-container {
+     display: flex;
+     justify-content: space-between;
+   }
+   ```
+
+   <HtmlWindow>
+    <div style={{display: 'flex', justifyContent: 'space-between'}}>
+      <div style={{backgroundColor: 'red', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'blue', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'green', width: '30px', height: '30px'}}></div>
+    </div>
+   </HtmlWindow>
+
+5. **space-around:** Items are evenly distributed in the container with equal space around them.
+
+   ```css title="style.css"
+   .flex-container {
+     display: flex;
+     justify-content: space-around;
+   }
+   ```
+
+   <HtmlWindow>
+    <div style={{display: 'flex', justifyContent: 'space-around'}}>
+      <div style={{backgroundColor: 'red', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'blue', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'green', width: '30px', height: '30px'}}></div>
+    </div>
+   </HtmlWindow>
+
+6. **space-evenly:** Items are evenly distributed in the container with equal space around them, including the edges.
+
+   ```css title="style.css"
+   .flex-container {
+     display: flex;
+     justify-content: space-evenly;
+   }
+   ```
+
+   <HtmlWindow>
+    <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+      <div style={{backgroundColor: 'red', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'blue', width: '30px', height: '30px'}}></div>
+      <div style={{backgroundColor: 'green', width: '30px', height: '30px'}}></div>
+    </div>
+   </HtmlWindow>
+
+Let's see an example using HTML and CSS:
+
+```html title="index.html"
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+      background-color: #f0f0f0;
+    }
+    .flex-item {
+      width: 30px;
+      height: 30px;
+      background-color: #3498db;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="flex-item"></div>
+    <div class="flex-item"></div>
+    <div class="flex-item"></div>
+  </div>
+</body>
+</html>
+```
+
+<HtmlWindow>
+  <div style={{display: 'flex', justifyContent: 'space-between', backgroundColor: '#f0f0f0'}}>
+    <div style={{backgroundColor: '#3498db', width: '30px', height: '30px'}}></div>
+    <div style={{backgroundColor: '#3498db', width: '30px', height: '30px'}}></div>
+    <div style={{backgroundColor: '#3498db', width: '30px', height: '30px'}}></div>
+  </div>
+</HtmlWindow>
+
+In this example, the `justify-content: space-between;` property-value pair is used to evenly distribute the three flex items within the flex container with space placed between them.
+
+You can experiment with different values of `justify-content` to control how flex items are aligned within a flex container based on your layout requirements.
+
 </details>
 
-### 10. display inline, block, inline-block ?
+### 10. display inline, block, inline-block?
 
 <details>
     <summary>Answer:</summary>
+
+Let's explore the `display` property values `inline`, `block`, and `inline-block` with examples and code snippets:
+
+**1. `display: inline`**
+
+The `display: inline` property value is used to make an element behave like an inline element. Here's an example:
+
+```html title="index.html"
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .inline-demo {
+    display: inline;
+    border: 1px solid black;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <p>This is an <span class="inline-demo">inline</span> element.</p>
+  <p>Another <span class="inline-demo">inline</span> element here.</p>
+</body>
+</html>
+```
+
+<HtmlWindow>
+  <p>This is an <span style={{display: 'inline', border: '1px solid black', padding: '10px'}}>inline</span> element.</p>
+  <p>Another <span style={{display: 'inline', border: '1px solid black', padding: '10px'}}>inline</span> element here.</p>
+</HtmlWindow>
+
+In this example, the `span` element with the class "inline-demo" is displayed inline. It doesn't start on a new line, and multiple inline elements can appear side by side.
+
+**2. `display: block`**
+
+The `display: block` property value is used to make an element behave like a block-level element. Here's an example:
+
+```html title="index.html"
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .block-demo {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="block-demo">
+    This is a block-level element.
+  </div>
+  <div class="block-demo">
+    Another block-level element.
+  </div>
+</body>
+</html>
+```
+
+<HtmlWindow>
+  <div style={{display: 'block', backgroundColor: 'lightblue', padding: '10px'}}>This is a block-level element.</div>
+  <div style={{display: 'block', backgroundColor: 'lightblue', padding: '10px'}}>Another block-level element.</div>
+</HtmlWindow>
+
+In this example, the `div` elements with the class "block-demo" are displayed as block-level elements. They start on a new line and take up the full width of their parent container.
+
+**3. `display: inline-block`**
+
+The `display: inline-block` property value combines aspects of both inline and block-level elements. Here's an example:
+
+```html title="index.html"
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .inline-block-demo {
+    display: inline-block;
+    background-color: lightgreen;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="inline-block-demo">
+    This is an inline-block element.
+  </div>
+  <div class="inline-block-demo">
+    Another inline-block element.
+  </div>
+</body>
+</html>
+```
+
+<HtmlWindow>
+  <div style={{display: 'inline-block', backgroundColor: 'lightblue', padding: '10px'}}>This is an inline-block element.</div>
+  <div style={{display: 'inline-block', backgroundColor: 'lightblue', padding: '10px'}}>Another inline-block element.</div>
+</HtmlWindow>
+
+In this example, the `div` elements with the class "inline-block-demo" are displayed as inline-block elements. They behave like inline elements in that they don't start on a new line, but they also allow you to set their width, height, and padding like block-level elements.
+
+These examples illustrate the differences between `display: inline`, `display: block`, and `display: inline-block`. Depending on your layout requirements, you can choose the appropriate `display` value to achieve the desired rendering of elements in your web page.
+
 </details>
 
 ### 11. position: sticky and fixed?
@@ -761,4 +1021,76 @@ You can switch between `flex-direction: row` and `flex-direction: column` to con
 
 <details>
     <summary>Answer:</summary>
+
+The `z-index` property in CSS is used to control the stacking order of elements on a web page. It determines which elements should appear in front of or behind other elements when they overlap. Elements with higher `z-index` values will be placed in front of elements with lower values. Here's an explanation with examples and code:
+
+**Example 1: Understanding the Basics**
+
+Let's say you have two HTML elements, a red div and a blue div, both with absolute positioning:
+
+```html title="index.html"
+<div class="red"></div>
+<div class="blue"></div>
+```
+
+```css title="style.css"
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 2;
+}
+```
+
+In this example, the blue div has a higher `z-index` (2) than the red div (1). Therefore, the blue div will be displayed in front of the red div, even though the red div is defined first in the HTML.
+
+**Example 2: Stacking Order with Multiple Elements**
+
+Let's expand on the previous example and add a green div:
+
+```html title="index.html"
+<div class="red"></div>
+<div class="blue"></div>
+<div class="green"></div>
+```
+
+```css title="style.css"
+.red {
+  /* Styles as before */
+}
+
+.blue {
+  /* Styles as before */
+}
+
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 3;
+}
+```
+
+In this case, the green div has the highest `z-index` (3), so it will be displayed in front of both the red and blue divs.
+
+Remember that `z-index` only applies to elements with a positioned value (`position: absolute`, `position: relative`, or `position: fixed`). Elements with a higher `z-index` value will stack in front of those with lower values. If two elements have the same `z-index`, the stacking order will follow the HTML source order.
+
+Use `z-index` carefully and avoid excessive use to prevent confusion in your web layout. It's often used in scenarios where you need to control the layering of elements, such as navigation menus or modal dialogs.
+
 </details>
