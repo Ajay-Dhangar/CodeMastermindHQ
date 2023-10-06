@@ -238,7 +238,7 @@ function Home() {
                   <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}> <img src='img/tutorial-windwos.png' alt='tutorial' /></Link>
                 </div>
                 <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}><h2>Start Learning Now!</h2> </Link> <br />
-                <h3>Mastering the Art of Web Development: Step-by-Step Tutorials</h3>
+                <h3 className='btn-text-home'>Mastering the Art of Web Development: Step-by-Step Tutorials</h3>
               </button>
             </Link>
             <Link to={useBaseUrl('/courses')}>
@@ -247,7 +247,7 @@ function Home() {
                   <span><Link to={useBaseUrl('/courses')}>★★★</Link></span>
                 </div>
                 <Link to={useBaseUrl('/courses')}><h2>Browse Course Catalog</h2></Link> <br />
-                <h3>Build Your Future with CodeMastermindHQ</h3>
+                <h3 className='btn-text-home'>Build Your Future with CodeMastermindHQ</h3>
               </button>
             </Link>
           </div>

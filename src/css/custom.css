@@ -433,6 +433,8 @@ div[class^='announcementBar_'] {
   font-size: 18px;
   height: 55px;
   padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 div[class^='announcementBar_'] a {
@@ -451,4 +453,18 @@ div[class^='announcementBar_'] .clean-btn {
   --ifm-footer-background-color: #2b3137;
   background-image: linear-gradient(transparent, rgb(142, 42, 118));
   
+}
+
+.footer__copyright{
+  /* background-color: rgb(45, 52, 55); */
+  margin-top: 15px;
+}
+
+
+/*  for emoji's */
+
+@media screen and (min-width: 997px) and (max-width: 1119px) {
+  .nav-emoji{
+    display: none;
+  }
 }
