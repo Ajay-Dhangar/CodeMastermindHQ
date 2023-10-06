@@ -145,7 +145,7 @@ const config = {
 
           {
             type: 'dropdown',
-            label: '📚 Learning',
+            html: '<span class="nav-emoji">📚</span> Learning',
             position: 'left',
             items: [
               {
@@ -165,29 +165,25 @@ const config = {
                 to: '/courses/dsa/welcome-dsa',
                 activeBaseRegex: `/dsa/`,
               },
-              {
-                label: '🏷️ Tutorial Tags 📚',
-                to: '/docs/tags/',
-                activeBaseRegex: `/docs/tags/`,
-              },
-              {
-                label: '🏷️ Courses Tags 🎓',
-                to: '/courses/tags/',
-                activeBaseRegex: `/courses/tags/`,
-              },
+              // {
+              //   label: '🏷️ Tutorial Tags 📚',
+              //   to: '/docs/tags/',
+              //   activeBaseRegex: `/docs/tags/`,
+              // },
+              // {
+              //   label: '🏷️ Courses Tags 🎓',
+              //   to: '/courses/tags/',
+              //   activeBaseRegex: `/courses/tags/`,
+              // },
             ]
           },
 
           // {to: 'blog', label: 'Blog', position: 'left'},
           {
             type: 'dropdown',
-            label: '➕ Features',
+            html: '<span class="nav-emoji">➕</span> Features',
             position: 'left',
             items: [
-              { 
-                label: '🌍 Showcase', 
-                to: 'showcase' 
-              },
               {
                 label: '🖥️ Code Editor',
                 to: 'https://cmhq-code-editor.vercel.app/',
@@ -207,18 +203,38 @@ const config = {
 
           {
             to: '/support',
-            label: '🌱 Community',
+            html: '<span class="nav-emoji">🌱</span> Community',
             position: 'left'
           },
 
-          // { to: 'showcase', label: '🌍 Showcase', position: 'left' },
-
-
+          { 
+            to: 'showcase', 
+            html: '<span class="nav-emoji">🌍</span> Showcase', 
+            position: 'left'
+          },
 
           // {
           //   type: 'localeDropdown',
           //   position: 'right',
           // },
+
+          {
+            type: 'dropdown',
+            html: '<span class="nav-emoji">🏷️</span> Tags',
+            position: 'left',
+            items: [
+              {
+                label: '🏷️ Tutorial Tags 📚',
+                to: '/docs/tags/',
+                activeBaseRegex: `/docs/tags/`,
+              },
+              {
+                label: '🏷️ Courses Tags 🎓',
+                to: '/courses/tags/',
+                activeBaseRegex: `/courses/tags/`,
+              },
+            ]
+          },
 
           {
             type: 'dropdown',
@@ -230,15 +246,10 @@ const config = {
               //   html: '<iframe src="https://github.com/sponsors/Ajay-Dhangar/button" title="Sponsor Ajay-Dhangar" height="32" width="120px" style="border: 0; border-radius: 6px;"></iframe>',
               // },
 
-              // { 
-              //   label: '🌍 Showcase', 
-              //   to: 'showcase' 
-              // },
-
-              {
+             {
                 label: 'Feedback & Survey',
                 to: 'https://forms.gle/Fd46s7r3Kpei8qwB8',
-              },
+              },             
 
               // {
               //   // to: 'https://paytm.business/link/1691717913115/LL_644057646',
@@ -299,10 +310,10 @@ const config = {
                 label: 'Guides',
                 to: '/',
               },
-              {
-                to: `/SecurityInfo`,
-                label: `Security`
-              },
+              // {
+              //   to: `/SecurityInfo`,
+              //   label: `Security`
+              // },
             ],
           },
           {
@@ -317,10 +328,10 @@ const config = {
                 to: '/support/resources',
               },
               
-              {
-                label: 'Product-3',
-                to: '/',
-              },
+              // {
+              //   label: 'Product-3',
+              //   to: '/',
+              // },
             ],
           },
           {
@@ -330,10 +341,10 @@ const config = {
                 label: 'Team',
                 to: '/support/team',
               },
-              {
-                label: 'Source Code',
-                to: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
-              },
+              // {
+              //   label: 'Source Code',
+              //   to: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
+              // },
               {
                 label: 'Twitter',
                 to: 'https://twitter.com/codemastermind2',
@@ -348,22 +359,26 @@ const config = {
             title: 'More',
             items: [
               {
-                html: `<img src="https://komarev.com/ghpvc/?username=ajay-dhangar&label=Site%20Views&color=0e75b6&style=flat" alt="ajay-dhangar" height="25" width="120px" />`
-              },
-              {
-                html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql"><img alt="GitHub contributors" src="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg" height="25" width="120px"></a>`
-              },
-
-              {
-                html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" height="25" width="120px" alt="Stars Badge"/></a>`
+                label: 'Source Code',
+                to: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
               },
               // {
-              //   to: `/SecurityInfo`,
-              //   label: `Security`
+              //   html: `<img src="https://komarev.com/ghpvc/?username=ajay-dhangar&label=Site%20Views&color=0e75b6&style=flat" alt="ajay-dhangar" height="25" width="120px" />`
               // },
-              {                
-                html: '<iframe src="https://github.com/sponsors/Ajay-Dhangar/button" href="https://github.com/sponsors/Ajay-Dhangar" title="Sponsor Ajay-Dhangar" height="32" width="120px" style="border: 0; border-radius: 6px;"></iframe>',
+              // {
+              //   html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql"><img alt="GitHub contributors" src="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg" height="25" width="120px"></a>`
+              // },
+
+              // {
+              //   html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" height="25" width="120px" alt="Stars Badge"/></a>`
+              // },
+              {
+                to: `/SecurityInfo`,
+                label: `Security`
               },
+              // {                
+              //   html: '<iframe src="https://github.com/sponsors/Ajay-Dhangar/button" href="https://github.com/sponsors/Ajay-Dhangar" title="Sponsor Ajay-Dhangar" height="32" width="120px" style="border: 0; border-radius: 6px;"></iframe>',
+              // },
 
             ],
           },

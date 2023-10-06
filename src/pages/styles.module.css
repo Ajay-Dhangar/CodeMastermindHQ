@@ -230,7 +230,7 @@
 }
 .leftContainer {
   padding: 2rem 0 0 1rem;
-  font-size: 40px;
+  font-size: 0px;
   flex: 2;
   /* background-color: red; */
 }
@@ -247,11 +247,11 @@
 
 .leftContainer_h1 {
   /* color: rgb(58, 58, 58); */
-  font-size: 4rem;
+  font-size: 2.3rem;
 }
 .leftContainer_p {
   /* color: #565451; */
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .buttonContainer {
   display: flex;
