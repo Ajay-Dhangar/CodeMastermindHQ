@@ -6,6 +6,13 @@ const JobListings = () => {
   // Example job data organized in an array of objects
   const jobs = [
     {
+      jobTitle: 'Software Engineer, Front End, Google Cloud',
+      company: 'Google',
+      jobDescription: '1 year of experience with DSA, and software development in one or more programming languages (e.g., Python, C, C++, Java, Javascript).',
+      applyLink: 'https://www.google.com/about/careers/applications/jobs/results/96395135371092678-software-engineer-front-end-google-cloud',
+      isVerified: true, // This company is verified
+    },
+    {
       jobTitle: 'Frontend Developer',
       company: 'CMHQ',
       jobDescription: 'We are looking for a frontend developer...',
