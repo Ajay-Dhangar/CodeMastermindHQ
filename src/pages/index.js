@@ -97,6 +97,7 @@ function Feature({ imageUrl, title, description }) {
   );
 }
 
+
 const svgList = [
   // {
   //   title: 'github',
@@ -161,6 +162,7 @@ function MyHero() {
         </p>
 
         <div className={styles.svgContainer}>
+          <a href='https://github.com/Ajay-Dhangar/CodeMastermindHQ' className='header-github-link'></a>
           {svgList.map((item, index) => {
             return <Svg {...item} key={item.title} />
           })}
@@ -168,7 +170,7 @@ function MyHero() {
 
       </div>
 
-      <div className={styles.rightContainer} style={{ boxShadow: '1px 1px 2px #262626', borderRadius: '10px' }}>
+      <div className={styles.rightContainer} style={{ borderRadius: '10px' }}>
         <img src="img/hero.png" alt='HeroImg' />
       </div>
 
@@ -188,7 +190,7 @@ function Home() {
 
           <h1 className="hero__title">{siteConfig.title}</h1>
 
-          <p className="hero__subtitle">{siteConfig.tagline}</p> 
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
 
           {/* <div className={styles.buttons}>
             <Link
