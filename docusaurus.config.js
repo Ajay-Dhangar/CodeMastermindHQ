@@ -298,15 +298,15 @@ const config = {
             items: [
               {
                 label: 'Jobs',
-                to: '/support/jobs',
+                to: '/Jobs',
               },
               {
                 label: 'Internships',
-                to: '/support/jobs',
+                to: '/Intern',
               },
               {
                 label: 'Guides',
-                to: '/',
+                to: '/support/careerpage',
               },
               // {
               //   to: `/SecurityInfo`,
