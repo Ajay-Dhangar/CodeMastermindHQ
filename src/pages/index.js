@@ -99,28 +99,28 @@ function Feature({ imageUrl, title, description }) {
 
 
 const svgList = [
-  // {
-  //   title: 'github',
-  //   Svg: require('../../static/img/github.svg').default,
-  //   color: 'black',
-  //   link: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
-  // },
+  {
+    title: 'github',
+    Svg: require('../../static/img/github.svg').default,
+    color: 'black',
+    link: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
+  },
   {
     title: 'discord',
     Svg: require('../../static/icons/discord.svg').default,
     link: 'https://discord.com/invite/BFkPKMsfuZ',
   },
-  {
-    title: 'linkedin',
-    Svg: require('../../static/icons/linkedin.svg').default,
-    color: 'black',
-    link: 'https://www.linkedin.com/groups/14232119/',
-  },
+  // {
+    // title: 'linkedin',
+    // Svg: require('../../static/icons/linkedin.svg').default,
+    // color: 'black',
+    // link: 'https://www.linkedin.com/groups/14232119/',
+  // },
   {
     title: 'whats-app',
     Svg: require('../../static/icons/whatsapp.svg').default,
     color: 'black',
-    link: 'https://wa.me/message/GBW4PY4S2L2VJ1',
+    link: 'https://whatsapp.com/channel/0029VaBbYitJUM2aOYiCd83O',
   },
   {
     title: 'slack',
