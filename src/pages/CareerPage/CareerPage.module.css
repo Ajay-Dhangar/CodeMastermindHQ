@@ -1,0 +1,50 @@
+/* CareerPage.module.css */
+
+.careerPage {
+    /* background-color: #f8f8f8; */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-top: 20px;
+    padding: 20px;
+    /* background-color: #fff; */
+    box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Add more styling as needed */
+  
