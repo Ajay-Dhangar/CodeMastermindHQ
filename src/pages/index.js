@@ -162,11 +162,10 @@ function MyHero() {
             return <Svg {...item} key={item.title} />
           })}
         </div>
-
       </div>
 
-      <div className={styles.rightContainer} style={{ borderRadius: '10px' }}>
-        <img src="img/hero.jpg" alt='HeroImg' />
+      <div className={styles.rightContainer} >
+        <img src="img/hero.jpg" alt='HeroImg' style={{ borderRadius: '10px' }} />
       </div>
 
     </div>
