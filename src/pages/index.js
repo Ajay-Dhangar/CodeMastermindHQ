@@ -11,6 +11,7 @@ import './styles.btn.css';
 const features = [
   {
     title: 'HTML 5',
+    OrgUrl: 'https://github.com/HTML-Mastery',
     imageUrl: 'dev-img/cd-html.svg',
     description: (
       <>
@@ -21,6 +22,7 @@ const features = [
   },
   {
     title: 'CSS 3',
+    OrgUrl: 'https://github.com/CSS3-Mastery',
     imageUrl: 'dev-img/cd-css3.svg',
     description: (
       <>
@@ -31,6 +33,7 @@ const features = [
   },
   {
     title: 'JavaScript',
+    OrgUrl: 'https://github.com/JavaScript-Mastery',
     imageUrl: 'dev-img/cd-javascript.svg',
     description: (
       <>
@@ -42,6 +45,7 @@ const features = [
   },
   {
     title: 'React',
+    OrgUrl: 'https://github.com/React-js-Mastery',
     imageUrl: 'dev-img/react.svg',
     description: (
       <>
@@ -52,6 +56,7 @@ const features = [
   },
   {
     title: 'Node',
+    OrgUrl: 'https://github.com/Node-Js-Mastery',
     imageUrl: 'dev-img/node-js.svg',
     description: (
       <>
@@ -62,6 +67,7 @@ const features = [
   },
   {
     title: 'MongoDB',
+    OrgUrl: '/',
     imageUrl: 'dev-img/mongodb.svg',
     description: (
       <>
@@ -72,6 +78,7 @@ const features = [
   },
   // {
   //   title: 'Express Js',
+  //   OrgUrl: '/',
   //   imageUrl: 'dev-img/express-js.svg',
   //   description: (
   //     <>
@@ -82,13 +89,15 @@ const features = [
   // },
 ];
 
-function Feature({ imageUrl, title, description }) {
+function Feature({ imageUrl, OrgUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <Link to={OrgUrl}>
+            <img className={styles.featureImage} src={imgUrl} alt={title} />
+          </Link>
         </div>
       )}
       <h3 style={{ textAlign: 'center' }}>{title}</h3>
@@ -99,17 +108,17 @@ function Feature({ imageUrl, title, description }) {
 
 
 const svgList = [
-  
+
   {
     title: 'discord',
     Svg: require('../../static/icons/discord.svg').default,
     link: 'https://discord.com/invite/BFkPKMsfuZ',
   },
   // {
-    // title: 'linkedin',
-    // Svg: require('../../static/icons/linkedin.svg').default,
-    // color: 'black',
-    // link: 'https://www.linkedin.com/groups/14232119/',
+  // title: 'linkedin',
+  // Svg: require('../../static/icons/linkedin.svg').default,
+  // color: 'black',
+  // link: 'https://www.linkedin.com/groups/14232119/',
   // },
   {
     title: 'whats-app',
