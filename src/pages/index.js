@@ -174,7 +174,7 @@ function MyHero() {
       </div>
 
       <div className={styles.rightContainer} >
-        <img src="img/hero.jpg" alt='HeroImg' style={{ borderRadius: '10px' }} />
+        <img src="img/Hero.jpg" alt='HeroImg' style={{ borderRadius: '10px' }} />
       </div>
 
     </div>
