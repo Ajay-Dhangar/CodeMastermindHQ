@@ -1,20 +1,11 @@
-/* stylelint-disable docusaurus/copyright-header */
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
   --site-color-tooltip: #fff;
   --site-color-tooltip-background: #353738;
   --site-color-svg-icon-favorite: #e9669e;
   --docusaurus-highlighted-code-line-bg: rgb(0 0 0 / 20%);
   --docusaurus-highlighted-code-line: #ffffff9c;
-  --month-calendar-holiday-bg: #e3e3e3;
+  --month-calendar-holiday-bg: #f5f4f4;
   --month-calendar-holiday-hover: hwb(0 29% 71%);
-
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);

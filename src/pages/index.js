@@ -99,12 +99,7 @@ function Feature({ imageUrl, title, description }) {
 
 
 const svgList = [
-  {
-    title: 'github',
-    Svg: require('../../static/img/github.svg').default,
-    color: 'black',
-    link: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
-  },
+  
   {
     title: 'discord',
     Svg: require('../../static/icons/discord.svg').default,
@@ -171,7 +166,7 @@ function MyHero() {
       </div>
 
       <div className={styles.rightContainer} style={{ borderRadius: '10px' }}>
-        <img src="img/hero.png" alt='HeroImg' />
+        <img src="img/hero.jpg" alt='HeroImg' />
       </div>
 
     </div>
