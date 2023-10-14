@@ -306,7 +306,7 @@ const config = {
               },
               {
                 label: 'Guides',
-                to: '/support/category/career-page',
+                to: '/support/career/career-page',
               },
               // {
               //   to: `/SecurityInfo`,
