@@ -49,7 +49,6 @@
     margin: 0 auto;
 }
 
-
 .unique-button-class {
     position: relative;
     width: 100%;
@@ -73,7 +72,6 @@
 .unique-button-class:hover {
     background-color: var(--button-background-hover-color);
 }
-
 
 .unique-button-class:focus,
 .unique-button-class.active {
@@ -106,7 +104,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 .unique-button-class span {
     background: var(--button-span-background-color);
@@ -143,7 +140,6 @@
     background: transparent;
 }
 
-
 @keyframes spin {
     0% {
         transform: rotate3d(0, 0, 0, 0deg);
@@ -157,7 +153,6 @@
         transform: rotate3d(0, 0, 0, 0deg);
     }
 }
-
 
 .unique-button-class:active {
     transform: scale(0.98);
@@ -218,8 +213,6 @@
          (  ' \ '-  |
           \    `.  /
            |      |
-           |      |
-    
-        
+           |      |  
         
     /* ===================================================*/
