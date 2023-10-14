@@ -1,9 +1,5 @@
 
-/*  GOOGLE FONT
-      All fonts vary.  Best to use fonts intended for production when styling things. */
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400&display=swap");
-
 
 :root {
     /*  BUTTON PARENT CONTAINER --> For demo. */
@@ -47,21 +43,11 @@
     --button-span-background-color: rgba(0, 0, 0, 0.25);
 }
 
-/* BUTTON PARENT CONTAINER 
-       Mark-Up for demo. */
-
 .button-container {
     width: 100%;
     max-width: var(--button-container-max-width);
     margin: 0 auto;
 }
-
-/* BUTTON MARK-UP 
-       Replace "unique-button-class" to whatever.  
-       HINT: Search and replace. 
-       Don't forget! - If you change the button class name in the CSS, 
-       change the button class name in the HTML too.
-       lol */
 
 .unique-button-class {
     position: relative;
@@ -87,18 +73,12 @@
     background-color: var(--button-background-hover-color);
 }
 
-/* BUTTON FOCUS AND ACTIVE STATES
-       Disabled pointer events and brought down opacity
-       on active button. */
-
 .unique-button-class:focus,
 .unique-button-class.active {
     background-color: var(--button-background-active-color);
     opacity: 0.9;
     pointer-events: none;
 }
-
-/* BUTTON MEDIA QUERY FOR LARGE SCREENS -->  AS NEEDED  */
 
 @media only screen and (min-width: 980px) {
     .unique-button-class {
@@ -125,7 +105,6 @@
     background-position: center;
 }
 
-/* SPAN IN HTML IS AN OVERLAY FOR BACKGROUND IMAGE  */
 .unique-button-class span {
     background: var(--button-span-background-color);
     width: 100%;
@@ -147,18 +126,12 @@
     }
 }
 
-/* BUTTON DIV HOVER EFFECT
-       This is the left panel  */
-
 .unique-button-class:hover div,
 .unique-button-class:focus div,
 .unique-button-class.active div {
     background-color: var(--button-div-background-hover-color);
     transition: background-color 300ms ease;
 }
-
-/* BUTTON SPAN ANIMATED SPIN HOVER EFFECT
-       This is the left panel with class "spin"  */
 
 .unique-button-class.spin:hover div span,
 .unique-button-class.spin:focus div span,
@@ -167,7 +140,6 @@
     background: transparent;
 }
 
-/* SPIN ANIMATION */
 @keyframes spin {
     0% {
         transform: rotate3d(0, 0, 0, 0deg);
@@ -182,15 +154,10 @@
     }
 }
 
-/* BUTTON PRESS EFFECT
-       Transform scale to create 
-       a button press effect when clicked. */
-
 .unique-button-class:active {
     transform: scale(0.98);
 }
 
-/* BUTTON TYPOGRAPHY  */
 .unique-button-class div {
     font-size: 30px;
     letter-spacing: 2px;
@@ -216,8 +183,6 @@
     font-weight: 400;
 }
 
-/* BUTTON TYPOGRAPHY MEDIA QUERY */
-
 @media only screen and (min-width: 980px) {
     .unique-button-class h2 {
         font-size: calc(100% + 3 * (100vw - 1000px) / 1000);
@@ -233,10 +198,6 @@
 .unique-button-class {
     margin-bottom: 30px;
 }
-/*  */
-
-
-
 
 /* ===================================================*
         
@@ -252,8 +213,6 @@
          (  ' \ '-  |
           \    `.  /
            |      |
-           |      |
-    
-        
+           |      |  
         
     /* ===================================================*/
