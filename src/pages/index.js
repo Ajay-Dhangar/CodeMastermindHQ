@@ -240,7 +240,8 @@ function Home() {
             <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}>
               <button className="unique-button-class">
                 <div className="lazyload" data-bg="tommy-concouse-trumpet.jpg?width=300&height=216&format=auto">
-                  <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}> <img src='img/tutorial-windwos.png' alt='tutorial' /></Link>
+                  {/* <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}> <img src='img/tutorial-windwos.png' alt='tutorial' /></Link> */}
+                  <span><Link to={useBaseUrl('docs/react/create-react-app/getting-started/')} style={{color:"yellow"}}>★★★</Link></span>
                 </div>
                 <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}><h2>Start Learning Now!</h2> </Link> <br />
                 <h3 className='btn-text-home'>Mastering the Art of Web Development: Step-by-Step Tutorials</h3>
