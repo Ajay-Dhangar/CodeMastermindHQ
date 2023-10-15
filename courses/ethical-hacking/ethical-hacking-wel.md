@@ -5,6 +5,7 @@ sidebar_position: 1
 sidebar_label: Ethical Hacking
 ---
 
+![Ethical Hacking](./img/ethical-hacking.jpg)
 
 ## Course Description:
 

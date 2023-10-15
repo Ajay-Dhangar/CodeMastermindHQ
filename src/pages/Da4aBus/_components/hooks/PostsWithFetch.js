@@ -9,7 +9,7 @@ function PostsWithFetch({...props}) {
   const fetchPosts = async () => {
     try {
       const response = await fetch(`./_rasp${props.num}.html`);
-      //https://old.orenburg.ru/background/raspisanie_sadovodcheskikh_marshrutov/marshrut_${props.num}/
+     
       const data = await response.text();
       //setPosts(postsData.match(/<p.*/g));
       const parser = new DOMParser();
@@ -20,8 +20,7 @@ function PostsWithFetch({...props}) {
         return pp;
       });
 
-      //return HTMLDocument;
-      //console.log([...HTMLDocument.querySelectorAll('p')]);
+     
       setPosts(pArray);
     } catch (error) {
       console.log(error);
@@ -45,8 +44,7 @@ function PostsWithFetch({...props}) {
   console.log('polReisa ' + polReisa);
   console.log('tudaObratno ' + tudaObratno);
 
-  //let pp = '4.00';
-
+  
   let count = 0;
   const pp = posts.length;
   console.log('pp = ' + pp);

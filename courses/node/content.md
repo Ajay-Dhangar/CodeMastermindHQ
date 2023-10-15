@@ -2,6 +2,7 @@
 # Table of Contents for Learning Node.js from Scratch
 
 ### Module 2: JavaScript Basics
+
 - 2.1 Variables and Data Types
 - 2.2 Operators and Expressions
 - 2.3 Control Structures (if statements, loops)
@@ -10,81 +11,79 @@
 - 2.6 Asynchronous JavaScript
 
 ### Module 3: Node.js Fundamentals
-3.1 The Node.js Runtime Environment
-3.2 Node.js Modules and the `require` System
-3.3 Using the Node Package Manager (NPM)
-3.4 Event-Driven Programming in Node.js
-3.5 File System Operations (fs module)
-3.6 Handling Errors and Exceptions
-3.7 Debugging Node.js Applications
+- 3.1 The Node.js Runtime Environment
+- 3.2 Node.js Modules and the `require` System
+- 3.3 Using the Node Package Manager (NPM)
+- 3.4 Event-Driven Programming in Node.js
+- 3.5 File System Operations (fs module)
+- 3.6 Handling Errors and Exceptions
+- 3.7 Debugging Node.js Applications
 
 ### Module 4: Building Web Servers with Node.js
-4.1 Creating Your First Node.js Server
-4.2 Handling HTTP Requests and Responses
-4.3 Routing and URL Handling
-4.4 Building RESTful APIs
-4.5 Working with Express.js
-4.6 Middleware in Express.js
+- 4.1 Creating Your First Node.js Server
+- 4.2 Handling HTTP Requests and Responses
+- 4.3 Routing and URL Handling
+- 4.4 Building RESTful APIs
+- 4.5 Working with Express.js
+- 4.6 Middleware in Express.js
 
 ### Module 5: Asynchronous Programming
-5.1 Callbacks and Callback Hell
-5.2 Promises
-5.3 Async/Await
-5.4 The Event Loop and Concurrency
-5.5 Best Practices for Handling Asynchronous Operations
+- 5.1 Callbacks and Callback Hell
+- 5.2 Promises
+- 5.3 Async/Await
+- 5.4 The Event Loop and Concurrency
+- 5.5 Best Practices for Handling Asynchronous Operations
 
 ### Module 6: Databases and Node.js
-6.1 Connecting to Databases (e.g., MongoDB, MySQL)
-6.2 Using an Object-Document Mapper (ODM) or Object-Relational Mapping (ORM)
-6.3 CRUD Operations with Databases
-6.4 Securing Your Database Connection
+- 6.1 Connecting to Databases (e.g., MongoDB, MySQL)
+- 6.2 Using an Object-Document Mapper (ODM) or Object-Relational Mapping (ORM)
+- 6.3 CRUD Operations with Databases
+- 6.4 Securing Your Database Connection
 
 ### Module 7: Authentication and Authorization
-7.1 User Authentication with Passport.js
-7.2 Managing User Sessions
-7.3 Role-Based Access Control
-7.4 Token-Based Authentication
+- 7.1 User Authentication with Passport.js
+- 7.2 Managing User Sessions
+- 7.3 Role-Based Access Control
+- 7.4 Token-Based Authentication
 
 ### Module 8: RESTful API Design
-8.1 Design Principles for RESTful APIs
-8.2 Versioning and Documentation
-8.3 Handling Request Data (POST, PUT, DELETE)
-8.4 Handling Responses (Status Codes, JSON, Error Handling)
+- 8.1 Design Principles for RESTful APIs
+- 8.2 Versioning and Documentation
+- 8.3 Handling Request Data (POST, PUT, DELETE)
+- 8.4 Handling Responses (Status Codes, JSON, Error Handling)
 
 ### Module 9: Testing and Debugging
-9.1 Writing Unit Tests with Mocha and Chai
-9.2 Integration and End-to-End Testing
-9.3 Debugging Node.js Applications
-9.4 Performance Monitoring and Profiling
+- 9.1 Writing Unit Tests with Mocha and Chai
+- 9.2 Integration and End-to-End Testing
+- 9.3 Debugging Node.js Applications
+- 9.4 Performance Monitoring and Profiling
 
 ### Module 10: Deployment and Scaling
-10.1 Preparing Your Application for Production
-10.2 Deployment Strategies (e.g., Docker, PaaS)
-10.3 Load Balancing and Scaling Techniques
-10.4 Security Best Practices
+- 10.1 Preparing Your Application for Production
+- 10.2 Deployment Strategies (e.g., Docker, PaaS)
+- 10.3 Load Balancing and Scaling Techniques
+- 10.4 Security Best Practices
 
 ### Module 11: Building Real-World Applications
-11.1 Project: Building a Chat Application
-11.2 Project: Building a Blogging Platform
-11.3 Project: Creating a RESTful API for a Mobile App
+- 11.1 Project: Building a Chat Application
+- 11.2 Project: Building a Blogging Platform
+- 11.3 Project: Creating a RESTful API for a Mobile App
 
 ### Module 12: Advanced Topics
-12.1 WebSockets and Real-Time Communication
-12.2 Serverless Computing with Node.js
-12.3 Using Microservices Architecture
-12.4 Exploring New Features in Node.js
+- 12.1 WebSockets and Real-Time Communication
+- 12.2 Serverless Computing with Node.js
+- 12.3 Using Microservices Architecture
+- 12.4 Exploring New Features in Node.js
 
 ### Module 13: Conclusion and Next Steps
-13.1 Recap and Review of Key Concepts
-13.2 Resources for Ongoing Learning
-13.3 Building a Portfolio and Contributing to Open Source
-13.4 Becoming a Professional Node.js Developer
+- 13.1 Recap and Review of Key Concepts
+- 13.2 Resources for Ongoing Learning
+- 13.3 Building a Portfolio and Contributing to Open Source
+- 13.4 Becoming a Professional Node.js Developer
 
 ---
 
 ## Table of Contents
-
-
 
 3. **Node.js Express Tutorial**
    - Introduction to Express.js
@@ -124,17 +123,6 @@
 ---
 
 ## Table of Contents
-
-### **Part 1: Getting Started with Node.js**
-1. Introduction to Node.js
-2. Setting Up Node.js Environment
-3. Your First Node.js Application
-
-### **Part 2: JavaScript Fundamentals for Node.js**
-4. Variables and Data Types
-5. Control Structures and Loops
-6. Functions and Scopes
-7. Object-Oriented Programming in JavaScript
 
 ### **Part 3: Node.js Basics**
 8. Node.js Modules and require
