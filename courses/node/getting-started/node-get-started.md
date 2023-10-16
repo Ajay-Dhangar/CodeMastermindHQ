@@ -11,6 +11,8 @@ import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
 ```
 
+![image](./../img/sketch.png)
+
 In this module, we will dive into the world of Node.js and get you started on your journey to becoming a proficient Node.js developer. We'll cover the basics, set up your development environment, and write your first Node.js application.
 
 ## Table of Contents
