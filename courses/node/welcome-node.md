@@ -5,6 +5,8 @@ sidebar_position: 1
 sidebar_label: Welcome To Node
 ---
 
+![node.js](./img/node-js-banner.png)
+
 ## Introduction
 
 Welcome to the Node.js course for beginners. In this comprehensive course, you will embark on a journey to master Node.js, the powerful runtime environment for JavaScript. Whether you're completely new to programming or already have some experience, this course will equip you with the skills needed to become a proficient back-end developer.

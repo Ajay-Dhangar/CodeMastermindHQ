@@ -11,6 +11,8 @@ import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
 ```
 
+![image](./../img/Node_js-banner.jpg)
+
 ## What is Node.js?
 
 Node.js is a powerful, open-source server-side runtime environment that is designed for building scalable and high-performance applications. It's important to understand the key concepts and features of Node.js, which make it a popular choice among developers.
