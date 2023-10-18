@@ -2,8 +2,9 @@
 id: functions-scope
 title: Functions and Scope
 sidebar_position: 4
-tags: [JavaScript basics, Functions and scope, JavaScript function declaration, Function return values, Local and global scope, JavaScript function expressions, Scope in JavaScript programming, JavaScript function examples, Understanding JavaScript functions, JavaScript scope management, Reusable code in JavaScript]
-sidebar_label: Functions & Scope
+tags: [JavaScript basics, Functions and scope, JavaScript function declaration, Function return values, Local and global scope, JavaScript function expressions, Scope in JavaScript programming, JavaScript function examples, Understanding JavaScript functions, JavaScript scope management, Reusable code in JavaScript, JavaScript functions, Scope in JavaScript, Local and global scope, Function parameters, Returning values from functions, Reusability with functions]
+description: Understand JavaScript functions and scope. Learn how to create and use functions, and grasp the concept of local and global scope.
+sidebar_label: 🧑‍💻Functions & Scope
 ---
 
 ## Functions:

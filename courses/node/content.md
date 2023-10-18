@@ -1,14 +1,6 @@
 
 # Table of Contents for Learning Node.js from Scratch
 
-### Module 2: JavaScript Basics
-
-- 2.1 Variables and Data Types
-- 2.2 Operators and Expressions
-- 2.3 Control Structures (if statements, loops)
-- 2.4 Functions and Scope
-- 2.5 Objects and Arrays
-- 2.6 Asynchronous JavaScript
 
 ### Module 3: Node.js Fundamentals
 - 3.1 The Node.js Runtime Environment

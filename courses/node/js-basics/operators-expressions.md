@@ -2,7 +2,9 @@
 id: operators-expressions
 title: Operators and Expressions
 sidebar_position: 2
-sidebar_label: Operators & Expressions
+tags: [JavaScript operators, Arithmetic operators, Comparison operators, Logical operators, Assignment operators, Concatenation in JavaScript, JavaScript expressions]
+description: Explore JavaScript operators and expressions in this detailed tutorial. Learn about arithmetic, comparison, logical operators, and more.
+sidebar_label: 🧑‍💻Operators & Expressions
 ---
 
 ## Operators in JavaScript:

@@ -2,7 +2,7 @@
 id: managing-dependencies
 sidebar_position: 4
 title: Managing Dependencies in Node.js
-sidebar_label: Managing Dependencies
+sidebar_label: 🧑‍💻Managing Dependencies
 ---
 
 In Node.js development, you'll often need to use external libraries or modules to enhance your applications. Managing these dependencies efficiently is crucial. Fortunately, Node.js provides a powerful package management system called **npm** (Node Package Manager) for this purpose.

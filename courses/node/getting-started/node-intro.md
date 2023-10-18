@@ -2,7 +2,7 @@
 id: node-intro
 title: An In-Depth Introduction with Examples
 sidebar_position: 1
-sidebar_label: Node.js Intro
+sidebar_label: 🧑‍💻Node.js Intro
 ---
 
 ```mdx-code-block

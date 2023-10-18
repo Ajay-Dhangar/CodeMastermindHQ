@@ -4,7 +4,7 @@ sidebar_position: 3
 title: NPM (Node Package Manager) Basics
 tags: [NPM basics, Node Package Manager, NPM commands, NPM installation, Managing packages with NPM, Node.js package manager, Package.json file, NPM tutorial, Node.js dependency management, NPM global installation, Node.js, Package management, JavaScript, Dependency management, NPM commands, NPM installation, Package.json, Node.js development, Software development]
 
-sidebar_label: NPM Basics
+sidebar_label: 🧑‍💻NPM Basics
 ---
 
 ## Introduction to NPM

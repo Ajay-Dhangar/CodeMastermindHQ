@@ -2,8 +2,9 @@
 id: control-structures
 title: Control Structures (if statements, loops)
 sidebar_position: 3
-tags: [JavaScript control structures, If statements in JavaScript, JavaScript loops, If-else statements in Node.js, Switch-case statements in JavaScript, Do-while loop in Node.js, While loop in JavaScript, For loop in Node.js, Conditional statements in programming, JavaScript loop examples, Looping in Node.js, Control flow in Node.js, JavaScript branching statements, Looping constructs in programming, JavaScript decision-making structures]
-sidebar_label: Control Structures
+tags: [JavaScript control structures, If statements in JavaScript, JavaScript loops, If-else statements in Node.js, Switch-case statements in JavaScript, Do-while loop in Node.js, While loop in JavaScript, For loop in Node.js, Conditional statements in programming, JavaScript loop examples, Looping in Node.js, Control flow in Node.js, JavaScript branching statements, Looping constructs in programming, JavaScript decision-making structures, JavaScript control structures, if statements in JavaScript, JavaScript loops, Conditional statements, Looping in JavaScript, Decision-making in JavaScript, for and while loops]
+description: Master JavaScript control structures, including if statements and loops. Learn how to make decisions and create loops for your code.
+sidebar_label: 🧑‍💻Control Structures
 ---
 
 Control structures are essential for managing the flow of your code. They allow you to make decisions, repeat tasks, and control the execution of your program. In this section, we'll explore various control structures in JavaScript.

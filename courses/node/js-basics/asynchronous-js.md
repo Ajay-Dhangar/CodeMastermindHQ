@@ -2,8 +2,9 @@
 id: asynchronous-js
 title: Asynchronous JavaScript
 sidebar_position: 6
-tags: []
-sidebar_label: Asynchronous Js
+tags: [Asynchronous JavaScript, Non-blocking JavaScript, JavaScript setTimeout, Handling, asynchronous tasks, Event-driven architecture, JavaScript asynchronous programming]
+description: Dive into asynchronous JavaScript and understand how it works. Explore the non-blocking nature of JavaScript and how to handle asynchronous tasks
+sidebar_label: 🧑‍💻Asynchronous Js
 ---
 
 ![image](./img/img-2.png)
