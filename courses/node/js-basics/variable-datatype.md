@@ -2,7 +2,9 @@
 id: variable-data-type
 title: Variables and Data Types
 sidebar_position: 1
-sidebar_label: Variables & Data Types
+sidebar_label: 🧑‍💻Variables & Data Types
+tags: [JavaScript variables, Data types in JavaScript, Variable declaration, String, number, boolean, Array and object in JavaScript, Null and undefined in JavaScript]
+description: Learn about JavaScript variables and data types in this comprehensive guide. Understand how to declare variables and work with various data types.
 ---
 
 ## Variables in JavaScript:

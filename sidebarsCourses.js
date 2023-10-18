@@ -101,7 +101,7 @@ module.exports = {
 
         {
           type: 'category',
-          label: 'Node Js',
+          label: '🌠 Node Js',
           link: {
             type: 'doc',
             id: 'node/welcome-node',
@@ -118,7 +118,7 @@ module.exports = {
 
         {
           type: 'category',
-          label: 'Ethical Hacking',
+          label: '🕵️‍♂️ Ethical Hacking',
           link: {
             type: 'doc',
             id: 'ethical-hacking/eh-wel',

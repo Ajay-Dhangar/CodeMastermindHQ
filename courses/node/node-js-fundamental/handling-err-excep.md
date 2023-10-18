@@ -1,9 +1,11 @@
 ---
-id: node-day-1
-title: Node Practise Day 1
-sidebar_position: 1
-sidebar_label:  Day 1
+id: handling-err-excep
+sidebar_position: 6
+title: Handling Errors and Exceptions
+tags: []
+sidebar_label: 🧑‍💻Handling Err and Excep
 ---
+
 
 ```mdx-code-block
 import BrowserWindow from '@site/src/components/BrowserWindow';

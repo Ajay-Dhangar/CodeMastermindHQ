@@ -2,7 +2,7 @@
 id: node-get-started
 title: Get Started with Node.js
 sidebar_position: 2
-sidebar_label: Get Started
+sidebar_label: 🧑‍💻Get Started
 ---
 
 ```mdx-code-block

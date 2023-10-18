@@ -2,8 +2,9 @@
 id: objects-arrays
 title: Objects and Arrays
 sidebar_position: 5
-tags: []
-sidebar_label: Objects & Arrays
+tags: [JavaScript objects, Working with objects, JavaScript arrays, Creating arrays, Accessing array elements, Managing objects and arrays]
+description: Discover JavaScript objects and arrays. Explore how to work with objects, create arrays, and access elements within them
+sidebar_label: 🧑‍💻Objects & Arrays
 ---
 
 ## Objects:
