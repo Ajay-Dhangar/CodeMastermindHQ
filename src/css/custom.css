@@ -14,6 +14,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  
 }
 
 html[data-theme='dark'] {
@@ -418,14 +419,13 @@ table.month tbody td.mc:hover {
 
 div[class^='announcementBar_'] {
   background: var(--ifm-hero-background-color);
-  color: #ffffff;
-  border-bottom: 1px dotted #eeeeee;
-  font-weight: bold;
+  color: var(--ifm-hero-text-color);
+  border-bottom: 1.8px dotted rgb(37, 184, 11);
+  font-weight: bold;  
   font-size: 18px;
-  height: 55px;
-  padding: 10px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 div[class^='announcementBar_'] a {
