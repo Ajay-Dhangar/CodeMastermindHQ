@@ -130,8 +130,8 @@ const config = {
         id: 'announcementBar',
         content: `⭐️ If you like CodeMasterMindHQ, give it a star on <a target="_blank" href="https://github.com/Ajay-Dhangar/CodeMastermindHQ">GitHub</a> and join us on <a target="_blank" href="https://www.linkedin.com/groups/14232119/">LinkedIn</a> ⭐️`,
 
-        backgroundColor: '#ff1f21',
-        textColor: '#f1f1f1',
+        // backgroundColor: '#ff1f21',
+        // textColor: '#f1f1f1',
         isCloseable: true,
       },
       navbar: {
@@ -264,12 +264,12 @@ const config = {
           //     //   html: `<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Ajay-Dhangar/CodeMastermindHQ?color=2b9348">`
           //     // },
 
-          // {
-          //   href: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
-          //   position: 'right',
-          //   className: 'header-github-link',
-          //   'aria-label': 'GitHub repository',
-          // },
+          {
+            href: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          },
         ],
       },
 
