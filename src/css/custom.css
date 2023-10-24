@@ -459,3 +459,9 @@ div[class^='announcementBar_'] .clean-btn {
     display: none;
   }
 }
+.nav-link_login{
+  background-color: #366fd8;
+  color: #f2f2f2;
+  border-radius: 5px;
+  margin-right: 5px;
+}
