@@ -1,23 +1,9 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 import React, { useState, useMemo, useEffect } from 'react';
-// @ts-ignore
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
-
 import FavoriteIcon from '@site/src/components/svgIcons/FavoriteIcon';
-import ShowcaseTagSelect, {
-  readSearchTags,
-} from '../showcase/_components/ShowcaseTagSelect';
-import ShowcaseFilterToggle, {
-  type Operator,
-  readOperator,
-} from '../showcase/_components/ShowcaseFilterToggle';
+import ShowcaseTagSelect, { readSearchTags,} from '../showcase/_components/ShowcaseTagSelect';
+import ShowcaseFilterToggle, { type Operator, readOperator,} from '../showcase/_components/ShowcaseFilterToggle';
 import ShowcaseCard from '../showcase/_components/ShowcaseCard';
 import {
   sortedUsers,
@@ -379,7 +365,7 @@ export default function Showcase(): JSX.Element {
                     website: 'https://my-youtube-ajay.vercel.app/',
                     source:
                       'https://github.com/Ajay-Dhangar/youtube_clone',
-                    tags: ['opensource', 'clone'],
+                    tags: ['opensource', 'clone', 'react', 'css'],
                   }}
                 />
               </ul>
