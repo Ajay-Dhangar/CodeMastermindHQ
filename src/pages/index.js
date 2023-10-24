@@ -188,7 +188,8 @@ function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        
+        <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
 
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -260,13 +261,15 @@ function Home() {
 
         </div>
       </header>
+
+
       <main>
 
         <MyHero />
 
         <div className={clsx(styles.announcement, styles.announcementDark)}>
           <div className={styles.announcementInner}>
-            <Link><q>Unleash Your Coding Potential</q></Link>
+            <Link><q style={{fontWeight:'bold'}}>Unleash Your Coding Potential</q></Link>
             <p>Elevate your coding journey with CodeMastermindHQ. Embrace the power of code, where possibilities become reality.</p>
 
           </div>

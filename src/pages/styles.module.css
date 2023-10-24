@@ -76,7 +76,7 @@
 }
 
 .announcement {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 24px;
   padding: 48px;
   margin: 0 auto;
@@ -84,8 +84,8 @@
 }
 
 .announcementDark {
-  background-color: #20232a;
-  color: #fff;
+  box-shadow: 1px 1px 2px #262626;
+  border-radius: 10px;
 }
 
 .announcementInner {
@@ -212,6 +212,8 @@
   width: 100%;
   overflow: hidden;
   padding: 1.5rem 1rem;
+  box-shadow: 1px 1px 2px #262626;
+  border-radius: 10px;
 }
 .leftContainer {
   padding: 2rem;
