@@ -264,7 +264,7 @@ const config = {
           //     // },
 
           {
-            href: 'https://github.com/Ajay-Dhangar/CodeMastermindHQ',
+            href: 'https://github.com/CodeMastermindHQ',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
