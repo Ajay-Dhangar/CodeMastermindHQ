@@ -2,7 +2,7 @@
 id: http-module
 title: HTTP Module in Node.js
 sidebar_position: 3
-sidebar_label: HTTP Module
+sidebar_label: 🧑‍💻HTTP Module
 ---
 
 ```mdx-code-block

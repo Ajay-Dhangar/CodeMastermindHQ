@@ -2,7 +2,7 @@
 id: introduction-to-expressjs
 title: Introduction to Express.js
 sidebar_position: 4
-sidebar_label: Express.js Intro...
+sidebar_label: 🧑‍💻Express.js Intro...
 ---
 
 ```mdx-code-block

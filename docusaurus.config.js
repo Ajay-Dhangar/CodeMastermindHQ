@@ -386,7 +386,7 @@ const config = {
             ],
           },
         ],
-        copyright: ` Copyright © ${new Date().getFullYear()} CMHQ Made with ❤️ by <Link to="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</Link>`,
+        copyright: ` Copyright © ${new Date().getFullYear()} CMHQ Made with ❤️ by <a href="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</a>`,
       },
 
       prism: {

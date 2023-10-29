@@ -115,9 +115,7 @@ blockquote {
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #2b3137;
-  background-image: linear-gradient(#ff0303, transparent), url("../../static/img/use-svg-as-background-image-particle-strokes.svg");
-  
+  --ifm-footer-background-color: #2b3137;  
 }
 
 [data-theme='light'] img[src$='#gh-dark-mode-only'],
@@ -418,8 +416,8 @@ table.month tbody td.mc:hover {
 } */
 
 div[class^='announcementBar_'] {
-  background: var(--ifm-hero-background-color);
-  color: var(--ifm-hero-text-color);
+  background-image: linear-gradient(#ff0303, transparent), url("../../static/img/use-svg-as-background-image-particle-strokes.svg");
+  color: #f2f2f2;
   border-bottom: 1.8px dotted rgb(37, 184, 11);
   font-weight: bold;  
   font-size: 18px;

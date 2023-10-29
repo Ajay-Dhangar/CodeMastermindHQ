@@ -2,7 +2,7 @@
 id: node-js-intro
 title: Node.js Introduction
 sidebar_position: 1
-sidebar_label: Node.js Intro...
+sidebar_label: 🧑‍💻Node.js Intro...
 ---
 
 Welcome to the exciting world of Node.js! In this session, we will dive into the fundamentals of Node.js, understanding its core concepts, and exploring its vast capabilities in building scalable and high-performing applications.
