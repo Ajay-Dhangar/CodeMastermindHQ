@@ -2,7 +2,7 @@
 id: ejs-template-engine
 title: Introduction to EJS Template Engine
 sidebar_position: 2
-sidebar_label: EJS Template Engine
+sidebar_label: 🧑‍💻EJS Template Engine
 ---
 
 ```mdx-code-block
