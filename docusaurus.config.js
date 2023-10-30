@@ -272,10 +272,16 @@ const config = {
 
           // {
           //   to: '/',
-          //   label: 'Login',
+          //   label: 'Home',
           //   position: 'right',
-          //   className: 'nav-link_login',
+          //   className: 'nav-link_home',
           // },
+          {
+            to: '/LoginForm',
+            label: 'Login',
+            position: 'right',
+            className: 'nav-link_login',
+          },
         ],
       },
 
