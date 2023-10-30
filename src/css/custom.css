@@ -44,14 +44,14 @@ textarea {
 }
 
 a[href^='http'] {
-  color: #366fd8;
-}
-
-[data-theme='dark'] a[href^='http'] {
   color: #5788e4;
 }
 
-.theme-doc-markdown a[href^='http']::before {
+[data-theme='dark'] a[href^='http'] {
+  color: #14fd08;
+}
+
+/* .theme-doc-markdown a[href^='http']::before {
   background-color: #366fd8;
   mask-image: url(/static/img/external.e091ac5d.svg);
   -webkit-mask-image: url(/static/img/external.e091ac5d.svg);
@@ -61,11 +61,11 @@ a[href^='http'] {
   -webkit-mask-repeat: no-repeat;
   mask-position: -1px 4px;
   -webkit-mask-position: -1px 4px;
-}
+} */
 
-[data-theme='dark'] .theme-doc-markdown a[href^='http']::before {
+/* [data-theme='dark'] .theme-doc-markdown a[href^='http']::before {
   background-color: #5788e4;
-}
+} */
 
 .right {
   text-align: right;
@@ -392,21 +392,6 @@ table.month tbody td.mc:hover {
   flex: 0 0 var(--ifm-col-width);
 }*/
 
-/*.green a {
-  color: #af6431;
-}
-
-.green a:hover {
-  color: #af6431;
-}
-
-.red a {
-  color: var(--ifm-menu-color);
-}
-
-.red a:hover {
-  color: var(--ifm-menu-color);
-}*/
 .discord-icon-name, .youtube-icon-name{
   font-weight: bold;  
 }
