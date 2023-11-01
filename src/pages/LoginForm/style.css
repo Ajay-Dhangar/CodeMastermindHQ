@@ -1,50 +1,12 @@
-/* App.css */
-.form-app {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .form-container {
-    /* background: #fff; */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    width: 300px;
-    text-align: center;
-  }
-  
-  .form-h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .form-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .form-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .form-button:hover {
-    background-color: #0056b3;
-  }
-  
+.form-app{
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
   .form-p {
     cursor: pointer;
     color: #007BFF;
+    text-align: center;
     margin-top: 10px;
   }
   
