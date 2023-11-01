@@ -1,0 +1,28 @@
+  .gallery {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+  }
+
+  .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .image-container {
+      width: 32%;
+      margin-bottom: 1em;
+  }
+
+  .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5em;
+      transition: all 0.3s ease;
+  }
+
+  .image-container:hover img {
+      transform: scale(1.1);
+      box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.3);
+  }
