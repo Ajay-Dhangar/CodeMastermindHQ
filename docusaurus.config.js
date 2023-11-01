@@ -278,7 +278,7 @@ const config = {
           // },
           {
             to: '/LoginForm',
-            label: 'Login',
+            label: 'AUTH',
             position: 'right',
             className: 'nav-link_login',
           },

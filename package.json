@@ -23,10 +23,10 @@
   "dependencies": {
     "@crowdin/cli": "^3.14.0",
     "@docusaurus/core": "2.4.1",
-    "@docusaurus/plugin-ideal-image": "2.4.1",
+    "@docusaurus/plugin-ideal-image": "2.4.3",
     "@docusaurus/plugin-pwa": "2.4.1",
     "@docusaurus/preset-classic": "2.1.0",
-    "@docusaurus/remark-plugin-npm2yarn": "2.4.1",
+    "@docusaurus/remark-plugin-npm2yarn": "2.4.3",
     "@docusaurus/theme-classic": "2.1.0",
     "@docusaurus/theme-common": "2.1.0",
     "@docusaurus/theme-live-codeblock": "2.1.0",
@@ -34,13 +34,17 @@
     "@emotion/styled": "^11.11.0",
     "@emotion/types": "^0.7.0",
     "@mdx-js/react": "^1.6.22",
-    "@mui/icons-material": "^5.14.9",
+    "@mui/icons-material": "^5.14.15",
     "@mui/material": "^5.14.11",
     "@popperjs/core": "^2.11.5",
     "@types/codemirror": "^5.60.10",
     "@types/react": "^18.2.17",
     "@types/react-dom": "^18.2.7",
+<<<<<<< HEAD
     "axios": "^1.6.0",
+=======
+    "axios": "^1.5.1",
+>>>>>>> 7b37ea8640d48a2700e060ba27f40fcc3e463b27
     "chart.js": "^4.4.0",
     "clsx": "^1.1.1",
     "codemirror": "^6.0.1",
@@ -66,8 +70,8 @@
   },
   "devDependencies": {
     "@docusaurus/eslint-plugin": "2.4.1",
-    "@docusaurus/module-type-aliases": "2.4.1",
-    "@tsconfig/docusaurus": "^2.0.0",
+    "@docusaurus/module-type-aliases": "2.4.3",
+    "@tsconfig/docusaurus": "^2.0.2",
     "cross-env": "^7.0.3",
     "crowdin-cli": "^0.3.0",
     "gh-pages": "^5.0.0",
