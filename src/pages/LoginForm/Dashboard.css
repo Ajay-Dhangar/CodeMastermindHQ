@@ -1,0 +1,16 @@
+.dashboard-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .dashboard-container h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Add more styles as needed for your dashboard */
+  

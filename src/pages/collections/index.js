@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import Layout from '@theme/Layout';
-// import ListRowCard from '@site/src/components/ListRowCard';
 import ImageGallery from "./ImageGallery";
 
 
@@ -15,7 +14,6 @@ const images = [
   "./img/200 (8).webp",
   "./img/cat.webp",
   "./img/code.webp",
-  // Add more image paths here
 ];
 
 
