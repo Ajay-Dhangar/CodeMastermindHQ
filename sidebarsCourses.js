@@ -2,14 +2,14 @@ module.exports = {
   Courses: [
     {
       type: 'link',
-      label: 'Collections',
+      label: 'Projects',
       href: '/cardHolder',
     },
-    // {
-    //   type: 'link',
-    //   label: 'Code Editor',
-    //   href: '/CodeEditor',
-    // },
+    {
+      type: 'link',
+      label: 'Collections',
+      href: '/collections',
+    },
     {
       type: 'link',
       label: 'myComponents',
