@@ -80,3 +80,40 @@ BFS is often implemented using a queue data structure, which helps maintain the 
 One important application of BFS is in finding the shortest path in a maze or a grid. You can apply BFS to explore the maze, starting from the entrance, and stop when you reach the exit, ensuring that you find the shortest path.
 
 ### DFS
+
+Depth-First Search (DFS) in the context of artificial intelligence and problem-solving.
+
+**Depth-First Search (DFS)** is a fundamental search algorithm used in AI and computer science for traversing or searching through a state space. It's commonly employed in various AI applications, including solving problems and navigating search spaces. Here's a detailed explanation of how DFS works:
+
+**1. Initialization:**
+   - Start with an initial state, which represents the starting point in the state space.
+
+**2. Stack (or Recursion) Implementation:**
+   - DFS uses a stack (or recursion) to keep track of the states to be explored.
+   - Initially, push the initial state onto the stack.
+
+**3. Exploring States:**
+   - Pop a state from the top of the stack. This state represents the current position in the search space.
+
+**4. Expanding States:**
+   - Generate all possible successor states from the current state. These are the states reachable from the current state through available actions or transitions.
+
+**5. Examining Successors:**
+   - For each successor state:
+     - Check if it's a goal state. If so, the search is successful.
+     - If it's not a goal state, push it onto the stack for further exploration.
+
+**6. Recursion (if using recursion):**
+   - If you're implementing DFS recursively, you'll call the DFS function again with the successor state as the argument.
+
+**7. Backtracking:**
+   - If a state has no unexplored successors, the search backtracks. It returns to the previous state to explore other unexplored branches.
+
+**8. Repeating the Process:**
+   - Continue this process until a goal state is found or until all states have been explored.
+
+DFS is called "depth-first" because it explores one branch as deeply as possible before backtracking. It's often used in scenarios where you want to exhaustively search a tree or graph, such as solving puzzles, route finding, and more.
+
+One thing to note is that DFS can get stuck in infinite loops if the state space contains cycles. To prevent this, you may need to implement cycle detection mechanisms.
+
+DFS has some advantages, such as its simplicity and the fact that it can find a solution with minimal memory usage, but it doesn't guarantee the shortest path to the goal.
