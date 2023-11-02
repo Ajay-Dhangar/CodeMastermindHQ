@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import classes from './Bus.module.css';
 import BusRoutes from '../BusRoutes/BusRoutes';
 
@@ -8,7 +8,7 @@ class Bus extends Component {
     buses: [],
     selectedBus: null,
     normUrl:
-      'https://raw.githubusercontent.com/PaPa31/hm/documentation/static/_rasp',
+      'https://github.com/CodeMastermindHQ',
   };
 
   componentDidMount() {
