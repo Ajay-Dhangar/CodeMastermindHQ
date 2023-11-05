@@ -392,6 +392,12 @@ const config = {
             ],
           },
         ],
+
+        logo: {
+          alt: 'Sponsor Ajay-Dhangar',
+          src: '/img/sponsor.jpg',
+          href: 'https://github.com/sponsors/codemastermindhq',
+        },
         copyright: ` Copyright © ${new Date().getFullYear()} CMHQ Made with ❤️ by <a href="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</a>`,
       },
 
