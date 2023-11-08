@@ -104,6 +104,14 @@ const config = {
     ],
   ],
 
+  // scripts: [
+  //   {
+  //     src: 'https://pagead2.googlesyndication.com/pagead/managed/js/adsense/**********/.js',
+  //     async: true,
+  //     crossorigin: 'anonymous',
+  //   }
+  // ],
+
   themes: ['@docusaurus/theme-live-codeblock'],
 
   i18n: {
