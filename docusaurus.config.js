@@ -159,7 +159,7 @@ const config = {
             items: [
               {
                 type: 'doc',
-                docId: 'html/basic-level/html-intro',
+                docId: 'html/intro-html/intro-html',
                 label: '📚 Tutorials 🚀',
               },
 
