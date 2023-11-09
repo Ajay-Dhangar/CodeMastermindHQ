@@ -7,7 +7,6 @@ date: 2021-02-25 11:08:29
 description: Welcome to HTML mastery tutorials!
 ---
 
-
 In HTML, the `<hr>` tag is a simple yet powerful tool for adding horizontal lines to your web page. These lines can be used to visually separate content, creating a clear distinction between different sections of your document.
 
 ### How to Use the `<hr>` Tag
