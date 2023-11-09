@@ -13,7 +13,7 @@ import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
 ```
 
-## HTML Working
+![How to Work HTML](./img/How-HTML-Works.jpg)
 
 HTML, which stands for HyperText Markup Language, is the foundation of web development. It's a markup language used to create web pages. But how does it work, and what's its role in building websites? Let's dive in.
 

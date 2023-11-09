@@ -13,6 +13,8 @@ import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
 ```
 
+![HTML Code Editor](./img/Learn-HTML.jpeg)
+
 Before diving into HTML coding, it's essential to set up a reliable code editor. A code editor simplifies the process of writing, editing, and organizing your HTML code. Various code editors are available, but one of the most popular and versatile choices is Visual Studio Code (VS Code). Follow the steps below to install it on your system:
 
 1. Visit the official Visual Studio Code website at https://code.visualstudio.com/.

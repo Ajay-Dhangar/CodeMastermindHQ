@@ -7,13 +7,6 @@ date: 2021-02-25 11:08:29
 description: Welcome to HTML mastery tutorials!
 ---
 
-```mdx-code-block
-import BrowserWindow from '@site/src/components/BrowserWindow';
-import CodeBlock from '@theme/CodeBlock';
-import card from '@site/src/css/markdown.module.css'
-```
-
-
 HTML attributes are crucial elements used to define characteristics or properties of HTML elements. They play a fundamental role in specifying how an element should behave or appear. Each attribute consists of two parts: the attribute name and its corresponding value.
 
 1. **Name**: The attribute name identifies the specific property that you want to assign to an HTML element.
