@@ -21,7 +21,7 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@crowdin/cli": "^3.14.0",
+    "@crowdin/cli": "^3.15.0",
     "@docusaurus/core": "2.4.1",
     "@docusaurus/plugin-ideal-image": "2.4.1",
     "@docusaurus/plugin-pwa": "2.4.3",
