@@ -13,92 +13,88 @@ export default function YouTubeVideos() {
   const videoData = [
     {
       AUTHOR: "Ajay Dhangar",
-      VURL: 'https://www.youtube.com/',
+      VURL: 'https://youtu.be/0gIRaJ6Exak?si=TZF-kIMd49Is3WNs',
       CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CNAME: 'Ajay Dhangar',
-      VTITLE: 'Adding a Search Bar to your Blog Section or Blog Post (Only Demo)',
-      VTHUMB: '/img/yt-img/thumb.png',
-      VIEWS: '61',
-      DATE: '1 month ago',    
-      category: 'html',  
+      CNAME: 'CMHQ Official',
+      VTITLE: 'HTML Web Development Course - Learn HTML from Scratch | CMHQ',
+      VTHUMB: '/img/yt-img/html/html-01.png',
+      VIEWS: '20',
+      DATE: '2 days ago',
+      category: 'html',
+      isVerified: true, // Video is verified
+    },
+    {
+      AUTHOR: "Ajay Dhangar",
+      VURL: 'https://youtu.be/59gnPwkagOQ?si=ih2URZjkC4CZnKUM',
+      CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
+      CNAME: 'CMHQ Official',
+      VTITLE: "Master HTML Basics: A Beginner's Guide to Web Development | CMHQ",
+      VTHUMB: '/img/yt-img/html/html-02.png',
+      VIEWS: '16',
+      DATE: '20 hours ago',
+      category: 'html',
+      isVerified: true, // Video is verified
+    },
+    {
+      AUTHOR: "Ajay Dhangar",
+      VURL: '/',
+      CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
+      CNAME: 'CMHQ Official',
+      VTITLE: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      VTHUMB: '/img/yt-img/coming-soon.gif',
+      VIEWS: '00',
+      DATE: 'Coming Sonn...',
+      category: 'html',
+      isVerified: false, // Video is not verified
+    },
+    {
+      AUTHOR: "Ajay Dhangar",
+      VURL: '/',
+      CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
+      CNAME: 'CMHQ Official',
+      VTITLE: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      VTHUMB: '/img/yt-img/coming-soon.gif',
+      VIEWS: '00',
+      DATE: 'Coming Sonn...',
+      category: 'html',
+      isVerified: false, // Video is not verified 
     },
     {
       AUTHOR: "Ajay Dhangar",
       VURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
       CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CNAME: 'Ajay Dhangar',
-      VTITLE: 'Adding a Search Bar to your Blog Section or Blog Post (Only Demo)',
-      VTHUMB: '/img/yt-img/thumb.png',
+      CNAME: 'CMHQ Official',
+      VTITLE: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
+      VTHUMB: '/img/yt-img/coming-soon.gif',
       VIEWS: '61',
       DATE: '1 month ago',
-      category: 'html',  
+      category: 'css',
+      isVerified: false, // Video is not verified 
     },
     {
       AUTHOR: "Ajay Dhangar",
       VURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
       CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CNAME: 'Ajay Dhangar',
-      VTITLE: 'Adding a Search Bar to your Blog Section or Blog Post (Only Demo)',
-      VTHUMB: '/img/yt-img/thumb.png',
+      CNAME: 'CMHQ Official',
+      VTITLE: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
+      VTHUMB: '/img/yt-img/coming-soon.gif',
       VIEWS: '61',
       DATE: '1 month ago',
-      category: 'html',  
+      category: 'css',
+      isVerified: false, // Video is not verified 
     },
+
     {
       AUTHOR: "Ajay Dhangar",
       VURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
       CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CNAME: 'Ajay Dhangar',
-      VTITLE: 'Adding a Search Bar to your Blog Section or Blog Post (Only Demo)',
-      VTHUMB: '/img/yt-img/thumb.png',
+      CNAME: 'CMHQ Official',
+      VTITLE: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
+      VTHUMB: '/img/yt-img/coming-soon.gif',
       VIEWS: '61',
       DATE: '1 month ago',
-      category: 'css',  
-    },
-    {
-      AUTHOR: "Ajay Dhangar",
-      VURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CNAME: 'Ajay Dhangar',
-      VTITLE: 'Adding a Search Bar to your Blog Section or Blog Post (Only Demo)',
-      VTHUMB: '/img/yt-img/thumb.png',
-      VIEWS: '61',
-      DATE: '1 month ago',
-      category: 'html',  
-    },
-    {
-      AUTHOR: "Ajay Dhangar",
-      VURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CNAME: 'Ajay Dhangar',
-      VTITLE: 'Adding a Search Bar to your Blog Section or Blog Post (Only Demo)',
-      VTHUMB: '/img/yt-img/thumb.png',
-      VIEWS: '61',
-      DATE: '1 month ago',
-      category: 'css',  
-    },
-    
-    {
-      AUTHOR: "Ajay Dhangar",
-      VURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CNAME: 'Ajay Dhangar',
-      VTITLE: 'Adding a Search Bar to your Blog Section or Blog Post (Only Demo)',
-      VTHUMB: '/img/yt-img/thumb.png',
-      VIEWS: '61',
-      DATE: '1 month ago',
-      category: 'css',  
-    },
-    {
-      AUTHOR: "Ajay Dhangar",
-      VURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CURL: 'https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw',
-      CNAME: 'Ajay Dhangar',
-      VTITLE: 'Adding a Search Bar to your Blog Section or Blog Post (Only Demo)',
-      VTHUMB: '/img/yt-img/thumb.png',
-      VIEWS: '61',
-      DATE: '1 month ago',
-      category: 'css',  
+      category: 'css',
+      isVerified: false, // Video is not verified
     },
 
     // Add more video objects as needed
@@ -121,6 +117,11 @@ export default function YouTubeVideos() {
                 <a href={video.CURL} target="_blank" rel='noreferrer'>
                   {video.CNAME}
                 </a>
+                {video.isVerified ? (
+                  <img src="/img/verified.png" title='Video is verified' alt="Verified Badge" className="verified-badge" />
+                ) : (
+                  <span className="Video is not verified"></span>
+                )}
               </span>
               <div className="video-stats">
                 {video.VIEWS} Views <span>.</span> {video.DATE}
@@ -145,6 +146,11 @@ export default function YouTubeVideos() {
                 <a href={video.CURL} target="_blank" rel='noreferrer'>
                   {video.CNAME}
                 </a>
+                {video.isVerified ? (
+                  <img src="/img/verified.png" title='Video is verified' alt="Verified Badge" className="verified-badge" />
+                ) : (
+                  <span className="Video is not verified"></span>
+                )}
               </span>
               <div className="video-stats">
                 {video.VIEWS} Views <span>.</span> {video.DATE}
