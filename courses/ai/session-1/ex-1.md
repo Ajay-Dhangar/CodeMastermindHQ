@@ -5,100 +5,92 @@ sidebar_position: 1
 sidebar_label: 🧑‍💻AI Intro...
 ---
 
+```mdx-code-block
+import './style.css'
+```
+
 ![Introduction to Artificial Intelligence](./../img/ai.jpg)
 
-### Artificial Intelligence
+### 1. Artificial Intelligence
 
-Artificial Intelligence (AI) is the field of computer science dedicated to creating computer systems that can perform tasks that would typically require human intelligence. It involves the development of intelligent agents that can perceive their environment and make decisions to maximise the chances of successfully achieving their goals.
+Artificial Intelligence (AI) is the field of computer science dedicated to creating computer systems that can perform tasks that would typically require human intelligence.
 
-### AI problems
+- **Definition:** The simulation of human intelligence in machines, enabling them to perform tasks that typically require human intelligence.
+- **Example:** Creating algorithms that allow computers to recognize speech or play chess.
 
-AI problems can be broadly categorised into the following:
+### 2. AI problems
 
-**1. Search Problems:**
-- Search problems involve finding a sequence of actions or states that lead from an initial state to a goal state. This is often represented as a state space.
-- Algorithms like Breadth-First Search (BFS), Depth-First Search (DFS), and A* searches are used to solve search problems.
-   
-**2. Knowledge Representation and Reasoning Problems:**
-- These problems focus on how knowledge can be represented in a way that allows AI systems to reason and make decisions.
-- Logic programming, propositional logic, and first-order predicate logic are used for representation and reasoning.
-   
-**3. Planning Problems:**
-- In planning problems, AI systems need to decide on a sequence of actions to achieve a particular goal.
-- Goal stack planning, hierarchical planning, and reactive systems are methods for solving planning problems.
+In the context of Artificial Intelligence (AI), problems refer to challenges or tasks that require intelligent solutions. AI problems can be broadly categorized into various types, each presenting unique characteristics and requiring specific approaches for resolution. Here are some common types of AI problems:
 
-**4. Uncertainty Problems:**
-- AI often deals with uncertain information. Problems here involve reasoning about situations with incomplete or uncertain data.
-- Bayesian networks, fuzzy logic, and certainty factors are used for reasoning under uncertainty.
+![AI problems](./../img/AI-Problem.png)
 
-**5. Natural Language Processing Problems:**
-- These problems involve understanding and generating human language. They encompass tasks like language translation, sentiment analysis, and chatbots.
-- Syntactic and semantic analysis are crucial in solving NLP problems.
+1. **Search Problems:**
+   - **Definition:** These problems involve finding a solution in a vast solution space.
+   - **Example:** <span title="An 8-puzzle is a sliding puzzle where a 3x3 grid contains numbered tiles and one blank space. The goal is to rearrange the tiles to a specified goal state by sliding them into the blank space.">eight-puzzle</span>, <span title="Filling a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 subgrids contains all of the digits from 1 to 9.">Sudoku </span>.
 
-**6. Expert Systems Problems:**
-- Expert systems aim to mimic the decision-making abilities of a human expert in a specific domain.
-- Knowledge acquisition, validation, and building rule-based systems are common challenges.
+2. **Game Playing:**
+   - **Definition:** AI systems play strategic games against human or other AI opponents.
+   - **Example:** <span title="Chess is a two-player strategy board game with an 8x8 grid. The goal is to checkmate the opponent's king.">Chess</span>, <span title="Poker is a popular card game with various variants. It involves elements of skill, strategy, and bluffing.">Poker</span>.
 
-**7. Machine Learning Problems:**
-- Machine learning is a key subset of AI, dealing with problems like classification, regression, clustering, and reinforcement learning.
-- It includes algorithms like decision trees, neural networks, and support vector machines.
+3. **Pattern Recognition:**
+   - **Definition:** Identifying patterns or trends in data.
+   - **Example:** <span title="Converting handwritten text into digital text.">Handwriting recognition</span>, <span title="Identifying and verifying individuals based on their facial features.">facial recognition</span>, and <span title="Converting spoken language into written text or commands. (Virtual assistants like Siri and Alexa.)">speech recognition</span>.
+4. **Natural Language Understanding:**
+   - **Definition:** Comprehending and interpreting human language.
+   - **Example:** <span title="Virtual assistants like Siri, Google Assistant, ChatGPT or chatbots on websites that can understand and respond to user queries in natural language.">Chatbots</span> and language translation systems.
 
-**8. Perception Problems:**
-- These problems involve making sense of sensory data, such as image recognition, speech recognition, and object detection.
-- Techniques like convolutional neural networks (CNNs) are used in solving perception problems.
+5. **Planning and Scheduling:**
+   - **Definition:** Determining a sequence of actions to achieve a specific goal.
+   - **Example:** Automated scheduling systems, <span title="Planning the tasks and timeline for a construction project. This involves scheduling activities like laying the foundation, framing, electrical work, and finishing.">Project Scheduling</span>, <span title="Planning the schedule for classes in an educational institution, taking into account teacher availability, classroom availability, and student preferences.">Class Scheduling</span>.
 
-**9. Robotics Problems:**
-- AI in robotics deals with problems related to robot control, path planning, and manipulation tasks.
-Solutions involve algorithms for navigation and manipulation.
+6. **Machine Learning Problems:**
+   - **Definition:** Involves training algorithms to learn patterns from data.
+   - **Example:** Predictive modeling, classification, and <span title="Recognizing patterns or features in images or speech.">Image and Speech Recognition (Speech-to-text conversion)</span>.
 
-**10. Game Playing Problems:**
-- AI is applied in playing complex games like chess, Go, and video games.
-- Minimax search, alpha-beta pruning, and neural networks are used in game-playing AI.
+7. **Expert Systems:**
+   - **Definition:** AI systems designed to emulate the decision-making abilities of a human expert.
+   - **Example:** Medical diagnosis systems ( <span title="Developed in the 1970s, MYCIN was one of the first expert systems. It was designed to diagnose bacterial infections and recommend antibiotic treatments based on patient symptoms and laboratory test results">MYCIN</span> ).
 
-### AI techniques
+8. **Constraint Satisfaction Problems:**
+   - **Definition:** Problems where a set of constraints must be satisfied to find a solution.
+   - **Example:** <span title="Scheduling classes in a school or university, considering constraints such as room availability, teacher availability, and avoiding schedule conflicts for students who are enrolled in multiple courses.">Scheduling classes</span>. 
 
-AI techniques encompass a wide range of methods and approaches used to solve problems and simulate human-like intelligence. Here are some key AI techniques:
+### 3. AI techniques
 
-**1. Search Techniques:**
-- **Uninformed Search:** Algorithms like Breadth-First Search (BFS) and Depth-First Search (DFS) are used to explore problem spaces without specific knowledge.
-- **Heuristic Search:** Techniques like Hill Climbing, Best-First Search, and the A* Algorithms use heuristics to guide search and find optimal solutions more efficiently.
-- **Problem Reduction:** Breaking down complex problems into simpler subproblems to solve them incrementally.
-- **Constraint Satisfaction:** Solving problems by satisfying a set of constraints.
+AI techniques refer to the methods and approaches used in the field of Artificial Intelligence to enable machines to perform tasks that normally require human intelligence.
 
-**2. Knowledge Representation:**
-- **Logic Programming:** Using logic to represent knowledge and make inferences. Languages like PROLOG are commonly used.
-- **Semantic Nets, Frames, and Graphs:** Representing knowledge using graphical structures to show relationships and hierarchies.
-- **Production Systems:** Using a set of rules and conditions to model problem-solving processes.
+![AI techniques](./../img/AI-Techniques.png)
 
-**3. Reasoning Under Uncertainty:**
-- **Non-Monotonic Reasoning:** Dealing with situations where conclusions are not always guaranteed to be correct.
-- **Bayesian Networks:** Probabilistic graphical models for reasoning under uncertainty.
-- **Fuzzy Logic:** Handling imprecise or vague information using fuzzy sets and rules.
+1. **Rule-Based Systems:**
+   - Rule-based systems use a set of predefined rules to make decisions. These rules are typically in the form of "if-then" statements, where specific conditions trigger certain actions.
 
-**4. Natural Language Processing (NLP):**
-- **Syntactic Processing:** Parsing and analyzing the structure of sentences.
-- **Semantic Analysis:** Understanding the meaning of language and its context.
-- **NLP Understanding Systems:** Building systems that can interpret and generate human language.
+2. **Machine Learning:**
+   - Machine learning is a subset of AI that involves training algorithms to recognize patterns in data and make predictions or decisions. It includes:
+     - **Supervised Learning:** The algorithm is trained on labeled data, making predictions based on input-output pairs.
+     - **Unsupervised Learning:** The algorithm explores patterns in unlabeled data, finding inherent structures.
+     - **Reinforcement Learning:** The algorithm learns by interacting with an environment, receiving feedback in the form of rewards or penalties.
 
-**5. Expert Systems:**
-- **Rule-Based Systems:** Expert systems that make decisions based on a set of predefined rules.
-- **Frame-Based Systems:** Using frames or templates to represent knowledge.
-- **Neural Network-Based Systems:** Employing artificial neural networks to make decisions.
-- **Case-Based Systems:** Making decisions by comparing the current case to previously stored cases.
+3. **Expert Systems:**
+   - Expert systems emulate the decision-making ability of a human expert in a specific domain. They use a knowledge base of facts and rules to draw conclusions and provide expert-level advice.
 
-**6. Machine Learning:**
-- **Supervised Learning:** Learning from labelled data to make predictions.
-- **Unsupervised Learning:** Discovering patterns and structures in unlabeled data.
-- **Reinforcement Learning:** Learning through interaction with an environment to maximise rewards.
+4. **Natural Language Processing (NLP):**
+   - NLP involves the interaction between computers and human language. It enables machines to understand, interpret, and generate human-like text. Applications include chatbots, language translation, and sentiment analysis.
 
-**7. Planning and Problem Solving:**
-- **Goal Stack Planning:** Hierarchical planning where goals are stacked and achieved step by step.
-- **Constraint Posting:** Non-linear planning by posting constraints to solve complex problems.
-- **Hierarchical Planning:** Breaking down tasks into subtasks in a hierarchical structure.
+5. **Computer Vision:**
+   - Computer vision enables machines to interpret and make decisions based on visual data. This includes tasks such as image recognition, object detection, and facial recognition.
 
-These are some of the fundamental AI techniques. Each technique has its own advantages and is suitable for different types of problems. Understanding when and how to apply these techniques is crucial for success in artificial intelligence.
+6. **Neural Networks:**
+   - Neural networks are computational models inspired by the human brain. They consist of interconnected nodes (neurons) organized in layers. Deep learning, a subset of machine learning, often involves neural networks with multiple layers (deep neural networks).
 
-### defining the problem as a State Space search 
+7. **Genetic Algorithms:**
+   - Genetic algorithms are optimization algorithms inspired by the process of natural selection. They are used to find optimal solutions to complex problems by evolving a population of candidate solutions over multiple generations.
+
+8. **Fuzzy Logic:**
+   - Fuzzy logic deals with uncertainty and imprecision in decision-making. It allows for the representation of vague or ambiguous information, making it suitable for certain AI applications.
+
+These techniques are often used in combination, depending on the nature of the problem and the desired outcome. Each technique has its strengths and weaknesses, and the choice of the right approach depends on the specific requirements of the AI task at hand.
+
+### 4. Defining the problem as a State Space search 
 
 Defining a problem as a state space search is a fundamental concept in artificial intelligence. It's a way to model problems in a structured manner that allows AI algorithms to find solutions. Here's an explanation:
 
@@ -120,7 +112,7 @@ Defining a problem as a state space search is a fundamental concept in artificia
 
 The objective of state space search is to find a sequence of actions that transforms the initial state into a goal state while adhering to the defined actions and minimising the cost if applicable. It's a powerful approach used in AI for problem-solving in various domains, from puzzle-solving to route planning and beyond.
 
-### Problem characteristics
+### 5. Problem characteristics
 
 Problem Characteristics in AI:
 
@@ -144,7 +136,7 @@ Problem Characteristics in AI:
 
 - **Optimization:** Some AI problems involve optimization, where the goal is to find the best solution among a set of possible solutions. This may require evaluating and comparing solutions based on specific criteria.
 
-### Production systems
+### 6. Production systems
 
 A production system is a key concept in the field of artificial intelligence (AI) and knowledge-based systems. It is a model used to represent knowledge and control the decision-making process. Production systems consist of a set of rules and a control strategy that determines how these rules are applied to achieve a specific goal. Here's a detailed explanation of production systems:
 

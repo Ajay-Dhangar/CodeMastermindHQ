@@ -195,66 +195,16 @@ function Home() {
           <h1 className="hero__title">{siteConfig.title}</h1>
 
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-
-          {/* <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/react/create-react-app/getting-started/')}>
-              <Translate description="The homepage main heading">Get Started with Tutorials</Translate>
-
-            </Link>
-          </div>
-          <br /> */}
-          {/* <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('/courses')}>
-              <Translate description="The homepage main heading">Get Started with Courses</Translate>
-
-            </Link>
-          </div> */}
-
-          {/* <div className="main-btn-container">
-            <Link className="main-button" to="#" style={{color:'#1e9bff'}}>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              Button
-            </Link>
-            <Link className="main-button" to="#" style={{color:'#6eff3e'}}>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              Button
-            </Link>
-          </div> */}
-
+          
           <div className="main-button-container">
             <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}>
-              <button className="unique-button-class">
-                <div className="lazyload" data-bg="tommy-concouse-trumpet.jpg?width=300&height=216&format=auto">
-                  {/* <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}> <img src='img/tutorial-windwos.png' alt='tutorial' /></Link> */}
-                  <span><Link to={useBaseUrl('docs/react/create-react-app/getting-started/')} style={{color:"yellow"}}>★★★</Link></span>
-                </div>
-                <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}><h2>Start Learning Now!</h2> </Link> <br />
-                <h3 className='btn-text-home'>Mastering the Art of Web Development: Step-by-Step Tutorials</h3>
+              <button className="unique-button-class">               
+                <Link to={useBaseUrl('docs/react/create-react-app/getting-started/')}><h2 title='Mastering the Art of Web Development: Step-by-Step Tutorials'>Start Learning Now!</h2> </Link>
               </button>
             </Link>
             <Link to={useBaseUrl('/courses')}>
-              <button className="unique-button-class spin">
-                <div>
-                  <span><Link to={useBaseUrl('/courses')}>★★★</Link></span>
-                </div>
-                <Link to={useBaseUrl('/courses')}><h2>Browse Course Catalog</h2></Link> <br />
-                <h3 className='btn-text-home'>Build Your Future with CodeMastermindHQ</h3>
+              <button className="unique-button-class spin">                
+                <Link to={useBaseUrl('/courses')}><h2 title='Build Your Future with CodeMastermindHQ'>Browse Course Catalog</h2></Link>           
               </button>
             </Link>
           </div>
