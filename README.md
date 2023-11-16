@@ -1,6 +1,3 @@
-
-⭐️ If you like [CodeMasterMindHQ](https://codemastermindhq.vercel.app/), give it a star on [GitHub](https://github.com/Ajay-Dhangar/CodeMastermindHQ) and join us on [LinkedIn](https://www.linkedin.com/groups/14232119/) ⭐️
-
 <h1 align="center"> CodeMastermindHQ </h1>
 <!--
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml"><img src="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml/badge.svg"  alt="CodeQL" /></a> -->
@@ -17,3 +14,5 @@
 <a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores"><img alt="Dependabot Badges" src="https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=json5&package-manager=npm_and_yarn&previous-version=2.2.1&new-version=2.2.3"></a>
 <a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores"><img alt="Dependabot compatibility score" src="https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@docusaurus/plugin-pwa&package-manager=npm_and_yarn&previous-version=2.1.0&new-version=2.4.1"></a>
 <a href="./CODE_OF_CONDUCT.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"></a>
+
+  ⭐️ If you like [CodeMasterMindHQ](https://codemastermindhq.vercel.app/), give it a star on [GitHub](https://github.com/Ajay-Dhangar/CodeMastermindHQ) and join us on [LinkedIn](https://www.linkedin.com/groups/14232119/) ⭐️   
