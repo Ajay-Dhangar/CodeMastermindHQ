@@ -8,5 +8,6 @@
      ],
 
      "languageTool.language": ["en", "hi"],
-     "editor.useTabStops": true
+     "editor.useTabStops": true,
+     "git.ignoreLimitWarning": true
 }

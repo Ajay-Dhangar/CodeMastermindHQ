@@ -129,15 +129,12 @@ const config = {
         },
       },
 
-      head: [
-        [
-          'script',
-          {
-            async: true,
-            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5832817025080991',
-            crossorigin: 'anonymous',
-          },
-        ],
+      scripts: [
+        {
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5832817025080991',
+          async: true,
+          crossorigin: 'anonymous',
+        }
       ],
       metadata: [
         {
