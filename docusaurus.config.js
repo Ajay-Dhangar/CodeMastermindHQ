@@ -128,6 +128,17 @@ const config = {
           autoCollapseCategories: true,
         },
       },
+
+      head: [
+        [
+          'script',
+          {
+            async: true,
+            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5832817025080991',
+            crossorigin: 'anonymous',
+          },
+        ],
+      ],
       metadata: [
         {
           name: 'keywords',
