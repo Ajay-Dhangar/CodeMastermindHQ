@@ -14,11 +14,11 @@ const isDeployPreview = !!process.env.GITHUB_ACTIONS;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CodeMastermindHQ',
-  tagline: 'Experience the power of real-world coding with CodeMastermindHQ',
+  tagline: 'A tech hub for learning and collaborating on web development.',
   organizationName: 'CodeMastermindHQ', // Usually your GitHub org/user name.
   projectName: 'CodeMastermindHQ', // Usually your repo name.
   baseUrl,
-  url: 'https://codemastermindhq.vercel.app/',
+  url: 'https://cmhq.tech/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
