@@ -187,7 +187,7 @@ function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Welcome to CMHQ, your go-to place for web development resources and collaboration. Explore our open-source projects on GitHub and enhance your coding skills. Join our community of passionate developers!">
         
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
