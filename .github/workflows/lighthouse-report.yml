@@ -72,3 +72,7 @@ jobs:
           number: ${{ github.event.pull_request.number }}
           header: lighthouse
           message: ${{ steps.format_lighthouse_score.outputs.comment }}
+
+      - name: Lighthouse-Badger
+        uses: MyActionWay/lighthouse-badger-action@v2.2
+            
