@@ -87,5 +87,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ajay-Dhangar/CodeMastermindHQ/issues"
+  },
+  "publishConfig": {
+    "@ajay-dhangar:registry": "https://npm.pkg.github.com"
   }
 }
