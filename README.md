@@ -2,12 +2,13 @@
 <!--
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml"><img src="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml/badge.svg"  alt="CodeQL" /></a> -->
 
-[![Run lighthouse CI](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/lighthouse.yaml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/lighthouse.yaml)
+[![Run lighthouse CI](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/lighthouse.yml)
 [![Pipeline Status](https://gitlab.com/Ajay-Dhangar/CodeMastermindHQ/badges/main/pipeline.svg)](https://gitlab.com/Ajay-Dhangar/CodeMastermindHQ/pipelines)
 [![CodeQL](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql)
 [![Dependency Review](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/dependency-review.yml)
 [![njsscan sarif](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/njsscan.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/njsscan.yml)
 [![pages-build-deployment](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/pages/pages-build-deployment)
+[![Node.js Package](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/release-package.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/release-package.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://codemastermindhq.vercel.app/)
 <a href="https://twitter.com/AJAYDHA27250016"><img src="https://img.shields.io/twitter/follow/AJAYDHA27250016.svg?style=social"  alt="Twitter Follow" /></a>
 <a href="https://discord.gg/BFkPKMsfuZ"><img src="https://img.shields.io/discord/102860784329052160.svg" alt="Discord Chat" /></a>
