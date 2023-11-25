@@ -2,6 +2,7 @@
 <!--
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml"><img src="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml/badge.svg"  alt="CodeQL" /></a> -->
 
+[![Run lighthouse CI](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/lighthouse.yaml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/lighthouse.yaml)
 [![Pipeline Status](https://gitlab.com/Ajay-Dhangar/CodeMastermindHQ/badges/main/pipeline.svg)](https://gitlab.com/Ajay-Dhangar/CodeMastermindHQ/pipelines)
 [![CodeQL](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql)
 [![Dependency Review](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/dependency-review.yml)
