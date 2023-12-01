@@ -12,7 +12,7 @@ updates:
     reviewers:
       - "Ajay-Dhangar"   
     assignees:
-      - "Ajay-Dhangar"  
+      - ""  
     labels:
       - "dependency update"
     ignore:
