@@ -1,6 +1,6 @@
 ---
 title: Step-by-Step Guide Debugging Tests in Create React App
-author: Ajay Dhangar
+authors: [ajay-dhangar]
 tags: [Debugging Tests]
 date: 2022-05-01 17:35:28
 description: Step-by-Step Guide Debugging Tests in Create React App
