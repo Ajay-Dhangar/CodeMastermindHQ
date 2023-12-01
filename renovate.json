@@ -5,8 +5,7 @@
     ],
     "packageRules": [
       {
-        "packageNames": ["*"],
-        "automerge": true
+        "packageNames": ["*"]
       }
     ]
   }
