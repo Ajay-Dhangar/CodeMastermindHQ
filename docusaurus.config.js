@@ -242,12 +242,13 @@ const config = {
 
           {to: 'blog', label: 'Blog', position: 'left'},
 
-          // {
-          //   to: '/LoginForm',
-          //   label: 'AUTH',
-          //   position: 'right',
-          //   className: 'nav-link_login',
-          // },
+          {
+            // to: '/LoginForm',
+            to: 'https://dev-td8omv6ptk321sml.us.auth0.com/u/signup?state=hKFo2SBzZGRpRmo1WmRnaWJuWHpubXI4a2VBRllDdUFncENjMqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGNBMUtsVi1tQnhLMXhlYmtHY0s1MnBRNVVoZll4UnZyo2NpZNkgcmpGT0J4dFpLRmZKVFVqTUJMWk4yYlNSQndKVElEcUg',
+            label: 'Sing Up',
+            position: 'right',
+            className: 'nav-link_login',
+          },
         ],
       },
 
