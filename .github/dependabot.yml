@@ -10,9 +10,7 @@ updates:
     schedule:
       interval: "daily"
     reviewers:
-      - "Ajay-Dhangar"   
-    assignees:
-      - "Ajay-Dhangar"  
+      - "Ajay-Dhangar"     
     labels:
       - "dependency update"
     ignore:

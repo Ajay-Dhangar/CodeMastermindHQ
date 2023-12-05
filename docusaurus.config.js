@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -35,28 +32,17 @@ const config = {
         debug: true,
         docs: {
           path: 'docs',
-          //routeBasePath: '/',
           sidebarPath: 'sidebars.js',
           numberPrefixParser: false,
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          // Please change this to your repo.
           editUrl:
             'https://github.com/Ajay-Dhangar/CodeMastermindHQ/edit/main/',
           remarkPlugins: [npm2yarn, {sync: true}],
         },
-        // gtag: !isDeployPreview
-        // ? {
-        //       trackingID: 'G-M8RTQC8274',
-        //       // Optional fields.
-        //       anonymizeIP: true, // Should IPs be anonymized?
-        //     }
-        //   : undefined,
+
         blog: {
           path: 'blog',
-          // Simple use-case: string editUrl
-          // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-          // Advanced use-case: functional editUrl
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
             `https://github.com/Ajay-Dhangar/CodeMastermindHQ/edit/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
@@ -104,14 +90,6 @@ const config = {
     ],
   ],
 
-  // scripts: [
-  //   {
-  //     src: 'https://pagead2.googlesyndication.com/pagead/managed/js/adsense/**********/.js',
-  //     async: true,
-  //     crossorigin: 'anonymous',
-  //   }
-  // ],
-
   themes: ['@docusaurus/theme-live-codeblock'],
 
   i18n: {
@@ -149,9 +127,6 @@ const config = {
       announcementBar: {
         id: 'announcementBar',
         content: `⭐️ If you like CodeMasterMindHQ, give it a star on <a target="_blank" href="https://github.com/Ajay-Dhangar/CodeMastermindHQ">GitHub</a> and join us on <a target="_blank" href="https://www.linkedin.com/groups/14232119/">LinkedIn</a> ⭐️`,
-
-        // backgroundColor: '#ff1f21',
-        // textColor: '#f1f1f1',
         isCloseable: true,
       },
 
@@ -194,14 +169,10 @@ const config = {
                 label: '🧠 DSA 🚀',
                 to: '/courses/dsa/welcome-dsa',
                 activeBaseRegex: `/dsa/`,
-              },  
-              
-              {
-                type: 'html',
-                value: '<hr style="margin: 0.3rem 0;">',
-              },
+              },            
             ],
           },
+          
           {
             type: 'dropdown',
             html: '<span class="nav-emoji">➕</span> Features',
@@ -262,14 +233,14 @@ const config = {
             ],
           },
 
-          {to: 'blog', label: 'Blog', position: 'left'},
-
           {
             href: 'https://github.com/CodeMastermindHQ',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
           },
+
+          {to: 'blog', label: 'Blog', position: 'left'},
 
           // {
           //   to: '/LoginForm',
@@ -353,11 +324,24 @@ const config = {
               {
                 label: 'Survey',
                 to: 'https://forms.gle/Fd46s7r3Kpei8qwB8',
-              },              
+              },
+              // {
+              //   html: `<img src="https://komarev.com/ghpvc/?username=ajay-dhangar&label=Site%20Views&color=0e75b6&style=flat" alt="ajay-dhangar" height="25" width="120px" />`
+              // },
+              // {
+              //   html: `<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql"><img alt="GitHub contributors" src="https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg" height="25" width="120px"></a>`
+              // },
+
+              // {
+              //   html: `<a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/stargazers"><img src="https://img.shields.io/github/stars/Ajay-Dhangar/CodeMastermindHQ" height="25" width="120px" alt="Stars Badge"/></a>`
+              // },
               {
                 to: `/SecurityInfo`,
                 label: `Security`,
-              },             
+              },
+              // {
+              //   html: '<iframe src="https://github.com/sponsors/Ajay-Dhangar/button" href="https://github.com/sponsors/Ajay-Dhangar" title="Sponsor Ajay-Dhangar" height="32" width="120px" style="border: 0; border-radius: 6px;"></iframe>',
+              // },
             ],
           },
         ],
@@ -433,10 +417,10 @@ const config = {
       /** @type {import('@docusaurus/plugin-ideal-image').PluginOptions} */
       {
         quality: 70,
-        max: 1030, // max resized image's size.
-        min: 640, // min resized image's size. if original is lower, use that size.
-        steps: 2, // the max number of images generated between min and max (inclusive)
-        disableInDev: false, // By default, the plugin is inactive in development
+        max: 1030, 
+        min: 640,
+        steps: 2, 
+        disableInDev: false, 
       },
     ],
     [

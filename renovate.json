@@ -1,0 +1,12 @@
+{
+    "extends": [
+      "config:base",
+      "github>Ajay-Dhangar/CodeMastermindHQ"
+    ],
+    "packageRules": [
+      {
+        "packageNames": ["*"]
+      }
+    ]
+  }
+  
