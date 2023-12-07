@@ -347,11 +347,11 @@ const config = {
         ],
 
         logo: {
-          alt: 'Open Source',
-          src: '/img/OS.png',
-          href: 'https://github.com/sponsors/codemastermindhq',
+          alt: 'Copyright © CMHQ Made with ❤️ by Ajay-Dhangar',
+          src: '/img/ft-copy.png',
+          href: 'https://github.com/ajay-dhangar',          
         },        
-        copyright: ` Copyright © ${new Date().getFullYear()} CMHQ Made with ❤️ by <a href="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</a>`,
+        // copyright: ` Copyright © ${new Date().getFullYear()} CMHQ Made with ❤️ by <a href="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</a>`,
       },
 
       prism: {
