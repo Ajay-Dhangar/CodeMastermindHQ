@@ -1,0 +1,71 @@
+/* JavaScript.css */
+
+.js-table-of-contents {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .js-table-of-contents:hover {
+    box-shadow: 0 0 10px rgb(244, 32, 4);
+    /* background-color: #fefe0f; */
+  }
+
+    
+  .js-table-of-contents h2 {
+    margin-bottom: 20px;
+  }
+  
+  .js-table-of-contents ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .js-table-of-contents li {
+    margin-bottom: 12px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .js-table-of-contents li:hover {
+    transform: translateX(5px);
+  }
+  
+  .js-table-of-contents a {
+    text-decoration: none;
+    color: rgb(249, 10, 186);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .js-table-of-contents a:hover {
+    color: #afef17;
+  }
+
+  .js-table-of-content-items{
+    font-size: 18px;
+  }
+  
+  /* Content.css */
+
+.course-content {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.course-content p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.interactive-section,
+.imagination-section {
+  margin-bottom: 40px;
+}
+
+
+
