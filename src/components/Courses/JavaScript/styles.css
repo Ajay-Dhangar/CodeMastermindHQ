@@ -45,27 +45,5 @@
   }
 
   .js-table-of-content-items{
-    font-size: 18px;
+    font-size: 16px;
   }
-  
-  /* Content.css */
-
-.course-content {
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.course-content p {
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-.interactive-section,
-.imagination-section {
-  margin-bottom: 40px;
-}
-
-
-
