@@ -1,8 +1,10 @@
+![cmhq Banner](https://github.com/Ajay-Dhangar/CodeMastermindHQ/assets/99037494/a06ede64-e505-4267-a441-f2583628b5b5)
+
+
 <h1 align="center"> CodeMastermindHQ </h1>
 <!--
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml"><img src="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml/badge.svg"  alt="CodeQL" /></a> -->
 
-[![Run lighthouse CI](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/lighthouse.yml)
 [![Pipeline Status](https://gitlab.com/Ajay-Dhangar/CodeMastermindHQ/badges/main/pipeline.svg)](https://gitlab.com/Ajay-Dhangar/CodeMastermindHQ/pipelines)
 [![CodeQL](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql)
 [![Dependency Review](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/dependency-review.yml)
