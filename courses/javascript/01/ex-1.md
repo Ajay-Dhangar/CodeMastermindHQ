@@ -7,6 +7,13 @@ sidebar_position: 1
 tags: [JavaScript]
 ---
 
+![Introduction to JavaScript](./img/introduction-js.png)
+
+> JavaScript is a programming language that adds interactivity to your website. 
+> This happens in games, in the behavior of responses when buttons are pressed or 
+> with data entry on forms; with dynamic styling; with animation, etc. 
+> This course deals with version ES6 of JavaScript.
+
 Greetings, future coding maestros! 🎩✨ If you've ever wondered about the enchanting world behind your favorite interactive websites, you're in the right place! 🌐✨
 
 ## 🤔 What's JavaScript Anyway?
