@@ -7,17 +7,31 @@ sidebar_position: 3
 tags: [JavaScript]
 ---
 
+![What is JavaScript?](./img/what-is-javascript.png)
+
 ### JavaScript (JS):
 JavaScript is a versatile and widely used programming language that enables dynamic, interactive, and client-side scripting on web pages. It allows developers to create engaging user experiences by manipulating and modifying the content of web pages in real-time.
 
-**Key Concepts:**
+### Key Concepts:
 
-- JavaScript is a high-level, interpreted programming language.
-- It was initially created to make web pages more interactive.
-- JavaScript is primarily a scripting language, executed on the client-side by web browsers.
-- Enables the creation of dynamic and interactive web pages.
-- Facilitates real-time updates without the need for page reloads.
-- It is a multi-paradigm language that supports object-oriented, imperative, and functional programming styles.
+- JavaScript is a scripting, high-level, interpreted programming language.
+- Js is a programming language that adds interactivity to your website.
+- Js is a lightweight, interpreted programming language.
+- Js is client-side and server-side programming language.
+- Js is an Object-based Scripting Language.
+- Js is a prototype-based scripting language.
+- Js is a dynamic scripting language.
+- Js is a weakly typed scripting language.
+- Js is a case-sensitive scripting language.
+- Js is not a compiled language, but it is a translated language.
+- Js is an open and cross-platform scripting language.
+- Js is a popular client-side scripting language.
+- Js is an interpreted programming language.
+- Js is a text-based programming language.
+- Js's syntax is loosely based on Java's.
+- is widely used for client-side validation.
+- Js is most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages.
+- In the world of programming, JavaScript is the most popular language.
 
 :::note
 **.js:** JavaScript files typically have a `.js` extension. This is the standard and most common extension for JavaScript files.

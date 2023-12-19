@@ -7,6 +7,7 @@ sidebar_position: 2
 tags: [JavaScript]
 ---
 
+![JavaScript Course Overview](./img/course-overview.png)
 
 ```mdx-code-block
 import JavaScript from '@site/src/components/Courses/JavaScript';

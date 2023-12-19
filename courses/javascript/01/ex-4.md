@@ -7,65 +7,129 @@ sidebar_position: 4
 tags: [JavaScript]
 ---
 
-JavaScript code can be written in various environments, and understanding where to write your JavaScript is crucial for effective web development. Here are some common places where JavaScript code can be written:
+```mdx-code-block
+import BrowserWindow from '@site/src/components/BrowserWindow';
+import CodeBlock from '@theme/CodeBlock';
+import card from '@site/src/css/markdown.module.css'
+```
 
-1. **Inline in HTML:**
-   - JavaScript can be directly embedded within HTML files using the `<script>` tag.
-   - **Example:**
-     ```html title="index.html"
-     <!DOCTYPE html>
-     <html>
-     <head>
-         <title>Inline JavaScript</title>
-     </head>
-     <body>
-         <script>
-             // Your JavaScript code goes here
-             console.log("Hello, World!");
-         </script>
-     </body>
-     </html>
-     ```
-   - **Explanation:** This is a quick way to include JavaScript directly within an HTML file. However, it's often not recommended for larger projects due to maintainability issues.
+![Where To Write JavaScript](./img/where-to-write-javascript.png)
 
-2. **External JavaScript File:**
-   - JavaScript code can be written in a separate file (e.g., `script.js`) and linked to an HTML file using the `<script>` tag.
-   - **Example:**
-     ```html title="index.html"
-     <!DOCTYPE html>
-     <html>
-     <head>
-         <title>External JavaScript</title>
-     </head>
-     <body>
-         <script src="script.js"></script>
-     </body>
-     </html>
-     ```
-   - **Explanation:** Keeping JavaScript code in separate files promotes code organization and reusability. The file can be linked to multiple HTML files.
+JavaScript code can be written in various environments, and understanding where to write your JavaScript is crucial for effective web development. 
 
-3. **In the Browser Console:**
-   - Modern web browsers provide a console where JavaScript code can be entered and executed interactively.
-   - Open the browser console using `Ctrl + Shift + J` (Windows/Linux) or `Cmd + Option + J` (Mac).
-   - **Example:**
-     ```javascript title="script.js"
-     // Your JavaScript code goes here
-     console.log("Hello, World!");
-     ```
-   - **Explanation:** The console is useful for testing and debugging code snippets without modifying the actual webpage.
+## We can write Js code in 3 ways
 
-4. **Server-Side:**
-   - JavaScript can be written on the server side using platforms like Node.js.
-   - Example:
-     ```js title="index.js"
-     // Your server-side JavaScript code goes here
-     const http = require('http');
-     const server = http.createServer((req, res) => {
-         res.end('Hello, World!');
-     });
-     server.listen(3000);
-     ```
-   - Explanation: Server-side JavaScript allows you to handle server logic, making it possible to build scalable and performant web applications.
+- Inside HTML file (Inline Js) 
+- Inside `<script>` tag (Internal Js) 
+- In a separate file (External Js file and we can link it to HTML file using `<script>` tag in `<head>` or `<body>` tag of HTML file)  
 
+### 1. Inline Js:
+  - Inline Js is written inside HTML file using `onclick` attribute of HTML tag. 
+  - Inline Js is not recommended to use because it makes HTML file messy and difficult to read. 
+    
+**For Example:**
+  ```html title="index.html"
+  <button onclick="alert('Hello World!')">Click Me</button>
+  ```
+        
+ <BrowserWindow url="http://127.0.0.1:5500/index.html">
+    <button onClick={() => alert('Hello World!')}>Click Me</button>
+ </BrowserWindow>
 
-Understanding where to write JavaScript provides flexibility and enables you to choose the most appropriate environment based on your project's requirements.
+### 2. Internal Js:
+  - Internal Js is written inside `<script>` tag of HTML file. 
+  - Internal Js is not recommended to use because it makes HTML file messy and difficult to read.
+  - Internal Js is written inside `<head>` or `<body>` tag of HTML file.
+
+**For Example:**
+
+```html title="index.html"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Internal Js</title>
+    <script>
+        alert('Hello World!');
+    </script>
+</head>
+<body>
+    <h1>Internal Js</h1>
+</body>
+</html>
+```
+
+<p align="center"> <b> OR </b></p>
+
+```html title="index.html"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Internal Js</title>
+</head>
+<body>
+    <h1>Internal Js</h1>
+    <script>
+        alert('Hello World!');
+    </script>
+</body>
+</html>
+```
+
+### 3. External Js:
+  - External Js is written in a separate file with `.js` extension.
+  - External Js is recommended to use because it makes HTML file clean and easy to read.
+  - External Js is linked to HTML file using `<script>` tag inside `<head>` or `<body>` tag of HTML file.
+  - External Js file is created in the same folder as HTML file.
+
+**For Example:**
+  
+  ```html title="index.html"
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <title>External Js</title>
+      <script src="script.js"></script>
+  </head>
+  <body>
+      <h1>External Js</h1>
+  </body>
+  </html>
+  ```
+  
+  ```js title="script.js"
+  alert('Hello World!');
+  ```
+
+<p align="center"> <b> OR </b></p>
+
+  ```html title="index.html"
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <title>External Js</title>
+  </head>
+  <body>
+      <h1>External Js</h1>
+      <script src="script.js"></script>
+  </body>
+  </html>
+  ```
+  
+  ```js title="script.js"
+  alert('Hello World!');
+  ```
+
+## Summary
+
+- JavaScript code can be written in various environments, and understanding where to write your JavaScript is crucial for effective web development.
+- We can write Js code in 3 ways:
+  - Inline Js
+  - Internal Js
+  - External Js
+- External Js is recommended to use because it makes HTML file clean and easy to read.
+- External Js file is created in the same folder as HTML file.
+- External Js file is linked to HTML file using `<script>` tag inside `<head>` or `<body>` tag of HTML file.
+- Internal Js is written inside `<script>` tag of HTML file.
+- Internal Js is not recommended to use because it makes HTML file messy and difficult to read.
+- Internal Js is written inside `<head>` or `<body>` tag of HTML file.
+- Inline Js is written inside HTML file using `onclick` attribute of HTML tag.
