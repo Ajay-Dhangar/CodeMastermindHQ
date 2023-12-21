@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 // import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import GiscusComponent from '../components/GiscusComponent';
 import styles from './styles.module.css';
 import './styles.btn.css';
 
@@ -212,11 +213,8 @@ function Home() {
         </div>
       </header>
 
-
       <main>
-
         <MyHero />
-
         <div className={clsx(styles.announcement, styles.announcementDark)}>
           <div className={styles.announcementInner}>
             <Link><q style={{fontWeight:'bold'}}>Unleash Your Coding Potential</q></Link>
@@ -236,6 +234,9 @@ function Home() {
           </section>
         )}
       </main>
+
+      <GiscusComponent />
+
     </Layout>
   );
 }
