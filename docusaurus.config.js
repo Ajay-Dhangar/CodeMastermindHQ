@@ -107,6 +107,11 @@ const config = {
         },
       },
 
+      giscus: {
+        repo: 'Ajay-Dhangar/CodeMastermindHQ', // your GitHub repository
+        // other Giscus options...
+      },
+
       head: [
         [
           'script',
