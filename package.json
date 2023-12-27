@@ -72,7 +72,7 @@
     "@tsconfig/docusaurus": "^2.0.2",
     "cross-env": "^7.0.3",
     "crowdin-cli": "^0.3.0",
-    "gh-pages": "^6.1.0",
+    "gh-pages": "^6.1.1",
     "raw-loader": "^4.0.2",
     "renovate": "^37.108.0",
     "typescript": "^5.3.3"
