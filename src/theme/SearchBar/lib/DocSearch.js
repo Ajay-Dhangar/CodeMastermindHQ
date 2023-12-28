@@ -36,7 +36,7 @@ class DocSearch {
         this.input = DocSearch.getInputFromSelector(inputSelector);
         this.queryDataCallback = queryDataCallback || null;
         const autocompleteOptionsDebug =
-            autocompleteOptions && autocompleteOptions.debug
+            autocompleteOptions?.debug
                 ? autocompleteOptions.debug
                 : false;
         // eslint-disable-next-line no-param-reassign
