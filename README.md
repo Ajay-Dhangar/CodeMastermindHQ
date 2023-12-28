@@ -22,4 +22,6 @@
 <a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores"><img alt="Dependabot Badges" src="https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=json5&package-manager=npm_and_yarn&previous-version=2.2.1&new-version=2.2.3"></a>
 <a href="https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores"><img alt="Dependabot compatibility score" src="https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@docusaurus/plugin-pwa&package-manager=npm_and_yarn&previous-version=2.1.0&new-version=2.4.1"></a>
 <a href="./CODE_OF_CONDUCT.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"></a>
+[![DeepSource](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ.svg/?label=active+issues&show_trend=true&token=zVp05mazbgN_qgrD2X7B70ZK)](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ/)
+[![DeepSource](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ.svg/?label=resolved+issues&show_trend=true&token=zVp05mazbgN_qgrD2X7B70ZK)](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ/)
 
