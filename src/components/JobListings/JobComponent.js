@@ -9,7 +9,7 @@ const JobComponent = ({ job }) => {
       <p><strong>Company:</strong> {company} {isVerified ? (
         <img src="/img/verified.png" alt="Verified Badge" className="verified-badge" />
       ) : (
-        <span className="not-verified-badge"></span>
+        <span className="not-verified-badge" />
       )}</p>
       <p><strong>Description:</strong> {jobDescription}</p>
       <a href={applyLink} target="_blank" rel="noopener noreferrer">Apply Now</a>

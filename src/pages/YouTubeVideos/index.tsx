@@ -120,7 +120,7 @@ export default function YouTubeVideos() {
                 {video.isVerified ? (
                   <img src="/img/verified.png" title='Video is verified' alt="Verified Badge" className="verified-badge" />
                 ) : (
-                  <span className="Video is not verified"></span>
+                  <span className="Video is not verified" />
                 )}
               </span>
               <div className="video-stats">
@@ -149,7 +149,7 @@ export default function YouTubeVideos() {
                 {video.isVerified ? (
                   <img src="/img/verified.png" title='Video is verified' alt="Verified Badge" className="verified-badge" />
                 ) : (
-                  <span className="Video is not verified"></span>
+                  <span className="Video is not verified" />
                 )}
               </span>
               <div className="video-stats">
