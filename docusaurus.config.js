@@ -38,12 +38,12 @@ const config = {
           showLastUpdateTime: true,
           editUrl:
             'https://github.com/Ajay-Dhangar/CodeMastermindHQ/edit/main/',
-          remarkPlugins: [npm2yarn, {sync: true}],
+          remarkPlugins: [npm2yarn, { sync: true }],
         },
 
         blog: {
           path: 'blog',
-          editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
+          editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
             `https://github.com/Ajay-Dhangar/CodeMastermindHQ/edit/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
           blogTitle: 'Blog',
@@ -112,16 +112,14 @@ const config = {
         // other Giscus options...
       },
 
-      head: [
-        [
-          'script',
-          {
-            async: true,
-            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5832817025080991',
-            crossorigin: 'anonymous',
-          },
-        ],
+      scripts: [
+        {
+          async: true,
+          defer: true,
+          src: 'https://scripts.simpleanalyticscdn.com/latest.js',
+        },
       ],
+
       metadata: [
         {
           name: 'keywords',
@@ -174,10 +172,10 @@ const config = {
                 label: '🧠 DSA 🚀',
                 to: '/courses/dsa/welcome-dsa',
                 activeBaseRegex: `/dsa/`,
-              },            
+              },
             ],
           },
-          
+
           {
             type: 'dropdown',
             html: '<span class="nav-emoji">➕</span> Features',
@@ -245,7 +243,7 @@ const config = {
             'aria-label': 'GitHub repository',
           },
 
-          {to: 'blog', label: 'Blog', position: 'left'},
+          { to: 'blog', label: 'Blog', position: 'left' },
 
           // {
           //   to: '/LoginForm',
@@ -354,8 +352,8 @@ const config = {
         logo: {
           alt: 'Copyright © CMHQ Made with ❤️ by Ajay-Dhangar',
           src: '/img/ft-copy.png',
-          href: 'https://github.com/ajay-dhangar',          
-        },        
+          href: 'https://github.com/ajay-dhangar',
+        },
         // copyright: ` Copyright © ${new Date().getFullYear()} CMHQ Made with ❤️ by <a href="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</a>`,
       },
 
@@ -367,7 +365,7 @@ const config = {
           {
             className: 'theme-code-block-highlighted-line',
             line: 'highlight-next-line',
-            block: {start: 'highlight-start', end: 'highlight-end'},
+            block: { start: 'highlight-start', end: 'highlight-end' },
           },
           {
             className: 'code-block-error-line',
@@ -376,6 +374,7 @@ const config = {
         ],
       },
     }),
+
   plugins: [
     './src/plugins/webpackProxy',
     [
@@ -422,10 +421,10 @@ const config = {
       /** @type {import('@docusaurus/plugin-ideal-image').PluginOptions} */
       {
         quality: 70,
-        max: 1030, 
+        max: 1030,
         min: 640,
-        steps: 2, 
-        disableInDev: false, 
+        steps: 2,
+        disableInDev: false,
       },
     ],
     [
