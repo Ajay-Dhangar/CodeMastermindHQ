@@ -114,7 +114,7 @@ class LunrSearchAdapter {
         return new Promise((resolve, rej) => {
             const results = this.getLunrResult(input);
             const hits = [];
-            results.length > 5 && (results.length = 5);
+            
             this.titleHitsRes = []
             this.contentHitsRes = []
             results.forEach(result => {
@@ -137,7 +137,7 @@ class LunrSearchAdapter {
                     }
                 }
             });
-            hits.length > 5 && (hits.length = 5);
+            
             resolve(hits);
         });
     }
