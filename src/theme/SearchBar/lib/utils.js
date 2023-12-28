@@ -199,8 +199,7 @@ const utils = {
    **/
   getHighlightedValue(object, property) {
     if (
-      object._highlightResult &&
-      object._highlightResult.hierarchy_camel &&
+      object._highlightResult?.hierarchy_camel &&
       object._highlightResult.hierarchy_camel[property] &&
       object._highlightResult.hierarchy_camel[property].matchLevel &&
       object._highlightResult.hierarchy_camel[property].matchLevel !== 'none' &&

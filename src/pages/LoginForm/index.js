@@ -75,7 +75,7 @@ const LoginForm = () => {
 
   return (
     <Layout>
-      {user && user.userName ? (
+      {user?.userName ? (
         <Dashboard userName={user.userName} />
       ) : (
         <>
