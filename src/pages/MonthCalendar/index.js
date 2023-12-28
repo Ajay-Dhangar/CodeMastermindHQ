@@ -52,7 +52,7 @@ const MonthCalendar = React.memo(
                         {month[m - 1]}
                       </td>
                     ) : (
-                      <td key={index}></td>
+                      <td key={index} />
                     ),
                   )}
                 </tr>

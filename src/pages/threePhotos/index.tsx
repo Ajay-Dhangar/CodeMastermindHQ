@@ -18,7 +18,7 @@ export default function ThreePhoto(): JSX.Element {
                     transition:
                       'background-image 0.3s ease-in-out 0s, background-size 0.2s ease 0s',
                     filter: 'none',
-                  }}></div>
+                  }} />
                 <div className={styles1.portfolio_section__project_title}>
                   Serverless
                 </div>
@@ -35,7 +35,7 @@ export default function ThreePhoto(): JSX.Element {
                     transition:
                       'background-image 0.3s ease-in-out 0s, background-size 0.2s ease 0s',
                     filter: 'none',
-                  }}></div>
+                  }} />
                 <div className={styles1.portfolio_section__project_title}>
                   Kubernetes®
                 </div>
@@ -53,7 +53,7 @@ export default function ThreePhoto(): JSX.Element {
                     transition:
                       'background-image 0.3s ease-in-out 0s, background-size 0.2s ease 0s',
                     filter: 'none',
-                  }}></div>
+                  }} />
                 <div className={styles1.portfolio_section__project_title}>
                   Управляемые базы данных
                 </div>
