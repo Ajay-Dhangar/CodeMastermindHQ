@@ -61,15 +61,15 @@ const AboutUsPage = () => {
     },
     {
       phase: 'Deployment 🚀',
-      description: `Maintenance and Support 🛡️: Even after the crescendo, CMHQ's melody lingers. Our maintenance ensemble fine-tunes the platform, harmonizing user experiences. With a responsive support troupe, we're always ready to assist.`,
+      description: "Maintenance and Support 🛡️: Even after the crescendo, CMHQ's melody lingers. Our maintenance ensemble fine-tunes the platform, harmonizing user experiences. With a responsive support troupe, we're always ready to assist.",
     },
     {
       phase: '🌟 The CMHQ Experience',
-      description: `CMHQ isn't just a platform; it's a portal to infinite possibilities. Imagine a community pulsating with the energy of innovation, a treasure trove of tutorials, challenges, and collaborations. Here, code is more than syntax; it's a symphony of imagination and logic.`,
+      description: "CMHQ isn't just a platform; it's a portal to infinite possibilities. Imagine a community pulsating with the energy of innovation, a treasure trove of tutorials, challenges, and collaborations. Here, code is more than syntax; it's a symphony of imagination and logic.",
     },
     {
-      phase: `🔗 Explore the power of CodeMastermindHQ`,
-      description: `where passion meets code, and creativity orchestrates innovation. Join us in this captivating journey and let's mastermind the future together!`,
+      phase: "🔗 Explore the power of CodeMastermindHQ",
+      description: "where passion meets code, and creativity orchestrates innovation. Join us in this captivating journey and let's mastermind the future together!",
     },
 
     // Add more phases here
