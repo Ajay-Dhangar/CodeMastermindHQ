@@ -10,7 +10,7 @@
 [![Dependency Review](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/dependency-review.yml)
 [![njsscan sarif](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/njsscan.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/njsscan.yml)
 [![pages-build-deployment](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/pages/pages-build-deployment)
-[![Node.js Package](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/release-package.yml/badge.svg)](https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/release-package.yml)
+[![DeepScan grade](https://deepscan.io/api/teams/22888/projects/26177/branches/829375/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=22888&pid=26177&bid=829375)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://codemastermindhq.vercel.app/)
 <a href="https://twitter.com/AJAYDHA27250016"><img src="https://img.shields.io/twitter/follow/AJAYDHA27250016.svg?style=social"  alt="Twitter Follow" /></a>
 <a href="https://discord.gg/BFkPKMsfuZ"><img src="https://img.shields.io/discord/102860784329052160.svg" alt="Discord Chat" /></a>
