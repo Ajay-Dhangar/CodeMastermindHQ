@@ -13,7 +13,7 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
-export const logo: string = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 interface Category {
   name: string;
@@ -40,9 +40,9 @@ export const categories: Category[] = [
   { name: 'Crypto', icon: <DeveloperModeIcon /> },
 ];
 
-export const demoThumbnailUrl: string = 'https://user-images.githubusercontent.com/99037494/219045173-5c07392a-737b-4acb-82bd-85df924e6e9f.png';
-export const demoChannelUrl: string = '/channel/UCYGChuz0YqmljjCEDvNYndg';
-export const demoVideoUrl: string = '/video/fiXdHkLrpfo';
-export const demoChannelTitle: string = 'CodeMastermindHQ';
-export const demoVideoTitle: string = 'Discover a New Way to Watch YouTube - Introducing the Aid-Free YouTube Clone #youtube #socialmedia';
-export const demoProfilePicture: string = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png';
+export const demoThumbnailUrl = 'https://user-images.githubusercontent.com/99037494/219045173-5c07392a-737b-4acb-82bd-85df924e6e9f.png';
+export const demoChannelUrl = '/channel/UCYGChuz0YqmljjCEDvNYndg';
+export const demoVideoUrl = '/video/fiXdHkLrpfo';
+export const demoChannelTitle = 'CodeMastermindHQ';
+export const demoVideoTitle = 'Discover a New Way to Watch YouTube - Introducing the Aid-Free YouTube Clone #youtube #socialmedia';
+export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png';
