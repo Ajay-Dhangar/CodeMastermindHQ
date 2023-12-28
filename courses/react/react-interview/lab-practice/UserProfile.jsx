@@ -37,7 +37,7 @@ const UserProfileWithBadge = withPremiumBadge(UserProfile);
 const App = () => {
   return (
     <div>
-      <UserProfileWithBadge name="Shivay" isPremiumUser={true} />
+      <UserProfileWithBadge name="Shivay" isPremiumUser />
       <UserProfileWithBadge name="Ajay Dhangar" isPremiumUser={false} />
     </div>
   );
