@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from "./styles.module.css";
 import Link from '@docusaurus/Link';
-// Import Image
 import Image from '@theme/IdealImage';
 
 function RowCardItem({ img, title, description, link }) {

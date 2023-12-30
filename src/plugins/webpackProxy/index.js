@@ -1,4 +1,3 @@
-// plugins/webpackProxy/index.js
 module.exports = function (context, options) {
   return {
     name: 'custom-webpack-plugin',
