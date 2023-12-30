@@ -5,48 +5,20 @@ sidebar_position: 1
 sidebar_label: Welcome to React
 ---
 
-React is a JavaScript library for building user interfaces. It allows you to create reusable UI components and efficiently update and render them as the data changes. With its virtual DOM and declarative syntax, React makes it easier to build interactive and performant web applications.
+```mdx-code-block
+import ReactCourses from '@site/src/components/Courses/ReactCourses';
+```
 
-## Getting Started with React
+> **React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.** React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
 
-To get started with React, you can follow these steps:
 
-**1. Install Node.js:** React requires Node.js, so make sure you have it installed on your machine. You can download and install Node.js from the official website: [https://nodejs.org](https://nodejs.org)
+Hello and welcome to the React course. My name is [Ajay Dhangar](https://twitter.com/AJAYDHA27250016) and I'm founder of [CMHQ](https://cmhq.tech). I will be your instructor for this course. I'm a software engineer and I have been working with React for the past 2 years. I have worked on multiple projects using React and I have also worked on JavaScript, TypeScript, Node.js, Express.js, MongoDB, and many other technologies.
 
-**2. Create a New React Project:** Open your terminal or command prompt and run the following command to create a new React project using Create React App:
+I have created this course to help you learn React in a very simple and easy way. I will be covering all the important topics that you need to know to get started with React. I will also be sharing my knowledge and experience with you so that you can learn from my mistakes and avoid them.
 
-   ```sh
-   npx create-react-app my-app
-   ```
+I hope you will enjoy this course and learn a lot from it. If you have any questions or suggestions then feel free to contact me on [Twitter](https://twitter.com/AJAYDHA27250016).
 
-   This will create a new directory called `my-app` with a basic React project structure and configuration.
 
-**3. Run the Development Server:** Navigate to the project directory (`my-app`) and start the development server by running the following command:
+## Now, let's get started with React
 
-   ```sh
-   cd my-app
-   npm start
-   ```
-
-   This will start the development server and open your React app in a web browser. You can make changes to the code in the project and see the live updates in the browser.
-
-**4. Learn React Fundamentals:** Once your project is set up, you can start learning the fundamentals of React. The official React documentation is an excellent resource to begin with: [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
-
-**5. Build Your React App:** With the knowledge of React fundamentals, you can start building your own React applications. Use React components to structure your UI, manage state and props, and handle user interactions. Combine React with other libraries and tools to create powerful and interactive web applications.
-
-## Resources for Learning React
-
-Here are some additional resources to help you learn React:
-
-- **Official React Documentation:** [https://reactjs.org/docs](https://reactjs.org/docs/getting-started.html)
-- **React Tutorial:** [https://reactjs.org/tutorial/tutorial.html](https://reactjs.org/tutorial/tutorial.html)
-- R**eact Hooks Documentation:** [https://reactjs.org/docs/hooks-intro.html](https://reactjs.org/docs/hooks-intro.html)
-- **React Router Documentation:** [https://reactrouter.com](https://reactrouter.com)
-- **React Context API Documentation:** [https://reactjs.org/docs/context.html](https://reactjs.org/docs/context.html)
-- **Awesome React:** [https://github.com/enaqx/awesome-react](https://github.com/enaqx/awesome-react)
-
-Remember, practice is key to mastering React. Explore and build various projects to gain hands-on experience and improve your React skills.
-
-Start your journey with React today and enjoy building awesome web applications with ease!
-
-Happy coding!
+<ReactCourses />

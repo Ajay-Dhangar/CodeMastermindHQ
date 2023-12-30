@@ -1,0 +1,38 @@
+.course_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.course_row {
+    justify-content: center;
+    margin: 0 -15px;
+}
+
+.course_card {
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.course_card:hover {
+    transform: translateY(-5px);
+}
+
+.course_card_title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.course_card_text {
+    padding: 0 3px;
+}
+
+.course_card_button {
+  background-color: red;
+}
