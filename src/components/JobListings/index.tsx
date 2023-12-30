@@ -7,7 +7,7 @@ const JobListings = () => {
     {
       jobTitle: 'Software Engineer',
       company: 'CMHQ',
-      jobDescription: `lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco`,
+      jobDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
       applyLink: '/',
       isVerified: false, // This company is not verified
 
