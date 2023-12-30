@@ -19,7 +19,7 @@ const threePhotos = [
   {
     url: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlMV0P0_7Dv2eqqemSssHfFG_xXSCczFXcEQ&usqp=CAU")',
     title: 'Development',
-    text: ``,
+    text: "",
   },
 ];
 

@@ -10,8 +10,8 @@ export default function GiscusComponent() {
     <Giscus id='giscus'
       repo="Ajay-Dhangar/CodeMastermindHQ"
       repoId="R_kgDOJ6ofeQ"
-      category="[ENTER CATEGORY NAME HERE]"
-      categoryId="[ENTER CATEGORY ID HERE]"
+      category="General"
+      categoryId="DIC_kwDOJ6ofec4CX1ZW"
       mapping="pathname"
       strict="0"
       reactionsEnabled="1"
