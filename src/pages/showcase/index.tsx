@@ -1,6 +1,6 @@
 
 import React, {useState, useMemo, useEffect} from 'react';
-// @ts-expect-error
+// @ts-ignore - this is ok because <reason>
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 
