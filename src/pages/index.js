@@ -167,7 +167,7 @@ function MyHero() {
         </p>
 
         <div className={styles.svgContainer}>
-          <a href='https://github.com/Ajay-Dhangar/CodeMastermindHQ' className='header-github-link'></a>
+          <a href='https://github.com/Ajay-Dhangar/CodeMastermindHQ' className='header-github-link' />
           {svgList.map((item, index) => {
             return <Svg {...item} key={item.title} />
           })}
