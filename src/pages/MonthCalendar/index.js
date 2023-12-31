@@ -11,7 +11,6 @@ const MonthCalendar = React.memo(
     let weekDay = new Date(props._year, correctedMonth, 1).getDay();
     if (weekDay === 0) weekDay = 7;
     let m = 0;
-    //alert(NameOfMonth);
 
     const month = requestedMonth(props._year, correctedMonth);
 

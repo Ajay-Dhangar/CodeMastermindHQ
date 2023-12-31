@@ -3,11 +3,9 @@ import AnyDay from '../anyDay';
 import lastDayOfWeekInMonth from '../lastDayOfWeekInMonth';
 
 export default function requestedMonth(year, month) {
-  //create a database of shopping holidays descriptions for the requested month
 
   let monthDay = [];
 
-  //November
   if (month == 10) {
     // 1. 11/11
     const nov11 = {
