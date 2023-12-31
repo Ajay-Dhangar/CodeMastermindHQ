@@ -208,7 +208,8 @@ const utils = {
       return object._highlightResult.hierarchy_camel[property].value;
     }
     if (
-      object._highlightResult &&
+      object._highlightResult && 
+      object._highlightResult && 
       object._highlightResult[property] &&
       object._highlightResult[property].value
     ) {
@@ -216,26 +217,7 @@ const utils = {
     }
     return object[property];
   },
-  /*
-   * Returns the snippeted value of the specified key in the specified object.
-   * If no highlighted value is available, will return the key value directly.
-   * Will add starting and ending ellipsis (…) if we detect that a sentence is
-   * incomplete
-   * eg.
-   * getSnippetedValue({
-   *    _snippetResult: {
-   *      text: {
-   *        value: '<mark>This is an unfinished sentence</mark>'
-   *      }
-   *    },
-   *    text: 'This is an unfinished sentence'
-   * }, 'text');
-   * =>
-   * '<mark>This is an unfinished sentence</mark>…'
-   * @param {object} object Hit object returned by the Algolia API
-   * @param {string} property Object key to look for
-   * @return {string}
-   **/
+
   getSnippetedValue(object, property) {
     if (
       !object._snippetResult ||
@@ -254,12 +236,7 @@ const utils = {
     }
     return snippet;
   },
-  /*
-  * Deep clone an object.
-  * Note: This will not clone functions and dates
-  * @param {object} object Object to clone
-  * @return {object}
-  */
+
   deepClone(object) {
     return JSON.parse(JSON.stringify(object));
   },
