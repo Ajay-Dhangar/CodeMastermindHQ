@@ -5,7 +5,5 @@ export default function secondMonday(year, month) {
   }
   firstDay.setDate(firstDay.getDate() + 7);
   return firstDay.getDate();
-  //var d = new Date(year, month, 1, 0, 0, 0);
-  //d.setDate(d.getDate() + 15 - d.getDay());
-  //return d.getDate();
+  
 }

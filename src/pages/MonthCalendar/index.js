@@ -11,8 +11,7 @@ const MonthCalendar = React.memo(
     let weekDay = new Date(props._year, correctedMonth, 1).getDay();
     if (weekDay === 0) weekDay = 7;
     let m = 0;
-    //alert(NameOfMonth);
-
+    
     const month = requestedMonth(props._year, correctedMonth);
 
     return (
@@ -36,7 +35,7 @@ const MonthCalendar = React.memo(
                 <tr key={j}>
                   {Array.from({length: 7}).map((key, index) =>
                     (j > 0 && m < daysInMonth) ||
-                    (j == 0 && index >= weekDay - 1) ? (
+                    (j === 0 && index >= weekDay - 1) ? (
                       <td
                         key={index}
                         className="mc"
