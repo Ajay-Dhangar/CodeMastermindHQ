@@ -43,7 +43,7 @@
     "@types/react-dom": "^18.2.7",
     "axios": "^1.6.3",
     "chart.js": "^4.4.1",
-    "classnames": "^2.5.0",
+    "classnames": "^2.5.1",
     "clsx": "^2.1.0",
     "codemirror": "^6.0.1",
     "docusaurus-lunr-search": "^3.3.1",
