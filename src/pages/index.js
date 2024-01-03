@@ -139,7 +139,7 @@ const svgList = [
     link: 'https://stackoverflow.com/users/18530900/ajay-dhangar',
   },
 ]
-const Svg = ({ Svg, color, title, link }) => {
+const SvgImg = ({ Svg, color, link }) => {
   return (
     <a href={link} target='_blank'>
       <Svg className={styles.svg} style={{ fill: color }} />
@@ -149,15 +149,11 @@ const Svg = ({ Svg, color, title, link }) => {
 
 function MyHero() {
   return (
-    <div className={styles.myHeroContainer}>
-
-      {/* <div className={styles.rightContainer}>
-        <img src="img/hero.png" alt='HeroImg' />
-      </div> */}
+    <div className={styles.myHeroContainer}>      
 
       <div className={styles.leftContainer}>
         <h1 className={styles.leftContainer_h1}>
-          {/* Elevating <br /> */} Code Mastery
+          Code Mastery
         </h1>
         <p className={styles.leftContainer_p}>
           Welcome to CodeMastermindHQ. Where innovation meets elegance in web development.
@@ -168,7 +164,7 @@ function MyHero() {
         <div className={styles.svgContainer}>
           <a href='https://github.com/Ajay-Dhangar/CodeMastermindHQ' className='header-github-link' />
           {svgList.map((item, index) => {
-            return <Svg {...item} key={item.title} />
+            return <SvgImg {...item} key={index} />
           })}
         </div>
       </div>
@@ -190,7 +186,7 @@ function Home() {
       description="Welcome to CMHQ, your go-to place for web development resources and collaboration. Explore our open-source projects on GitHub and enhance your coding skills. Join our community of passionate developers!">
         
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
+        <div className="container" style={{textAlign:"center"}}>
 
           <h1 className="hero__title">{siteConfig.title}</h1>
 
@@ -214,7 +210,7 @@ function Home() {
 
       <main>
         <MyHero />
-        <div className={clsx(styles.announcement, styles.announcementDark)}>
+        <div className={clsx(styles.announcement, styles.announcementDark)} style={{textAlign:"center"}}>
           <div className={styles.announcementInner}>
             <Link><q style={{fontWeight:'bold'}}>Unleash Your Coding Potential</q></Link>
             <p>Elevate your coding journey with CodeMastermindHQ. Embrace the power of code, where possibilities become reality.</p>
