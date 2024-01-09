@@ -217,7 +217,6 @@ function Home() {
 
           </div>
         </div>
-        {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
@@ -227,7 +226,6 @@ function Home() {
               </div>
             </div>
           </section>
-        )}
       </main>
 
       <GiscusComponent />
