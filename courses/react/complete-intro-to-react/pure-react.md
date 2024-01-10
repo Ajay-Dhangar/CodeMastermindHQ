@@ -14,9 +14,6 @@ import card from '@site/src/css/markdown.module.css'
 import './css/style.css'
 ```
 
-```mdx-code-block
-```
-
 Let's start by writing pure React. No compile step. No JSX. No Babel. No Webpack or Parcel. Just some JavaScript on a page. We'll use HTML.
 
 ## Getting started
