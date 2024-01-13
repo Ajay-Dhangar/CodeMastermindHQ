@@ -1,8 +1,8 @@
 {
-    "label": "JavaScript",
-    "position": 1,
+    "label": "JavaScript Learning Path",
+    "position": 3,
     "link": {
       "type": "generated-index",
-      "description": "Write Professional, Modern JavaScript"
+      "description": "In this path, you'll learn how to use JavaScript to build interactive websites and web applications."
     }
   }

@@ -1,5 +1,3 @@
-/* JavaScript.css */
-
 .js-table-of-contents {
     max-width: 600px;
     margin: 0 auto;
@@ -11,7 +9,6 @@
   
   .js-table-of-contents:hover {
     box-shadow: 0 0 10px rgb(244, 32, 4);
-    /* background-color: #fefe0f; */
   }
 
     
