@@ -6,8 +6,7 @@ description: All the courses that I have taken
 ---
 
 ```mdx-code-block
-import DocCardList from '@theme/DocCardList';
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
-
-<DocCardList items={useCurrentSidebarCategory().items}/>
+import CoursesPage from '@site/src/components/Courses/CoursesPage';
 ```
+
+<CoursesPage />
