@@ -10,7 +10,7 @@ tags: [JavaScript]
 ![JavaScript Course Overview](./img/course-overview.png)
 
 ```mdx-code-block
-import JavaScript from '@site/src/components/Courses/JavaScript';
+import JavaScript from './JavaScript';
 ```
 
 Greetings, aspiring code maestro! 🚀✨ Brace yourself for an enchanting journey through the magical realm of JavaScript. This course is not just about coding; it's about unlocking the secret door to the digital universe. Let's embark on this adventure together and watch your coding fantasies come to life!
