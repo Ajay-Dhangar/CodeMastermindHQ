@@ -5,5 +5,4 @@ export default function secondMonday(year, month) {
   }
   firstDay.setDate(firstDay.getDate() + 7);
   return firstDay.getDate();
-  
 }

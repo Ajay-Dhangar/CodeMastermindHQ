@@ -5,8 +5,6 @@ import Layout from '@theme/Layout';
 // import Toggler from '@site/src/pages/Toggler';
 // import MonthCalendar from '@site/src/pages/MonthCalendar';
 
-
-
 export default function MyComponents() {
   return (
     <Layout>
@@ -27,10 +25,10 @@ export default function MyComponents() {
           title="dazzling-swanson-wne32"
           allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
           sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-         />
+        />
 
         <h2>Medium For Beginners</h2>
-        
+
         <iframe
           src="https://codesandbox.io/embed/github/React-js-Mastery/react-app/main?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
           style={{
@@ -45,8 +43,7 @@ export default function MyComponents() {
           title="React App"
           allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
           sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-         />
-        
+        />
       </div>
     </Layout>
   );

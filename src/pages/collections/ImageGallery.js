@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import "./ImageGallery.css";
+import React, {useState} from 'react';
+import './ImageGallery.css';
 
-const ImageGallery = ({ images }) => {
+const ImageGallery = ({images}) => {
   const [activeImage, setActiveImage] = useState(null);
 
   const setActiveImageHandler = (image) => {
@@ -18,7 +18,9 @@ const ImageGallery = ({ images }) => {
         {images.map((image, index) => (
           <div
             key={index}
-            className={`image-container ${image === activeImage ? "active" : ""}`}
+            className={`image-container ${
+              image === activeImage ? 'active' : ''
+            }`}
             onClick={() => setActiveImageHandler(image)}
           >
             <img src={image} alt={`Image ${index + 1}`} />

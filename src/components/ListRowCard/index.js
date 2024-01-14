@@ -1,15 +1,15 @@
 import React from 'react';
-import styles from "./styles.module.css";
+import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 import Image from '@theme/IdealImage';
 
-function RowCardItem({ img, title, description, link }) {
+function RowCardItem({img, title, description, link}) {
   return (
     <div className="row margin-vert--lg shadow--md">
       <div className="col col--4">
         <Link to={'/'} target="_blank">
           <div className="text--center">
-            <Image className={styles.colImg} img={img} />  
+            <Image className={styles.colImg} img={img} />
           </div>
         </Link>
       </div>
@@ -23,7 +23,7 @@ function RowCardItem({ img, title, description, link }) {
   );
 }
 
-export default function ListRowCard({ itemList }) {
+export default function ListRowCard({itemList}) {
   return (
     <section className={styles.features}>
       <div className="container">

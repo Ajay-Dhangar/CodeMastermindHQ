@@ -1,4 +1,3 @@
-
 import React, {useState, useMemo, useEffect} from 'react';
 // @ts-expect-error - this is ok because <reason>
 import Layout from '@theme/Layout';
@@ -29,8 +28,10 @@ import {usePluralForm} from '@docusaurus/theme-common';
 
 import styles from './styles.module.css';
 
-const TITLE = 'CodeMastermindHQ: Showcasing Exceptional Websites, Templates, and Project';
-const DESCRIPTION = 'Unleash your creativity and expertise with our exceptional Site/Templates/Projects Showcase at CodeMastermindHQ: Where Innovation Meets Inspiration.';
+const TITLE =
+  'CodeMastermindHQ: Showcasing Exceptional Websites, Templates, and Project';
+const DESCRIPTION =
+  'Unleash your creativity and expertise with our exceptional Site/Templates/Projects Showcase at CodeMastermindHQ: Where Innovation Meets Inspiration.';
 const EDIT_URL =
   'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/main/src/data/users.tsx';
 
@@ -122,9 +123,10 @@ function ShowcaseHeader() {
         className="button button--primary"
         href={EDIT_URL}
         target="_blank"
-        rel="noreferrer">
+        rel="noreferrer"
+      >
         <Translate id="showcase.header.button">
-        🌟 Join the CodeMastermindHQ Showcase!
+          🌟 Join the CodeMastermindHQ Showcase!
         </Translate>
       </a>
     </section>
@@ -172,7 +174,8 @@ function ShowcaseFilters() {
               <ShowcaseTooltip
                 id={id}
                 text={description}
-                anchorEl="#__docusaurus">
+                anchorEl="#__docusaurus"
+              >
                 <ShowcaseTagSelect
                   tag={tag}
                   id={id}
@@ -272,7 +275,8 @@ function ShowcaseCards() {
                 className={clsx(
                   'margin-bottom--md',
                   styles.showcaseFavoriteHeader,
-                )}>
+                )}
+              >
                 <h2>
                   <Translate id="showcase.favoritesList.title">
                     Our favorites
@@ -282,11 +286,8 @@ function ShowcaseCards() {
                 <SearchBar />
               </div>
               <ul
-                className={clsx(
-                  'container',
-                  'clean-list',
-                  styles.showcaseList,
-                )}>
+                className={clsx('container', 'clean-list', styles.showcaseList)}
+              >
                 {favoriteUsers.map((user) => (
                   <ShowcaseCard key={user.title} user={user} />
                 ))}
@@ -307,10 +308,8 @@ function ShowcaseCards() {
       ) : (
         <div className="container">
           <div
-            className={clsx(
-              'margin-bottom--md',
-              styles.showcaseFavoriteHeader,
-            )}>
+            className={clsx('margin-bottom--md', styles.showcaseFavoriteHeader)}
+          >
             <SearchBar />
           </div>
           <ul className={clsx('clean-list', styles.showcaseList)}>

@@ -7,7 +7,7 @@ function PostsWithFetch({...props}) {
   const fetchPosts = async () => {
     try {
       const response = await fetch(`./_rasp${props.num}.html`);
-     
+
       const data = await response.text();
       const parser = new DOMParser();
       const HTMLDocument = parser.parseFromString(data, 'text/html');
@@ -17,7 +17,6 @@ function PostsWithFetch({...props}) {
         return pp;
       });
 
-     
       setPosts(pArray);
     } catch (error) {
       console.log(error);
@@ -51,7 +50,6 @@ function PostsWithFetch({...props}) {
       </tr>
     );
   }
-
 
   function UsePosts({dir}) {
     return (

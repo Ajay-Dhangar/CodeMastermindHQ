@@ -35,7 +35,8 @@ export default function Svg(props: SvgIconProps): JSX.Element {
       color={colorAttr}
       aria-hidden
       className={clsx(styles.svgIcon, styles[color], styles[size], svgClass)}
-      {...rest}>
+      {...rest}
+    >
       {children}
     </svg>
   );

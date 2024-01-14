@@ -130,7 +130,8 @@ export default function Tooltip({
                 ref={setPopperElement}
                 className={styles.tooltip}
                 style={popperStyles.popper}
-                {...attributes.popper}>
+                {...attributes.popper}
+              >
                 {text}
                 <span
                   ref={setArrowElement}

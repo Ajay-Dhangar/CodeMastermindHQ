@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import { Link } from '@mui/material';
+import {Link} from '@mui/material';
 
 interface Course {
   image: string;
@@ -13,7 +13,7 @@ interface JavaScriptCoursesProps {
   courses: Course[];
 }
 
-const JavaScriptCourses: React.FC<JavaScriptCoursesProps> = ({ courses }) => {
+const JavaScriptCourses: React.FC<JavaScriptCoursesProps> = ({courses}) => {
   return (
     <div className="courses-container">
       {courses.map((course, index) => (
@@ -23,7 +23,7 @@ const JavaScriptCourses: React.FC<JavaScriptCoursesProps> = ({ courses }) => {
           <p className="course-description">{course.description}</p>
           <Link href={course.url} className="course-link">
             <button className="enroll-button">Start Course ➔</button>
-          </Link>          
+          </Link>
         </div>
       ))}
     </div>

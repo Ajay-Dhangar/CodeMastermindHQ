@@ -86,8 +86,8 @@ export function updateDOMColors(
   {shades, baseColor, background}: ColorState,
   isDarkTheme: boolean,
 ): void {
-  const styleSheet = Array.from(document.styleSheets).find((item) =>
-    item.href?.match(/styles(?:\.[\da-f]+)?\.css/),
+  const styleSheet = Array.from(document.styleSheets).find(
+    (item) => item.href?.match(/styles(?:\.[\da-f]+)?\.css/),
   )!;
   const rules = Array.from(styleSheet.cssRules) as CSSStyleRule[];
   // The rule that looks the most like definition for custom theme colors

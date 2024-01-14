@@ -84,7 +84,8 @@ class Toggler extends Component {
               className={btnClass}
               onClick={() => {
                 this.onlyBusesHandler(bus.id);
-              }}>
+              }}
+            >
               {bus.num}
             </button>
           );
