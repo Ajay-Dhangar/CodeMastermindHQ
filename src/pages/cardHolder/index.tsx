@@ -1,9 +1,14 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, {useState, useMemo, useEffect} from 'react';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import FavoriteIcon from '@site/src/components/svgIcons/FavoriteIcon';
-import ShowcaseTagSelect, { readSearchTags,} from '../showcase/_components/ShowcaseTagSelect';
-import ShowcaseFilterToggle, { type Operator, readOperator,} from '../showcase/_components/ShowcaseFilterToggle';
+import ShowcaseTagSelect, {
+  readSearchTags,
+} from '../showcase/_components/ShowcaseTagSelect';
+import ShowcaseFilterToggle, {
+  type Operator,
+  readOperator,
+} from '../showcase/_components/ShowcaseFilterToggle';
 import ShowcaseCard from '../showcase/_components/ShowcaseCard';
 import {
   sortedUsers,
@@ -15,15 +20,16 @@ import {
 import ShowcaseTooltip from '../showcase/_components/ShowcaseTooltip';
 
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
-import Translate, { translate } from '@docusaurus/Translate';
-import { useHistory, useLocation } from '@docusaurus/router';
-import { usePluralForm } from '@docusaurus/theme-common';
+import Translate, {translate} from '@docusaurus/Translate';
+import {useHistory, useLocation} from '@docusaurus/router';
+import {usePluralForm} from '@docusaurus/theme-common';
 
 import styles from '../showcase/styles.module.css';
 import styles1 from './styles.module.css';
 
 const TITLE = 'CodeMastermindHQ: Showcasing Exceptional Websites';
-const DESCRIPTION = 'Unleash your creativity and expertise with our exceptional Site/Projects Showcase at CodeMastermindHQ: Where Innovation Meets Inspiration.';
+const DESCRIPTION =
+  'Unleash your creativity and expertise with our exceptional Site/Projects Showcase at CodeMastermindHQ: Where Innovation Meets Inspiration.';
 const EDIT_URL =
   'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/main/src/data/users.tsx';
 
@@ -33,13 +39,13 @@ type UserState = {
 };
 
 function restoreUserState(userState: UserState | null) {
-  const { scrollTopPosition, focusedElementId } = userState ?? {
+  const {scrollTopPosition, focusedElementId} = userState ?? {
     scrollTopPosition: 0,
     focusedElementId: undefined,
   };
   // @ts-expect-error: if focusedElementId is undefined it returns null
   document.getElementById(focusedElementId)?.focus();
-  window.scrollTo({ top: scrollTopPosition });
+  window.scrollTo({top: scrollTopPosition});
 }
 
 export function prepareUserState(): UserState | undefined {
@@ -115,7 +121,8 @@ function ShowcaseHeader() {
         className="button button--primary"
         href={EDIT_URL}
         target="_blank"
-        rel="noreferrer">
+        rel="noreferrer"
+      >
         <Translate id="showcase.header.button">
           🌟 Join the CodeMastermindHQ Showcase!
         </Translate>
@@ -125,7 +132,7 @@ function ShowcaseHeader() {
 }
 
 function useSiteCountPlural() {
-  const { selectMessage } = usePluralForm();
+  const {selectMessage} = usePluralForm();
   return (sitesCount: number) =>
     selectMessage(
       sitesCount,
@@ -136,7 +143,7 @@ function useSiteCountPlural() {
             'Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by "|") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)',
           message: '1 site|{sitesCount} sites',
         },
-        { sitesCount },
+        {sitesCount},
       ),
     );
 }
@@ -157,7 +164,7 @@ function ShowcaseFilters() {
       </div>
       <ul className={clsx('clean-list', styles.checkboxList)}>
         {TagList.map((tag, i) => {
-          const { label, description, color } = Tags[tag];
+          const {label, description, color} = Tags[tag];
           const id = `showcase_checkbox_id_${tag}`;
 
           return (
@@ -165,7 +172,8 @@ function ShowcaseFilters() {
               <ShowcaseTooltip
                 id={id}
                 text={description}
-                anchorEl="#__docusaurus">
+                anchorEl="#__docusaurus"
+              >
                 <ShowcaseTagSelect
                   tag={tag}
                   id={id}
@@ -265,7 +273,8 @@ function ShowcaseCards() {
                 className={clsx(
                   'margin-bottom--md',
                   styles.showcaseFavoriteHeader,
-                )}>
+                )}
+              >
                 <h2>
                   <Translate id="showcase.favoritesList.title">
                     Our favorites
@@ -275,11 +284,8 @@ function ShowcaseCards() {
                 <SearchBar />
               </div>
               <ul
-                className={clsx(
-                  'container',
-                  'clean-list',
-                  styles.showcaseList,
-                )}>
+                className={clsx('container', 'clean-list', styles.showcaseList)}
+              >
                 {favoriteUsers.map((user) => (
                   <ShowcaseCard key={user.title} user={user} />
                 ))}
@@ -300,10 +306,8 @@ function ShowcaseCards() {
       ) : (
         <div className="container">
           <div
-            className={clsx(
-              'margin-bottom--md',
-              styles.showcaseFavoriteHeader,
-            )}>
+            className={clsx('margin-bottom--md', styles.showcaseFavoriteHeader)}
+          >
             <SearchBar />
           </div>
           <ul className={clsx('clean-list', styles.showcaseList)}>
@@ -355,16 +359,16 @@ export default function Showcase(): JSX.Element {
                       'versioning',
                     ],
                   }}
-                /> 
+                />
                 <ShowcaseCard
                   key="You Tube Clone"
                   user={{
                     title: 'You Tube Clone',
-                    description: 'Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5',
+                    description:
+                      'Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5',
                     preview: require('../../data/showcase/YouTube-Clone.jpg'),
                     website: 'https://my-youtube-ajay.vercel.app/',
-                    source:
-                      'https://github.com/Ajay-Dhangar/youtube_clone',
+                    source: 'https://github.com/Ajay-Dhangar/youtube_clone',
                     tags: ['opensource', 'clone', 'react', 'css'],
                   }}
                 />
@@ -385,12 +389,14 @@ export default function Showcase(): JSX.Element {
                       transition:
                         'background-image 0.3s ease-in-out 0s, background-size 0.2s ease 0s',
                       filter: 'none',
-                    }} />
+                    }}
+                  />
                   <div className={styles1.portfolio_section__project_title}>
                     Users
                   </div>
                   <div
-                    className={styles1.portfolio_section__project_description}>
+                    className={styles1.portfolio_section__project_description}
+                  >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </div>
                 </div>
@@ -403,12 +409,14 @@ export default function Showcase(): JSX.Element {
                       transition:
                         'background-image 0.3s ease-in-out 0s, background-size 0.2s ease 0s',
                       filter: 'none',
-                    }} />
+                    }}
+                  />
                   <div className={styles1.portfolio_section__project_title}>
                     Developer
                   </div>
                   <div
-                    className={styles1.portfolio_section__project_description}>
+                    className={styles1.portfolio_section__project_description}
+                  >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </div>
                 </div>
@@ -421,13 +429,15 @@ export default function Showcase(): JSX.Element {
                       transition:
                         'background-image 0.3s ease-in-out 0s, background-size 0.2s ease 0s',
                       filter: 'none',
-                    }} />
+                    }}
+                  />
                   <div className={styles1.portfolio_section__project_title}>
                     Software Engineer
                   </div>
                   <div
-                    className={styles1.portfolio_section__project_description}>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    className={styles1.portfolio_section__project_description}
+                  >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   </div>
                 </div>
               </div>

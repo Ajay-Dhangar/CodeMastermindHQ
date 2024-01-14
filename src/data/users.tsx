@@ -1,4 +1,4 @@
-import { sortBy } from '@site/src/utils/jsUtils';
+import {sortBy} from '@site/src/utils/jsUtils';
 
 export type Tag = {
   label: string;
@@ -7,7 +7,7 @@ export type Tag = {
 };
 
 export type TagType =
-  'html'
+  | 'html'
   | 'css'
   | 'javascript'
   | 'react'
@@ -39,7 +39,7 @@ export type User = {
 // Available tags to assign to your site
 // Please choose all tags that you think might apply.
 // We'll remove inappropriate tags, but it's less likely that we add tags.
-export const Tags: { [type in TagType]: Tag } = {
+export const Tags: {[type in TagType]: Tag} = {
   // DO NOT USE THIS TAG: we choose sites to add to favorites
   html: {
     label: 'HTML',
@@ -82,7 +82,8 @@ export const Tags: { [type in TagType]: Tag } = {
   // The source should be your *website's* source, not your project's source!
   opensource: {
     label: 'Open-Source',
-    description: 'Open-Source CodeMastermindHQ sites can be useful for inspiration!',
+    description:
+      'Open-Source CodeMastermindHQ sites can be useful for inspiration!',
     color: '#39ca30',
   },
 
@@ -149,11 +150,9 @@ export const Tags: { [type in TagType]: Tag } = {
 
   clone: {
     label: 'Clone',
-    description:
-      'CodeMastermindHQ sites using the clone projects reading',
+    description: 'CodeMastermindHQ sites using the clone projects reading',
     color: '#004400',
   },
-
 };
 
 // Add your site to this list

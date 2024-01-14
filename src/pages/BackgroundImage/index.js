@@ -5,7 +5,8 @@ const BackgroundImage = (props) => {
   return (
     <div
       className="showcaseFavorite_src-pages-showcase-styles-module"
-      style={{paddingBottom: '0px'}}>
+      style={{paddingBottom: '0px'}}
+    >
       <div className="container">
         <section className="margin-top--lg margin-bottom--xl">
           <div className={styles.portfolio_section__projects}>
@@ -13,7 +14,8 @@ const BackgroundImage = (props) => {
               props.photos.map((item) => (
                 <div
                   key={item.title}
-                  className={styles.portfolio_section__project}>
+                  className={styles.portfolio_section__project}
+                >
                   <div
                     className={styles.portfolio_section__project_image}
                     style={{
@@ -21,12 +23,14 @@ const BackgroundImage = (props) => {
                       transition:
                         'background-image 0.3s ease-in-out 0s, background-size 0.2s ease 0s',
                       filter: 'none',
-                    }} />
+                    }}
+                  />
                   <div className={styles.portfolio_section__project_title}>
                     {item.title}
                   </div>
                   <div
-                    className={styles.portfolio_section__project_description}>
+                    className={styles.portfolio_section__project_description}
+                  >
                     {item.text}
                   </div>
                 </div>

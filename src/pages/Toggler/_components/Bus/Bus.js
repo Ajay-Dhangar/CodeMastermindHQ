@@ -7,8 +7,7 @@ class Bus extends Component {
   state = {
     buses: [],
     selectedBus: null,
-    normUrl:
-      'https://github.com/CodeMastermindHQ',
+    normUrl: 'https://github.com/CodeMastermindHQ',
   };
 
   componentDidMount() {

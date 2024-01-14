@@ -17,13 +17,13 @@ const Intern = () => {
 
   return (
     <Layout>
-    <div className="job-listings-container">
-      <div className="job-listings">
-        {jobs.map((job, index) => (
-          <JobComponent key={index} job={job} />
-        ))}
+      <div className="job-listings-container">
+        <div className="job-listings">
+          {jobs.map((job, index) => (
+            <JobComponent key={index} job={job} />
+          ))}
+        </div>
       </div>
-    </div>
     </Layout>
   );
 };

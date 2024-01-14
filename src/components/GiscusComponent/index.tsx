@@ -1,13 +1,14 @@
 import React from 'react';
-import Giscus from "@giscus/react";
-import { useColorMode } from '@docusaurus/theme-common';
-import './style.css'
+import Giscus from '@giscus/react';
+import {useColorMode} from '@docusaurus/theme-common';
+import './style.css';
 
 export default function GiscusComponent() {
-  const { colorMode } = useColorMode();
+  const {colorMode} = useColorMode();
 
   return (
-    <Giscus id='giscus'
+    <Giscus
+      id="giscus"
       repo="Ajay-Dhangar/CodeMastermindHQ"
       repoId="R_kgDOJ6ofeQ"
       category="General"

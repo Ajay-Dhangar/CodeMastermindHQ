@@ -1,4 +1,3 @@
-
 import React, {type ReactNode} from 'react';
 import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
@@ -78,17 +77,21 @@ export function ActiveTeamRow(): JSX.Element {
       <TeamProfileCardCol
         name="Ajay Dhangar"
         githubUrl="https://github.com/Ajay-Dhangar"
-        twitterUrl="https://twitter.com/AJAYDHA27250016">
+        twitterUrl="https://twitter.com/AJAYDHA27250016"
+      >
         <Translate id="team.profile.Ajay Ajay.body">
-        Software Engineer | Open Source Enthusiast | Tech Blogger | Problem Solver || Founder and Lead Developer of CodeMastermindHQ
+          Software Engineer | Open Source Enthusiast | Tech Blogger | Problem
+          Solver || Founder and Lead Developer of CodeMastermindHQ
         </Translate>
       </TeamProfileCardCol>
       <TeamProfileCardCol
         name="Shivaya"
-        githubUrl="https://github.com/ShivayaCoder">
+        githubUrl="https://github.com/ShivayaCoder"
+      >
         <Translate id="team.profile.shivaya Shivaya.body">
-        Problem Solver || A passionate Full Stack Web developer from India || CO-Founder and Developer of CodeMastermindHQ
-        </Translate>    
+          Problem Solver || A passionate Full Stack Web developer from India ||
+          CO-Founder and Developer of CodeMastermindHQ
+        </Translate>
       </TeamProfileCardCol>
     </div>
   );
@@ -100,11 +103,12 @@ export function HonoraryAlumniTeamRow(): JSX.Element {
       <TeamProfileCardCol
         name="Ajay Dhangar"
         githubUrl="https://github.com/Ajay-Dhangar"
-        twitterUrl="https://twitter.com/AJAYDHA27250016">
+        twitterUrl="https://twitter.com/AJAYDHA27250016"
+      >
         <Translate id="team.profile.Ajay-Dhangar Ajay.body">
           Maintainer @CMHQ · 🔥🔥🔥
         </Translate>
-      </TeamProfileCardCol>      
+      </TeamProfileCardCol>
     </div>
   );
 }
@@ -115,7 +119,8 @@ export function StudentFellowsTeamRow(): JSX.Element {
       <TeamProfileCardCol
         name="Ajay Dhangar"
         githubUrl="https://github.com/Ajay-Dhangar"
-        twitterUrl="https://twitter.com/AJAYDHA27250016">
+        twitterUrl="https://twitter.com/AJAYDHA27250016"
+      >
         <Translate
           id="team.profile.Ajay-Dhangar Ajay-Dhangar.body"
           values={{
@@ -126,12 +131,13 @@ export function StudentFellowsTeamRow(): JSX.Element {
                 </Translate>
               </Link>
             ),
-          }}>
+          }}
+        >
           {
             'Fullstack developer who loves to code and try new technologies. In his free time, he contributes to open source, writes blog posts at CMHQ.'
           }
         </Translate>
-      </TeamProfileCardCol>      
+      </TeamProfileCardCol>
     </div>
   );
 }

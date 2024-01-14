@@ -1,6 +1,6 @@
 import React from 'react';
-import './Dashboard.css'; 
-const Dashboard = ({ userName }) => {
+import './Dashboard.css';
+const Dashboard = ({userName}) => {
   return (
     <div className="dashboard-container">
       <h2>Welcome to Your Dashboard, {userName}!</h2>

@@ -11,7 +11,7 @@ const MonthCalendar = React.memo(
     let weekDay = new Date(props._year, correctedMonth, 1).getDay();
     if (weekDay === 0) weekDay = 7;
     let m = 0;
-    
+
     const month = requestedMonth(props._year, correctedMonth);
 
     return (
@@ -46,7 +46,8 @@ const MonthCalendar = React.memo(
                                   'var(--month-calendar-holiday-bg)',
                               }
                             : undefined
-                        }>
+                        }
+                      >
                         <span>{(m = m + 1)}</span>
                         {month[m - 1]}
                       </td>

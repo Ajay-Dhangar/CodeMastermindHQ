@@ -50,7 +50,8 @@ function ShowcaseCardTag({tags}: {tags: TagType[]}) {
             key={index}
             text={tagObject.description}
             anchorEl="#__docusaurus"
-            id={id}>
+            id={id}
+          >
             <TagComp key={index} {...tagObject} />
           </Tooltip>
         );
@@ -81,7 +82,8 @@ function ShowcaseCard({user}: {user: User}) {
               className={clsx(
                 'button button--secondary button--sm',
                 styles.showcaseCardSrcBtn,
-              )}>
+              )}
+            >
               <Translate id="showcase.card.sourceLink">source</Translate>
             </Link>
           )}
