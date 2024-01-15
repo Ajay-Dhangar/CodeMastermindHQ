@@ -1,7 +1,7 @@
 ---
 id: npm
 title: Welcome to npm (Node Package Manager)
-sidebar_position: 3
+sidebar_position: 4
 sidebar_label: NPM
 ---
 
