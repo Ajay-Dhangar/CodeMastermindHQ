@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto+Serif:ital,opsz,wght@1,8..144,600&display=swap');
+
+.certificate {
+    border: 2px solid #3498db;
+    padding: 20px;
+    width: 90%;
+    margin: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header img {
+    max-width: 80px;
+    height: auto;
+  }
+  
+  .site-info {
+    text-align: right;
+  }
+  
+  .content {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .signature {
+    margin-top: 20px;
+  }
+  
+  .signature-text {
+    font-family: 'Cedarville Cursive', cursive;
+    display: inline-block;
+    transform: rotate(-20deg);
+    text-decoration: underline;
+    margin-left: 8px;
+    font-size: 1.5em;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  .download-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #2980b9;
+  }
+  
