@@ -24,4 +24,8 @@
 <a href="./CODE_OF_CONDUCT.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"></a>
 [![DeepSource](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ.svg/?label=active+issues&show_trend=true&token=zVp05mazbgN_qgrD2X7B70ZK)](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ/)
 [![DeepSource](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ.svg/?label=resolved+issues&show_trend=true&token=zVp05mazbgN_qgrD2X7B70ZK)](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ/)
+[![CodeScene general](https://codescene.io/images/analyzed-by-codescene-badge.svg)](https://codescene.io/projects/48817)
+[![CodeScene Code Health](https://codescene.io/projects/48817/status-badges/code-health)](https://codescene.io/projects/48817)
+[![CodeScene System Mastery](https://codescene.io/projects/48817/status-badges/system-mastery)](https://codescene.io/projects/48817)
+[![CodeScene Missed Goals](https://codescene.io/projects/48817/status-badges/missed-goals)](https://codescene.io/projects/48817)
 
