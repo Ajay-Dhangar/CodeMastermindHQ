@@ -8,7 +8,7 @@ tags: [react]
 ---
 
 ```mdx-code-block
-import JavaScriptCourses from '@site/src/components/Courses/JavaScriptCourses';
+import Courses from '@site/src/components/Courses';
 const courses = [
   {
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm9xfTyLoJMrRNBzVdVIrb9hKlv4r9kH6OtLQ1CtowsymwXDBvxiPu7hUTz3QHiYUy_v4&usqp=CAU',
@@ -63,4 +63,4 @@ const courses = [
 
 
 
-<JavaScriptCourses courses={courses} />
+<Courses courses={courses} />

@@ -6,7 +6,51 @@ sidebar_label: Welcome to React
 ---
 
 ```mdx-code-block
-import ReactCourses from '@site/src/components/Courses/ReactCourses';
+import Courses from '@site/src/components/Courses';
+const courses = [
+  {
+    title: 'Complete Intro to React',
+    image: 'https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg',
+    description:
+      'In the course, you will learn complete React fundamentals, including JSX, the React Router, Hooks, and many more.',
+    url: '/courses/category/complete-intro-to-react',
+  },
+  {
+    title: 'Intermediate React',
+    image: 'https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg',
+    description:
+      'In the course, you will learn advanced patterns for architecting modern React applications.',
+    url: '/courses/react/welcome-react',
+  },
+  {
+    title: 'React Performance',
+    image: 'https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg',
+    description:
+      'In the course, you will learn how to make your React applications fast.',
+    url: '/courses/react/welcome-react',
+  },
+  {
+    title: 'React and TypeScript',
+    image: 'https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg',
+    description:
+      'In the course, you will learn how to use TypeScript to supercharge your React applications.',
+    url: '/courses/react/welcome-react',
+  },
+  {
+    title: 'Introduction to Next.js',
+    image: 'https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg',
+    description:
+      'In the course, you will learn how to build production-ready React applications with Next.js.',
+      url: '/courses/react/welcome-react',
+  },
+  {
+    title: 'Enterprise UI Development',
+    image: 'https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg',
+    description:
+      'In the course, you will learn how to build a UI component with Testing & Code Quality in mind.',
+    url: '/courses/react/welcome-react',
+  },
+];
 ```
 
 > **React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.** React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
@@ -21,4 +65,5 @@ I hope you will enjoy this course and learn a lot from it. If you have any quest
 
 ## Now, let's get started with React
 
-<ReactCourses />
+
+<Courses courses={courses} />

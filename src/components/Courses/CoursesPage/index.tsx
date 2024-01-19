@@ -35,13 +35,7 @@ const CoursesPage: React.FC = () => {
           className={styles.tagButton}
         >
           All
-        </button>
-        <button
-          onClick={() => setSelectedTag('react')}
-          className={styles.tagButton}
-        >
-          React
-        </button>
+        </button>        
         <button
           onClick={() => setSelectedTag('html')}
           className={styles.tagButton}
@@ -53,6 +47,18 @@ const CoursesPage: React.FC = () => {
           className={styles.tagButton}
         >
           CSS
+        </button>
+        <button
+          onClick={() => setSelectedTag('js')}
+          className={styles.tagButton}
+        >
+          JavaScript
+        </button>
+        <button
+          onClick={() => setSelectedTag('react')}
+          className={styles.tagButton}
+        >
+          React
         </button>
         {/* Add more tags/buttons as needed */}
       </div>

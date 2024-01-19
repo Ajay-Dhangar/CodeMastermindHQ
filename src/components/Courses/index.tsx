@@ -9,11 +9,11 @@ interface Course {
   url: string;
 }
 
-interface JavaScriptCoursesProps {
+interface CoursesProps {
   courses: Course[];
 }
 
-const JavaScriptCourses: React.FC<JavaScriptCoursesProps> = ({courses}) => {
+const Courses: React.FC<CoursesProps> = ({courses}) => {
   return (
     <div className="courses-container">
       {courses.map((course, index) => (
@@ -30,4 +30,4 @@ const JavaScriptCourses: React.FC<JavaScriptCoursesProps> = ({courses}) => {
   );
 };
 
-export default JavaScriptCourses;
+export default Courses;
