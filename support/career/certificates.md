@@ -6,7 +6,7 @@ sidebar_label: Certificates
 
 
 ```mdx-code-block
-import YourComponent from './YourComponent';
+import CertificateComponent from './CertificateComponent';
 ```
 
-<YourComponent />
+<CertificateComponent />

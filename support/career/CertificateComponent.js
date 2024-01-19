@@ -1,7 +1,7 @@
 import React from 'react';
 import Certificate from '../../src/components/Certificate';
 
-const YourComponent = () => {
+const CertificateComponent = () => {
   const learnerName = "John Doe";
   const courseName = "React Fundamentals";
 
@@ -12,4 +12,4 @@ const YourComponent = () => {
   );
 };
 
-export default YourComponent;
+export default CertificateComponent;
