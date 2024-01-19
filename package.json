@@ -22,7 +22,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@crowdin/cli": "^3.16.0",
+    "@crowdin/cli": "^3.16.1",
     "@docusaurus/core": "2.4.1",
     "@docusaurus/plugin-ideal-image": "2.4.3",
     "@docusaurus/plugin-pwa": "2.4.3",
