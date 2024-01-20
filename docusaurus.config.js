@@ -38,12 +38,11 @@ const config = {
           showLastUpdateTime: true,
           editUrl:
             'https://github.com/Ajay-Dhangar/CodeMastermindHQ/edit/main/',
-          remarkPlugins: [npm2yarn, { sync: true }],
+          remarkPlugins: [npm2yarn, {sync: true}],
         },
-
         blog: {
           path: 'blog',
-          editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
+          editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
             `https://github.com/Ajay-Dhangar/CodeMastermindHQ/edit/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
           blogTitle: 'Blog',
@@ -86,6 +85,10 @@ const config = {
         sitemap: {
           ignorePatterns: ['/tests/**'],
         },
+        gtag: {
+          trackingID: 'G-1VCD1G92Q6',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -108,11 +111,23 @@ const config = {
       },
 
       giscus: {
-        repo: 'Ajay-Dhangar/CodeMastermindHQ', // your GitHub repository
-        // other Giscus options...
+        repo: 'Ajay-Dhangar/CodeMastermindHQ',
       },
 
       scripts: [
+        {
+          async: true,
+          defer: true,
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-1VCD1G92Q6',
+        },
+        {
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-1VCD1G92Q6');
+          `,
+        },
         {
           async: true,
           defer: true,
@@ -243,7 +258,7 @@ const config = {
             'aria-label': 'GitHub repository',
           },
 
-          { to: 'blog', label: 'Blog', position: 'left' },
+          {to: 'blog', label: 'Blog', position: 'left'},
 
           // {
           //   to: '/LoginForm',
@@ -365,7 +380,7 @@ const config = {
           {
             className: 'theme-code-block-highlighted-line',
             line: 'highlight-next-line',
-            block: { start: 'highlight-start', end: 'highlight-end' },
+            block: {start: 'highlight-start', end: 'highlight-end'},
           },
           {
             className: 'code-block-error-line',
