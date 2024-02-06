@@ -7,7 +7,7 @@ sidebar_position: 1
 ---
 
 ```mdx-code-block
-import HTML from './HTML';
+import HTML from './html';
 ```
 
 ## Getting Started With HTML 
