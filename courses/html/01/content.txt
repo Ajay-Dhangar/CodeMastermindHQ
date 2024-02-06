@@ -1,0 +1,51 @@
+### Course Content:
+
+**Module 1: Introduction to HTML**
+- *Lesson 1: Understanding the Web*
+  - Overview of the World Wide Web
+  - How HTML fits into the web development ecosystem
+
+- *Lesson 2: Setting Up Your Development Environment*
+  - Text editors and Integrated Development Environments (IDEs)
+  - Creating your first HTML file
+
+**Module 2: Basic HTML Structure**
+- *Lesson 1: HTML Document Structure*
+  - `<!DOCTYPE html>`
+  - `<html>`, `<head>`, and `<body>` tags
+
+- *Lesson 2: Adding Content with HTML Elements*
+  - Text, headings, paragraphs, and line breaks
+  - Creating lists and incorporating images
+
+**Module 3: HTML Tags and Attributes**
+- *Lesson 1: Understanding HTML Tags*
+  - Semantic vs non-semantic tags
+  - Commonly used HTML tags
+
+- *Lesson 2: Working with Attributes*
+  - Adding attributes to HTML elements
+  - Using attributes for links, images, and more
+
+**Module 4: Creating Hyperlinks and Navigation**
+- *Lesson 1: Building Hyperlinks*
+  - Creating links to other web pages
+  - Linking to external resources
+
+- *Lesson 2: Navigation Structures*
+  - Building navigation menus with lists
+  - Creating internal links within a webpage
+
+**Module 5: HTML Forms and Input**
+- *Lesson 1: Form Basics*
+  - Understanding the `<form>` tag
+  - Building basic forms with text inputs and buttons
+
+- *Lesson 2: Form Elements and Attributes*
+  - Exploring various form elements (text fields, radio buttons, checkboxes)
+  - Using attributes for form validation and user interaction
+
+**Module 6: Project: Your First Web Page**
+- *Lesson 1: Putting It All Together*
+  - Applying knowledge gained throughout the course
+  - Creating a simple webpage from scratch

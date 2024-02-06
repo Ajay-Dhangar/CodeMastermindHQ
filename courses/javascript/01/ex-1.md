@@ -7,7 +7,12 @@ sidebar_position: 1
 tags: [JavaScript]
 ---
 
-![Introduction to JavaScript](./img/introduction-js.png)
+```mdx-code-block
+import Image from '@theme/IdealImage';
+import thumbnail from './img/introduction-js.png';
+```
+
+<Image img={thumbnail} />
 
 > JavaScript is a programming language that adds interactivity to your website. 
 > This happens in games, in the behavior of responses when buttons are pressed or 
