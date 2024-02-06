@@ -10,11 +10,11 @@ const courses = [
     Url: '/courses/category/complete-intro-to-react',
   },
   {
-    title: 'Responsive Design',
+    title: 'Getting Started HTML',
     description: 'Learn to create responsive web designs.',
-    imageUrl: 'https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg', // Replace with your own image URL
+    imageUrl: 'https://a.storyblok.com/f/42126/0b0046053d/html-beginners-guide.png', // Replace with your own image URL
     tags: ['html', 'css', 'design'],
-    Url: '/courses/category/complete-intro-to-react',
+    Url: '/courses/category/getting-started-with-html',
   },
   // Add more courses as needed
 ];

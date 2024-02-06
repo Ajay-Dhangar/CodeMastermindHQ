@@ -33,7 +33,7 @@ module.exports = {
 
         {
           type: 'category',
-          label: '🔮 HTML',
+          label: '🌐 HTML',
           link: {
             type: 'doc',
             id: 'html/welcome-html',
