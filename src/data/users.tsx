@@ -24,6 +24,9 @@ export type TagType =
   | 'personal'
   | 'templates'
   | 'portfolio'
+  | 'nextjs'
+  | 'vanilla'
+  | 'typescript'
   | 'clone';
 
 export type User = {
@@ -45,41 +48,64 @@ export const Tags: {[type in TagType]: Tag} = {
     label: 'HTML',
     description:
       'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
-    color: '#fff111',
+    color: '#f06529',
   },
   css: {
     label: 'CSS',
     description:
       'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
-    color: '#1ff11f',
+    color: '#2965f1',
+  },
+  javascript: {
+    label: 'JavaScript',
+    description:
+      'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
+    color: '#f0db4f',
+  },
+  vanilla: {
+    label: 'Vanilla',
+    description:
+      'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
+    color: '#f0db4f',
   },
   react: {
     label: 'React.js',
     description:
       'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
-    color: '#1ff11f',
+    color: '#61dafb',
+  },
+  nextjs: {
+    label: 'Next.js',
+    description:
+      'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
+    color: '#000000',
+  },
+  typescript: {
+    label: 'TypeScript',
+    description:
+      'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
+    color: '#007acc',
   },
   nodejs: {
     label: 'Node.js',
     description:
       'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
-    color: '#1ff11f',
-  },
+    color: '#026e00',
+  }, 
+  
   mongodb: {
     label: 'MongoDB',
     description:
       'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
-    color: '#1ff11f',
+    color: '#13aa52',
   },
+  
   favorite: {
     label: 'Favorite',
     description:
       'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
     color: '#e9669e',
   },
-
-  // For open-source sites, a link to the source code is required
-  // The source should be your *website's* source, not your project's source!
   opensource: {
     label: 'Open-Source',
     description:
@@ -165,16 +191,8 @@ const Users: User[] = [
     preview: require('./showcase/YouTube-Clone.jpg'),
     website: 'https://my-youtube-ajay.vercel.app/',
     source: 'https://github.com/Ajay-Dhangar/youtube_clone',
-    tags: ['opensource', 'clone', 'templates'],
-  },
-  // {
-  //   title: 'EnvShare',
-  //   description: 'Share Environment Variables Securely. Your document is encrypted in your browser before being stored for a limited period of time and read operations.',
-  //   preview: require('./showcase/envshare.jpg'),
-  //   website: 'https://envshare-ajay-dhangar.vercel.app/',
-  //   source: 'https://github.com/Ajay-Dhangar/envshare',
-  //   tags: ['opensource', 'clone', 'templates'],
-  // },
+    tags: ['opensource', 'clone', 'templates', 'react'],
+  },  
   {
     title: 'Quiz App',
     description: 'Explore and test your knowledge with the Quiz app. Engaging quizzes to challenge your mind and expand your horizons. Try it now!',
@@ -190,15 +208,7 @@ const Users: User[] = [
     website: 'https://shivay-studio.vercel.app/',
     source: 'https://github.com/Ajay-Dhangar/music-app',
     tags: ['opensource', 'clone', 'templates'],
-  },
-  {
-    title: 'AI Mock Interview',
-    description: 'Enhance your interview skills with AI-powered simulations, feedback, and personalized guidance.',
-    preview: require('./showcase/ai-mock-interview.jpg'),
-    website: 'https://ai-mock-interview.vercel.app/',
-    source: 'https://github.com/Ajay-Dhangar/ai-mock-interview',
-    tags: ['opensource', 'clone', 'templates'],
-  },
+  }, 
 
   {
     title: 'TailwindBlog',
@@ -216,23 +226,6 @@ const Users: User[] = [
     website: 'https://ajay-1.vercel.app/',
     source: 'https://github.com/Ajay-Dhangar/gericht-restaurant-modern-ui',
     tags: ['opensource', 'templates', 'clone'],
-  },
-
-  {
-    title: 'portfolio',
-    description: "Check out Ajay Dhangar's impressive portfolio showcasing skills, projects, and achievements. Explore now!",
-    preview: require('./showcase/ajay-dhangar.jpg'),
-    website: 'https://ajay-dhangar.github.io/',
-    source: 'https://github.com/Ajay-Dhangar/Ajay-Dhangar.github.io',
-    tags: ['portfolio', 'personal'],
-  },
-  {
-    title: 'To Do Js App',
-    description: "To Do App with the help of JavaScript",
-    preview: require('./showcase/to-do-js-app.png'),
-    website: 'https://ajay-dhangar.github.io/To-Do-App-Js/',
-    source: 'https://github.com/Ajay-Dhangar/To-Do-App-Js',
-    tags: ['opensource', 'personal', 'templates'],
   },
   {
     title: 'CodeMastermindHQ',
