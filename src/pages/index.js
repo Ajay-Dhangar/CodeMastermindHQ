@@ -7,6 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import GiscusComponent from '../components/GiscusComponent';
 import styles from './styles.module.css';
 import './styles.btn.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const features = [
   {
@@ -233,6 +234,7 @@ function Home() {
             </p>
           </div>
         </div>
+        <Analytics />
         <section className={styles.features}>
           <div className="container">
             <div className="row">
