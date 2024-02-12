@@ -28,6 +28,7 @@
 [![CodeScene Code Health](https://codescene.io/projects/48817/status-badges/code-health)](https://codescene.io/projects/48817)
 [![CodeScene System Mastery](https://codescene.io/projects/48817/status-badges/system-mastery)](https://codescene.io/projects/48817)
 [![CodeScene Missed Goals](https://codescene.io/projects/48817/status-badges/missed-goals)](https://codescene.io/projects/48817)
+[![Build Status](https://app.travis-ci.com/Ajay-Dhangar/CodeMastermindHQ.svg?branch=main)](https://app.travis-ci.com/Ajay-Dhangar/CodeMastermindHQ)
 
 
 ## contributors
