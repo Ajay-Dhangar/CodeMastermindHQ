@@ -26,6 +26,6 @@
 [![DeepSource](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ.svg/?label=resolved+issues&show_trend=true&token=zVp05mazbgN_qgrD2X7B70ZK)](https://app.deepsource.com/gh/Ajay-Dhangar/CodeMastermindHQ/)
 
 
-## contributors
+## Contributors
 
 <img src="https://opencollective.com/CodeMastermindHQ/contributors.svg?width=890&button=false" />

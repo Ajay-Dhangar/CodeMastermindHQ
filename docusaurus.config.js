@@ -117,8 +117,8 @@ const config = {
       scripts: [
         {
           async: true,
-          defer: true,
-          src: 'https://www.googletagmanager.com/gtag/js?id=G-1VCD1G92Q6',
+          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5832817025080991",
+          crossorigin: "anonymous"
         },
         {
           innerHTML: `
