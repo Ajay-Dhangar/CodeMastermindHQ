@@ -1,7 +1,5 @@
 ![cmhq Banner](https://github.com/Ajay-Dhangar/CodeMastermindHQ/assets/99037494/a06ede64-e505-4267-a441-f2583628b5b5)
 
-
-(narendra00()
 <h1 align="center"> CodeMastermindHQ </h1>
 <!--
 <a href="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml"><img src="https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml/badge.svg"  alt="CodeQL" /></a> -->
