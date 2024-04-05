@@ -79,7 +79,7 @@
     "crowdin-cli": "^0.3.0",
     "gh-pages": "^6.1.1",
     "raw-loader": "^4.0.2",
-    "renovate": "^37.180.1",
+    "renovate": "^37.279.4",
     "typescript": "^5.3.3"
   },
   "description": "<h1 align=\"center\"> CodeMastermindHQ </h1> <!-- <a href=\"https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml\"><img src=\"https://github.com/Ajay-Dhangar/CodeMastermindHQ/actions/workflows/codeql.yml/badge.svg\"  alt=\"CodeQL\" /></a> -->",
