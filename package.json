@@ -31,7 +31,7 @@
     "@docusaurus/theme-classic": "2.4.3",
     "@docusaurus/theme-common": "2.4.3",
     "@docusaurus/theme-live-codeblock": "2.4.3",
-    "@emotion/react": "^11.11.3",
+    "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@emotion/types": "^0.7.0",
     "@giscus/react": "^2.4.0",
